@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>291</width>
+    <height>41</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QLabel
+{
+	color: rgb(255, 255, 255);
+}</string>
+  </property>
+  <widget class="QLabel" name="labelConnectStatusAnimation">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>34</y>
+     <width>193</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelRecvRate">
+   <property name="geometry">
+    <rect>
+     <x>175</x>
+     <y>15</y>
+     <width>100</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="text">
+    <string>0Kb</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelDuration">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>81</y>
+     <width>121</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>00:00:00</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelTransRate">
+   <property name="geometry">
+    <rect>
+     <x>35</x>
+     <y>15</y>
+     <width>100</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0Kb</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelTrans">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>48</y>
+     <width>121</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0Kb</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelRecv">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>65</y>
+     <width>121</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0Kb</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelDataSent">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>48</y>
+     <width>120</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelDataReceived">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>65</y>
+     <width>120</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelConnectedTime">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>81</y>
+     <width>120</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widgetTrans" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>21</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget
+{
+	border-image: url(Skin/datarecord_up.png);
+
+}</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widgetRecv" native="true">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>10</y>
+     <width>21</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget
+{
+	border-image: url(Skin/datarecord_down.png);
+
+}</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

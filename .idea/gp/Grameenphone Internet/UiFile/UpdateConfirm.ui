@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormConfirm</class>
+ <widget class="QWidget" name="FormConfirm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>300</width>
+    <height>326</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="labelTitleInfo">
+   <property name="geometry">
+    <rect>
+     <x>19</x>
+     <y>9</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Found new Version</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+   <property name="TypeOfControl" stdset="0">
+    <string>Secondtitlecolor</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEditUpdateInfo">
+   <property name="geometry">
+    <rect>
+     <x>19</x>
+     <y>70</y>
+     <width>261</width>
+     <height>161</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelConfirmUpdateInfo">
+   <property name="geometry">
+    <rect>
+     <x>19</x>
+     <y>250</y>
+     <width>261</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>是否开始升级？</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonConfirmNext">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>296</y>
+     <width>70</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	border-image:url(Skin/button_Enable.png);
+}
+QPushButton:hover
+{
+	border-image:url(Skin/button_Hover.png);
+}
+QPushButton:pressed
+{
+	border-image:url(Skin/button_Down.png);
+}
+QPushButton:disabled
+{
+	border-image:url(Skin/button_Disable.png);
+}</string>
+   </property>
+   <property name="text">
+    <string>Next</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonConfirmCancel">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>296</y>
+     <width>70</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	border-image:url(Skin/button_Enable.png);
+}
+QPushButton:hover
+{
+	border-image:url(Skin/button_Hover.png);
+}
+QPushButton:pressed
+{
+	border-image:url(Skin/button_Down.png);
+}
+QPushButton:disabled
+{
+	border-image:url(Skin/button_Disable.png);
+}</string>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>textEditUpdateInfo</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

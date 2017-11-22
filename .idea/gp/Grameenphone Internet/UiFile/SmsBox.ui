@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormSmsBox</class>
+ <widget class="QWidget" name="FormSmsBox">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>582</width>
+    <height>405</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#FormSmsBox{ 
+border-image:url(Skin/datamainback.png);
+}</string>
+  </property>
+  <widget class="QPushButton" name="pushButtonSearch">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>10</y>
+     <width>24</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{ 
+border-image:url(Skin/Search_1.png);
+}
+QPushButton:pressed{ 
+border-image:url(Skin/Search_3.png);
+}
+QPushButton:hover{
+border-image:url(Skin/Search_4.png);
+}
+QPushButton:disabled{
+border-image:url(Skin/Search_2.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableViewSms">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>40</y>
+     <width>564</width>
+     <height>250</height>
+    </rect>
+   </property>
+   <property name="midLineWidth">
+    <number>0</number>
+   </property>
+   <property name="autoScrollMargin">
+    <number>20</number>
+   </property>
+   <attribute name="verticalHeaderCascadingSectionResizes">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="verticalHeaderDefaultSectionSize">
+    <number>30</number>
+   </attribute>
+  </widget>
+  <widget class="QTextBrowser" name="textSms">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>295</y>
+     <width>564</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>100</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonForward">
+   <property name="geometry">
+    <rect>
+     <x>208</x>
+     <y>10</y>
+     <width>24</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButtonForward{ 
+border-image:url(Skin/PBNewSms_1.png);
+}
+QPushButton:pressed#pushButtonForward{ 
+border-image:url(Skin/PBNewSms_3.png);
+}
+QPushButton:hover#pushButtonForward{
+border-image:url(Skin/PBNewSms_4.png);
+}
+QPushButton:disabled#pushButtonForward{
+border-image:url(Skin/PBNewSms_2.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonReply">
+   <property name="geometry">
+    <rect>
+     <x>168</x>
+     <y>10</y>
+     <width>24</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButtonReply{ 
+border-image:url(Skin/ReplaySms_1.png);
+}
+QPushButton:pressed#pushButtonReply{ 
+border-image:url(Skin/ReplaySms_3.png);
+}
+QPushButton:hover#pushButtonReply{
+border-image:url(Skin/ReplaySms_4.png);
+}
+QPushButton:disabled#pushButtonReply{
+border-image:url(Skin/ReplaySms_2.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonMove">
+   <property name="geometry">
+    <rect>
+     <x>88</x>
+     <y>10</y>
+     <width>24</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButtonMove{ 
+border-image:url(Skin/MoveSms_1.png);
+}
+QPushButton:pressed#pushButtonMove{ 
+border-image:url(Skin/MoveSms_3.png);
+}
+QPushButton:hover#pushButtonMove{
+border-image:url(Skin/MoveSms_4.png);
+}
+QPushButton:disabled#pushButtonMove{
+border-image:url(Skin/MoveSms_2.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonDelete">
+   <property name="geometry">
+    <rect>
+     <x>48</x>
+     <y>10</y>
+     <width>24</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButtonDelete{ 
+border-image:url(Skin/DeleteSms_1.png);
+}
+QPushButton:pressed#pushButtonDelete{ 
+border-image:url(Skin/DeleteSms_3.png);
+}
+QPushButton:hover#pushButtonDelete{
+	border-image:url(Skin/DeleteSms_4.png);
+}
+QPushButton:disabled#pushButtonDelete{
+	border-image:url(Skin/DeleteSms_2.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonNew">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>10</y>
+     <width>24</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButtonNew{ 
+border-image:url(Skin/NewSmsBtn_1.png);
+}
+QPushButton:pressed#pushButtonNew{ 
+border-image:url(Skin/NewSmsBtn_3.png);
+}
+QPushButton:hover#pushButtonNew{
+border-image:url(Skin/NewSmsBtn_4.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditSearch">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>10</y>
+     <width>250</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonCopy">
+   <property name="geometry">
+    <rect>
+     <x>128</x>
+     <y>10</y>
+     <width>24</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButtonCopy{ 
+border-image:url(Skin/CopySms_1.png);
+}
+QPushButton:pressed#pushButtonCopy{ 
+border-image:url(Skin/CopySms_3.png);
+}
+QPushButton:hover#pushButtonCopy{
+border-image:url(Skin/CopySms_4.png);
+}
+QPushButton:disabled#pushButtonCopy{
+border-image:url(Skin/CopySms_2.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

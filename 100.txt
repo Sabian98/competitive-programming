@@ -1,0 +1,24 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+long long int a,b,p,k,max;
+int j=0;
+int n[100000];
+while(scanf("%lld%lld",&a,&b)==2) {
+max=-1;
+for( k=a; k<=b; k++) {
+j=k;
+p=1;
+while(j!=1)
+{
+if(j%2)j=3*j+1;
+else j/=2;
+p++;
+}
+if(p>max)max=p;
+}
+printf("%lld %lld %lld\n",a,b,max);
+}
+return 0;
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormHome</class>
+ <widget class="QWidget" name="FormHome">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>449</width>
+    <height>371</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#FormPhoneBook
+{
+	border-image:url(Skin/bg_full_big.png);
+}</string>
+  </property>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

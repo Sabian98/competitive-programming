@@ -1,0 +1,30 @@
+ 2016-02-29 13:21:50:303 Thread ID=7880 CCancelAutoPlayApp::InitInstance   enter
+ 2016-02-29 13:21:50:303 Thread ID=7880 CCancelAutoPlayApp::InitInstance   command line=run
+ 2016-02-29 13:21:50:303 Thread ID=7880 CCancelAutoPlayApp::DoRun   enter
+ 2016-02-29 13:21:50:303 Thread ID=7880 CQueryCancelAutoplay::StartCancelAutoPlay   enter
+ 2016-02-29 13:21:50:318 Thread ID=7880 CQueryCancelAutoplay::ReadGUID   enter
+ 2016-02-29 13:21:50:318 Thread ID=7880 CQueryCancelAutoplay::ReadGUID   Guid={F9A28BF1-B667-4dad-9293-FE3851473B14}
+ 2016-02-29 13:21:50:318 Thread ID=7880 CQueryCancelAutoplay::_RegisterForIQueryCancelAutoplay   enter
+ 2016-02-29 13:21:50:334 Thread ID=7880 CQueryCancelAutoplay::_RegisterForIQueryCancelAutoplay   Register ok
+ 2016-02-29 13:21:50:334 Thread ID=7880 CQueryCancelAutoplay::_RegisterForIQueryCancelAutoplay   leave
+ 2016-02-29 13:21:50:334 Thread ID=7880 CQueryCancelAutoplay::StartCancelAutoPlay   leave
+ 2016-02-29 14:07:32:793 Thread ID=5068 CCancelAutoPlayApp::InitInstance   enter
+ 2016-02-29 14:07:32:793 Thread ID=5068 CCancelAutoPlayApp::InitInstance   command line=run
+ 2016-02-29 14:07:32:793 Thread ID=5068 CCancelAutoPlayApp::DoRun   enter
+ 2016-02-29 14:07:32:793 Thread ID=5068 CQueryCancelAutoplay::StartCancelAutoPlay   enter
+ 2016-02-29 14:07:32:809 Thread ID=5068 CQueryCancelAutoplay::ReadGUID   enter
+ 2016-02-29 14:07:32:809 Thread ID=5068 CQueryCancelAutoplay::ReadGUID   Guid={F9A28BF1-B667-4dad-9293-FE3851473B14}
+ 2016-02-29 14:07:32:809 Thread ID=5068 CQueryCancelAutoplay::_RegisterForIQueryCancelAutoplay   enter
+ 2016-02-29 14:07:32:824 Thread ID=5068 CQueryCancelAutoplay::_RegisterForIQueryCancelAutoplay   Register ok
+ 2016-02-29 14:07:32:965 Thread ID=5068 CQueryCancelAutoplay::_RegisterForIQueryCancelAutoplay   leave
+ 2016-02-29 14:07:32:980 Thread ID=5068 CQueryCancelAutoplay::StartCancelAutoPlay   leave
+ 2016-02-29 19:36:56:476 Thread ID=432 CCancelAutoPlayApp::InitInstance   enter
+ 2016-02-29 19:36:57:507 Thread ID=432 CCancelAutoPlayApp::InitInstance   command line=run
+ 2016-02-29 19:36:57:507 Thread ID=432 CCancelAutoPlayApp::DoRun   enter
+ 2016-02-29 19:36:57:538 Thread ID=432 CQueryCancelAutoplay::StartCancelAutoPlay   enter
+ 2016-02-29 19:36:57:913 Thread ID=432 CQueryCancelAutoplay::ReadGUID   enter
+ 2016-02-29 19:36:57:913 Thread ID=432 CQueryCancelAutoplay::ReadGUID   Guid={F9A28BF1-B667-4dad-9293-FE3851473B14}
+ 2016-02-29 19:36:57:929 Thread ID=432 CQueryCancelAutoplay::_RegisterForIQueryCancelAutoplay   enter
+ 2016-02-29 19:36:57:929 Thread ID=432 CQueryCancelAutoplay::_RegisterForIQueryCancelAutoplay   Register ok
+ 2016-02-29 19:36:57:944 Thread ID=432 CQueryCancelAutoplay::_RegisterForIQueryCancelAutoplay   leave
+ 2016-02-29 19:36:57:944 Thread ID=432 CQueryCancelAutoplay::StartCancelAutoPlay   leave

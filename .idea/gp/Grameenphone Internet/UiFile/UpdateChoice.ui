@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormChoice</class>
+ <widget class="QWidget" name="FormChoice">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>260</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidgetChoice">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>3</y>
+     <width>427</width>
+     <height>141</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonBack">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>225</y>
+     <width>70</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	border-image:url(Skin/button_Enable.png);
+}
+QPushButton:hover
+{
+	border-image:url(Skin/button_Hover.png);
+}
+QPushButton:pressed
+{
+	border-image:url(Skin/button_Down.png);
+}
+QPushButton:disabled
+{
+	border-image:url(Skin/button_Disable.png);
+}</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonUpdate">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>225</y>
+     <width>70</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	border-image:url(Skin/button_Enable.png);
+}
+QPushButton:hover
+{
+	border-image:url(Skin/button_Hover.png);
+}
+QPushButton:pressed
+{
+	border-image:url(Skin/button_Down.png);
+}
+QPushButton:disabled
+{
+	border-image:url(Skin/button_Disable.png);
+}</string>
+   </property>
+   <property name="text">
+    <string>Update</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonCancel">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>225</y>
+     <width>70</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	border-image:url(Skin/button_Enable.png);
+}
+QPushButton:hover
+{
+	border-image:url(Skin/button_Hover.png);
+}
+QPushButton:pressed
+{
+	border-image:url(Skin/button_Down.png);
+}
+QPushButton:disabled
+{
+	border-image:url(Skin/button_Disable.png);
+}</string>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelChoice">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>143</y>
+     <width>427</width>
+     <height>73</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

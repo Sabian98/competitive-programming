@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>widgetInputLockNet</class>
+ <widget class="QWidget" name="widgetInputLockNet">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>360</width>
+    <height>196</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#widgetInputLockNet{
+ border-image: url(Skin/connstatisdlgbg.png);
+background:transparent;
+}
+QPushButton{ 
+border-image:url(Skin/SmallChangeableButton_1.png);
+	color: rgb(255, 255, 255);
+}
+QPushButton:pressed{ 
+border-image:url(Skin/SmallChangeableButton_3.png);
+}
+QPushButton:hover{
+border-image:url(Skin/SmallChangeableButton_3.png);
+	color: rgb(0, 0, 0);
+}
+QPushButton:disabled{
+border-image:url(Skin/SmallChangeableButton_2.png);
+	color: rgb(0, 0, 0);
+}</string>
+  </property>
+  <widget class="QLabel" name="labelIMET">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>40</y>
+     <width>54</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>IMEI:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditUnlockCode">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>70</y>
+     <width>181</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonCancel">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>150</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelUnlockCode">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>70</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Unlock code:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelIMEICode">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>40</y>
+     <width>191</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>000000000</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelLeftTimes">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>110</y>
+     <width>281</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>you have </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonOK">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>150</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

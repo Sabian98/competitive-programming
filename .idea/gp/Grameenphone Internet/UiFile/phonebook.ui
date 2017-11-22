@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>764</width>
+    <height>405</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widgetPhonebookRight" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>764</width>
+     <height>405</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widgetPhonebookRight{ 
+border-image:url(Skin/datamainback.png);
+}</string>
+   </property>
+   <widget class="QLineEdit" name="lineEditSearch">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>10</y>
+      <width>300</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonNew">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>10</y>
+      <width>24</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>24</width>
+      <height>25</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>24</width>
+      <height>25</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{ 
+border-image:url(Skin/NewContact_1.png);
+}
+QPushButton:pressed{ 
+border-image:url(Skin/NewContact_3.png);
+}
+QPushButton:hover{
+border-image:url(Skin/NewContact_4.png);
+}
+QPushButton:disabled{
+border-image:url(Skin/NewContact_2.png);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonSMS">
+    <property name="geometry">
+     <rect>
+      <x>312</x>
+      <y>10</y>
+      <width>24</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>24</width>
+      <height>25</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>24</width>
+      <height>25</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{ 
+border-image:url(Skin/PBNewSms_1.png);
+}
+QPushButton:pressed{ 
+border-image:url(Skin/PBNewSms_3.png);
+}
+QPushButton:hover{
+border-image:url(Skin/PBNewSms_4.png);
+}
+QPushButton:disabled{
+border-image:url(Skin/PBNewSms_2.png);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonEdit">
+    <property name="geometry">
+     <rect>
+      <x>228</x>
+      <y>10</y>
+      <width>24</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>24</width>
+      <height>25</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>24</width>
+      <height>25</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{ 
+border-image:url(Skin/EditContact_1.png);
+}
+QPushButton:pressed{ 
+border-image:url(Skin/EditContact_3.png);
+}
+QPushButton:hover{
+border-image:url(Skin/EditContact_4.png);
+}
+QPushButton:disabled{
+border-image:url(Skin/EditContact_2.png);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonDelete">
+    <property name="geometry">
+     <rect>
+      <x>268</x>
+      <y>10</y>
+      <width>24</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>24</width>
+      <height>25</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>24</width>
+      <height>25</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{ 
+border-image:url(Skin/DeleteContact_1.png);
+}
+QPushButton:pressed{ 
+border-image:url(Skin/DeleteContact_3.png);
+}
+QPushButton:hover{
+border-image:url(Skin/DeleteContact_4.png);
+}
+QPushButton:disabled{
+border-image:url(Skin/DeleteContact_2.png);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonSearchPhone">
+    <property name="geometry">
+     <rect>
+      <x>695</x>
+      <y>10</y>
+      <width>24</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>24</width>
+      <height>25</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>24</width>
+      <height>25</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{ 
+border-image:url(Skin/Search_1.png);
+}
+QPushButton:pressed{ 
+border-image:url(Skin/Search_3.png);
+}
+QPushButton:hover{
+border-image:url(Skin/Search_4.png);
+}
+QPushButton:disabled{
+border-image:url(Skin/Search_2.png);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTreeView" name="treeViewPhonebook">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>170</width>
+      <height>341</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableViewPhonebook">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>40</y>
+      <width>564</width>
+      <height>230</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowserContact">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>275</y>
+      <width>564</width>
+      <height>120</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextBrowser{
+color: rgb(69, 69, 69);
+}
+</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelPCCapacity">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>360</y>
+      <width>141</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelSIMCapacity">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>380</y>
+      <width>141</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

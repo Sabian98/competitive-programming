@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>764</width>
+    <height>405</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#Form
+{
+	border-image: url(Skin/dataBackground.png);
+    background-color:white;
+
+}</string>
+  </property>
+  <widget class="QTextEdit" name="textEditUssdResult">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>90</y>
+     <width>431</width>
+     <height>151</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBoxUssd">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>260</y>
+     <width>431</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="duplicatesEnabled">
+    <bool>false</bool>
+   </property>
+   <item>
+    <property name="text">
+     <string>#102*</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>#103#</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>#104#</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLineEdit" name="lineEditSendCommand">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>300</y>
+     <width>431</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonSend">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>345</y>
+     <width>70</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>75</width>
+     <height>23</height>
+    </size>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{ 
+border-image:url(Skin/SmallChangeableButton_1.png);
+	color: rgb(0, 0, 0);
+}
+QPushButton:pressed{ 
+border-image:url(Skin/SmallChangeableButton_3.png);
+	color: rgb(0, 0, 0);
+}
+QPushButton:hover{
+border-image:url(Skin/SmallChangeableButton_3.png);
+	color: rgb(0, 0, 0);
+}
+QPushButton:disabled{
+border-image:url(Skin/SmallChangeableButton_2.png);
+	color: rgb(80, 80, 80);
+}</string>
+   </property>
+   <property name="text">
+    <string>Send</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonCancel">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>345</y>
+     <width>70</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{ 
+border-image:url(Skin/SmallChangeableButton_1.png);
+	color: rgb(0, 0, 0);
+}
+QPushButton:pressed{ 
+border-image:url(Skin/SmallChangeableButton_3.png);
+	color: rgb(0, 0, 0);
+}
+QPushButton:hover{
+border-image:url(Skin/SmallChangeableButton_3.png);
+	color: rgb(0, 0, 0);
+}
+QPushButton:disabled{
+border-image:url(Skin/SmallChangeableButton_2.png);
+	color: rgb(80, 80, 80);
+}</string>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonEdit">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>345</y>
+     <width>70</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{ 
+border-image:url(Skin/SmallChangeableButton_1.png);
+	color: rgb(0, 0, 0);
+}
+QPushButton:pressed{ 
+border-image:url(Skin/SmallChangeableButton_3.png);
+	color: rgb(0, 0, 0);
+}
+QPushButton:hover{
+border-image:url(Skin/SmallChangeableButton_3.png);
+	color: rgb(0, 0, 0);
+}
+QPushButton:disabled{
+border-image:url(Skin/SmallChangeableButton_2.png);
+	color: rgb(80, 80, 80);
+}</string>
+   </property>
+   <property name="text">
+    <string>Edit</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelUssdInformation">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>88</y>
+     <width>90</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Information</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelUssdOptions">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>260</y>
+     <width>90</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Options</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelUssdCode">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>300</y>
+     <width>90</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Code</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelUssdRechargeCode">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>30</y>
+     <width>150</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Input recharge code:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditSendRechargeCodeCommand">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>30</y>
+     <width>350</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonRecharge">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>26</y>
+     <width>70</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>75</width>
+     <height>23</height>
+    </size>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{ 
+border-image:url(Skin/SmallChangeableButton_1.png);
+	color: rgb(0, 0, 0);
+}
+QPushButton:pressed{ 
+border-image:url(Skin/SmallChangeableButton_3.png);
+	color: rgb(0, 0, 0);
+}
+QPushButton:hover{
+border-image:url(Skin/SmallChangeableButton_3.png);
+	color: rgb(0, 0, 0);
+}
+QPushButton:disabled{
+border-image:url(Skin/SmallChangeableButton_2.png);
+	color: rgb(80, 80, 80);
+}</string>
+   </property>
+   <property name="text">
+    <string>Recharge</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

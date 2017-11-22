@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>950</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widgetCallhis" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>950</width>
+     <height>400</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widgetCallhis{
+border-image: url(Skin/datamainback.png);
+}
+</string>
+   </property>
+   <widget class="QTextBrowser" name="textBrowserCallHistory">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>260</y>
+      <width>685</width>
+      <height>121</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableViewCallHistory">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>40</y>
+      <width>685</width>
+      <height>210</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonDelete">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>10</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>23</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButtonDelete{ 
+border-image:url(Skin/DeleteSms_1.png);
+}
+QPushButton:pressed#pushButtonDelete{ 
+border-image:url(Skin/DeleteSms_3.png);
+}
+QPushButton:hover#pushButtonDelete{
+	border-image:url(Skin/DeleteSms_4.png);
+}
+QPushButton:disabled#pushButtonDelete{
+	border-image:url(Skin/DeleteSms_2.png);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonDial">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>10</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>23</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{ 
+border-image:url(Skin/SmsCall_1.png);
+}
+QPushButton:pressed{ 
+border-image:url(Skin/SmsCall_3.png);
+}
+QPushButton:hover{
+border-image:url(Skin/SmsCall_4.png);
+}
+QPushButton:disabled{
+border-image:url(Skin/SmsCall_2.png);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonSms">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>10</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>23</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{ 
+border-image:url(Skin/PBNewSms_1.png);
+}
+QPushButton:pressed{ 
+border-image:url(Skin/PBNewSms_3.png);
+}
+QPushButton:hover{
+border-image:url(Skin/PBNewSms_4.png);
+}
+QPushButton:disabled{
+border-image:url(Skin/PBNewSms_2.png);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>191</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <widget class="QTreeWidget" name="treeWidgetCallLog">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>171</width>
+       <height>341</height>
+      </rect>
+     </property>
+     <property name="showDropIndicator" stdset="0">
+      <bool>true</bool>
+     </property>
+     <property name="autoExpandDelay">
+      <number>0</number>
+     </property>
+     <property name="rootIsDecorated">
+      <bool>true</bool>
+     </property>
+     <property name="uniformRowHeights">
+      <bool>false</bool>
+     </property>
+     <property name="itemsExpandable">
+      <bool>true</bool>
+     </property>
+     <property name="columnCount">
+      <number>1</number>
+     </property>
+     <attribute name="headerVisible">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="headerStretchLastSection">
+      <bool>true</bool>
+     </attribute>
+     <column>
+      <property name="text">
+       <string>Call Log</string>
+      </property>
+     </column>
+     <item>
+      <property name="text">
+       <string>Call Log</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>Answered calls:</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Missed calls:</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Dailed calls:</string>
+       </property>
+      </item>
+     </item>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButtonReceived">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>500</y>
+      <width>10</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>41</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButtonReceivedcalls{
+border-image: url(Skin/longButton.png);
+}
+QPushButton#pushButtonReceivedcalls:hover{
+border-image: url(Skin/longButton_pressed.png);
+}
+QPushButton#pushButtonReceivedcalls:pressed{
+border-image: url(Skin/longButton_pressed.png);
+}</string>
+    </property>
+    <property name="text">
+     <string>Received Calls</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonDialed">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>500</y>
+      <width>10</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>41</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButtonDialedcalls{
+border-image: url(Skin/bigButton.png);
+}
+QPushButton#pushButtonDialedcalls:hover{
+border-image: url(Skin/bigButton_pressed.png);
+}
+QPushButton#pushButtonDialedcalls:pressed{
+border-image: url(Skin/bigButton_pressed.png);
+}</string>
+    </property>
+    <property name="text">
+     <string>Dialed Calls</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonMissed">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>500</y>
+      <width>10</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>41</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButtonMissedcalls{
+border-image: url(Skin/longButton.png);
+}
+QPushButton#pushButtonMissedcalls:hover{
+border-image: url(Skin/longButton_pressed.png);
+}
+QPushButton#pushButtonMissedcalls:pressed{
+border-image: url(Skin/longButton_pressed.png);
+}</string>
+    </property>
+    <property name="text">
+     <string>Missed Calls</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonDisAll">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>500</y>
+      <width>10</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>41</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButtonDialedcalls{
+border-image: url(Skin/bigButton.png);
+}
+QPushButton#pushButtonDialedcalls:hover{
+border-image: url(Skin/bigButton_pressed.png);
+}
+QPushButton#pushButtonDialedcalls:pressed{
+border-image: url(Skin/bigButton_pressed.png);
+}</string>
+    </property>
+    <property name="text">
+     <string>All Calls</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonSave">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>10</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>23</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButtonSave{ 
+border-image:url(Skin/NewContact_1.png);
+}
+QPushButton:pressed#pushButtonSave{ 
+border-image:url(Skin/NewContact_3.png);
+}
+QPushButton:hover#pushButtonSave{
+border-image:url(Skin/NewContact_4.png);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

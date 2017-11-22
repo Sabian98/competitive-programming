@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='utf-8'?>
+<UUConfiguration>
+<FeatureSwitch>
+<!---for  1 store DraftBox for 0 store SendBox-->
+<config value="1" id="Feature_SmsSendFailStoreLocation"/>
+<!-- help file extension -->
+<config value="html" id="Feature_ExtensionOfHelpFile"/>
+<!-- 1 support extendType box report delete my doc-->
+<config value="1" id="Feature_SmsIsSupportExtendBox"/>
+<!-- flag of open call record 1=open  0=not open-->
+<config value="0" id="Feature_OpenCallRecordLog"/>
+</FeatureSwitch>
+<PublicConfig>
+<config value="1" id="OpenUrlWhenConnected"/>
+<config value="1" id="OpenUrlWhenConnectedAndChecked"/>
+<config value="3000" id="intervalToOpenUrlWhenConnected"/>
+<config value="http://internet.grameenphone.com" id="HomePageUrl"/>
+<config value="Grameenphone Internet" id="SoftwareName"/>
+<config value="Grameenphone Internet" id="StartName"/>
+<config value="P10A" id="UI_Platform"/>
+<config value="Skin" id="SkinFileDir"/>
+<config value="UiFile" id="UiFileDir"/>
+<config value="PCW_GPBGDV1.0.0B02" id="PCSoftVersion_WINDOWS"/>
+<config value="PCW_GPBGDMF193MV1.0.0B02" id="PCSoftInterVersion_WINDOWS"/>
+<config value="PCM_GPBGDV1.0.0B02" id="PCSoftVersion_MAC"/>
+<config value="PCM_GPBGDMF193MV1.0.0B02" id="PCSoftInterVersion_MAC"/>
+<config value="PCL_GPBGDV1.0.0B02" id="PCSoftVersion_LINUX"/>
+<config value="PCL_GPBGDMF193MV1.0.0B03" id="PCSoftInterVersion_LINUX"/>
+<config value="1" id="AppStartedFlag"/>
+<config value="450" id="MainWindowHeight"/>
+<config value="700" id="MainWindowWidth"/>
+<config value="8" id="PhoneNumMatchBit"/>
+<config value="0" id="SmsChatMode"/>
+<config value="1" id="SmsChatSupport"/>
+<config value="0" id="MainFormLangugeFlag"/>
+<config value="0" id="SmsFormLangugeFlag"/>
+<config value="0" id="PhonebookFormLangugeFlag"/>
+<config value="0" id="SettingFormLangugeFlag"/>
+<config value="0" id="UssdFormLangugeFlag"/>
+<config value="0" id="SettingSecurityFormFlag"/>
+<config value="0" id="SettingConnectionFormFlag"/>
+<config value="0" id="SettingNetworkFormFlag"/>
+<config value="0" id="SettingAlertFormFlag"/>
+<config value="0" id="SettingSMSFormFlag"/>
+<config value="0" id="SettingLanguageChangeFormFlag"/>
+<config value="0" id="SettingDiagnoseFormFlag"/>
+<config value="0" id="SettingDataLimitFormFlag"/>
+<config value="0" id="SettingConnectionDateGrapformFlag"/>
+<config value="0" id="SMSFormCountFlag"/>
+<config value="0" id="SMSFormBoxFlag"/>
+<config value="0" id="SMSFormNewSmsBoxFlag"/>
+<config value="0" id="SMSFormSmsMasterPlateFlag"/>
+<config value="0" id="ConnectlogFlag"/>
+<config value="24" id="ConnectAnimationPicCount"/>
+<config value="1" id="NeedConnectingAnimation"/>
+<!--- Change Langguage Flag  end -->
+<!-- SPNDisplayType-->
+<!-- 0=SPN_DISPLAY_BY_3GPP -->
+<!-- 1=SPN_DISPLAY_ONLY_PLMN -->
+<!-- 2=SPN_DISPLAY_ONLY_SPN -->
+<!-- 3=SPN_DISPLAY_BOTH -->
+<!-- 4=SPN_DISPLAY_NONE -->
+<config value="1" id="SPNDisplayType"/>
+<!-- If the log level is bigger than  OutputLogLevel, write log content to disk -->
+<!-- 0=UU_LOG_LEVEL_DEBUG -->
+<!-- 1=UU_LOG_LEVEL_NOTICE -->
+<!-- 2=UU_LOG_LEVEL_WARNING -->
+<!-- 3=UU_LOG_LEVEL_ERROR -->
+<config value="0" id="OutputLogLevel"/>
+<config value="1" id="PhonebookCreateContactFlag"/>
+<config value="4" id="MinimizeAnimationType"/>
+<config value="1" id="GlobalMatchApn"/>
+<config value="47001" id="OldMccmnc"/>
+<config value="Name;MobilePhone;HomePhone;OfficePhone;Email;Groups" id="PhonebookRecordListHeader"/>
+<!-- LockNetMode-->
+<!-- 0=Only prompt incorrect (U)SIM -->
+<!-- 1=Prompt incorrect (U)SIM and exit the UI -->
+<!-- 2=Prompt to unlock, you can input the code to unlock -->
+<config value="2" id="LockNetMode"/>
+<!-- ConnectType-->
+<!-- 1=RAS Connect -->
+<!-- 2=NDIS Connect -->
+<config value="1" id="ConnectType"/>
+<config value="0" id="NeedReadDefaultUSSD"/>
+<config value="0" id="NeedReadDefaultApn"/>
+<config value="0" id="IsQuitAppDeviceRemoved"/>
+<config value="1" id="DefaultApnId"/>
+<config value="0" id="UnreadMissedCallCount"/>
+<config value="0" id="IsStartMinimizeOnStartUp"/>
+<config value="1" id="USSDInputCodeKeepEnable"/>
+<config value="*566#,*500*60#,*2#,*111*6#" id="DefaultUSSDCodeBody"/>
+</PublicConfig>
+<UiFileConfig>
+<config value="MainWindow.ui" id="MainForm"/>
+<config value="MinimizeAnimation.ui" id="MinimizeAnimationForm"/>
+<config value="Connect.ui" id="ConnectForm"/>
+<config value="DeviceStatus.ui" id="DeviceStatusForm"/>
+<config value="ConnectStatus.ui" id="ConnectStatusForm"/>
+<config value="ConnectLog.ui" id="ConnectLogForm"/>
+<config value="ConnectFailed.ui" id="ConnectedFailedForm"/>
+<config value="Settings.ui" id="SettingForm"/>
+<config value="phonebook.ui" id="PhonebookForm"/>
+<config value="PhonebookGroup.ui" id="PhonebookGroup"/>
+<config value="phonebookListMode.ui" id="PhonebookListModeForm"/>
+<config value="PbPhoto.ui" id="PbPhotoForm"/>
+<config value="PbPhotoDefault.ui" id="PbPhotoDefaultForm"/>
+<config value="PbPhotoOption.ui" id="PbPhotoOptionForm"/>
+<config value="CreateContact.ui" id="CreateContactForm"/>
+<config value="SelectContact.ui" id="SelectContactForm"/>
+<config value="Sms.ui" id="SmsForm"/>
+<config value="SmsMasterplate.ui" id="SmsMasterplateForm"/>
+<config value="SmsCount.ui" id="SmsCountForm"/>
+<config value="SmsBox.ui" id="SmsBoxForm"/>
+<config value="NewSmsBox.ui" id="NewSmsBoxForm"/>
+<config value="Messagebox.ui" id="MessageboxForm"/>
+<config value="InputPin.ui" id="InputPinForm"/>
+<config value="InputPUK.ui" id="InputPukForm"/>
+<config value="ApnSetting.ui" id="ApnSetting"/>
+<config value="ConnectionSettings.ui" id="ConnectionSettings"/>
+<config value="SecuritySettings.ui" id="SecuritySettings"/>
+<config value="SmsSettings.ui" id="SmsSettings"/>
+<config value="NetworkSettings.ui" id="NetworkSettings"/>
+<config value="Messagesettings.ui" id="MessageSettings"/>
+<config value="AlertSettings.ui" id="AlertSettings"/>
+<config value="DataLimitSettings.ui" id="DataLimitSettings"/>
+<config value="Ussd.ui" id="UssdForm"/>
+<config value="UssdSend.ui" id="UssdFormSend"/>
+<config value="UssdEdit.ui" id="UssdFormEdit"/>
+<config value="Voice.ui" id="CallForm"/>
+<config value="VoiceRecord.ui" id="CallRecordForm"/>
+<config value="SearchNetwork.ui" id="SearchNetwork"/>
+<config value="SearchResult.ui" id="SearchResult"/>
+<config value="ChangePin.ui" id="ChangePin"/>
+<config value="SmsChat.ui" id="SmsChatForm"/>
+<config value="SmsChatSession.ui" id="SmsChatSessionForm"/>
+<config value="SmsChatTool.ui" id="SmsChatToolForm"/>
+<config value="ConnectDataGraph.ui" id="ConnectDataGraphForm"/>
+<config value="Diagnostics.ui" id="DiagnoseForm"/>
+<config value="LanguageChange.ui" id="LanguageChangeForm"/>
+<config value="Toolbar.ui" id="ToolBarForm"/>
+<config value="DisplayProgress.ui" id="DisplayProgressForm"/>
+<config value="SystemSettings.ui" id="SystemSettings"/>
+<config value="SettingsModule.ui" id="SettingModuleForm"/>
+<config value="Stk.ui" id="StkForm"/>
+<config value="InputLockNet.ui" id="InputLockNetForm"/>
+<config value="InputMsgBox.ui" id="InputMsgBoxForm"/>
+<config value="SmsRead.ui" id="SmsReadForm"/>
+<config value="Home.ui" id="HomeForm"/>
+<config value="UpdateChoice.ui" id="UpdateChoiceForm"/>
+<config value="UpdateConfirm.ui" id="UpdateConfirmForm"/>
+<config value="UpdateManual.ui" id="UpdateManualForm"/>
+<config value="UpdateProgress.ui" id="UpdateProgressForm"/>
+<config value="UpdateWait.ui" id="UpdateWaitForm"/>
+<config value="UpdateResult.ui" id="UpdateResultForm"/>
+<config value="UpdateMain.ui" id="UpdateMainForm"/>
+<config value="UpdateHttpRequest.ui" id="UpdateHttpRequestForm"/>
+<config value="UpdateSettings.ui" id="UpdateSettings"/>
+<config value="About.ui" id="AboutForm"/>
+<config value="InputUssdRefill.ui" id="InputUssdRefill"/>
+<config value="Support.ui" id="SupportForm"/>
+<config value="InternetPackages.ui" id="InternetPackageForm"/>
+<config value="Welcome.ui" id="WelcomeForm"/>
+</UiFileConfig>
+<AlertConfig>
+<config value="1" id="isSmsMute"/>
+<config value="E:\.idea\gp\Grameenphone Internet\Sound\online.wav" id="DefaultConnectAlert"/>
+<config value="0" id="isConnectMute"/>
+<config value="E:\.idea\gp\Grameenphone Internet\Sound\offline.wav" id="DefaultDisonnectAlert"/>
+<config value="0" id="isDisConnectMute"/>
+<config value="0" id="isPersonalSmsAlert"/>
+<config value="E:\.idea\gp\Grameenphone Internet\Sound\call.wav" id="DefaultCallAlert"/>
+<config value="0" id="isCallMute"/>
+<config value="0" id="isPersonalCallAlert"/>
+</AlertConfig>
+<PhoneBookConfig>
+<config value="1" id="displayPhoneBookPCTreeNameCount"/>
+<config value="1" id="displayPhoneBookSIMTreeNameCount"/>
+<config value="1" id="displayPhoneBookPCGroupTreeNameCount"/>
+</PhoneBookConfig>
+<DiagnosticsConfig>
+<config value="1" id="IsDispalyOpenTxtButton"/>
+</DiagnosticsConfig>
+<DataLimitConfig>
+<config value="0" id="chooseLimitControl"/>
+<config value="1" id="chooseComOrCycControl"/>
+<config value="1" id="chooseVolumeOrTimeControl"/>
+<config value="0" id="limitVolume"/>
+<config value="0" id="limitTime"/>
+<config value="0" id="warnBeforeLimit"/>
+<config value="0" id="warnReachOrExceedLimit"/>
+<config value="0" id="cycleControl"/>
+<config value="0" id="markWeekDay"/>
+<config value="0" id="markMonthDay"/>
+<config value="0" id="currentMarkDayDate"/>
+<config value="0" id="currentMarkDayMonth"/>
+<config value="0" id="currentMarkDayYear"/>
+</DataLimitConfig>
+<MainFunction>
+<config value="enabled" id="MainFunc_Connect"/>
+<config value="enabled" id="MainFunc_Statistics"/>
+<config value="enabled" id="MainFunc_Sms"/>
+<config value="enabled" id="MainFunc_Phonebook"/>
+<config value="enabled" id="MainFunc_Call"/>
+<config value="enabled" id="MainFunc_CallHis"/>
+<config value="enabled" id="MainFunc_Ussd"/>
+<config value="disabled" id="MainFunc_Stk"/>
+<config value="enabled" id="MainFunc_Settings"/>
+<config value="enabled" id="MainFunc_Help"/>
+<config value="enabled" id="MainFunc_MainWindowMenu"/>
+<config value="disabled" id="MainMenu_MainWindowMenu_Diagnose"/>
+</MainFunction>
+<LanguageConfig>
+<config value="English.xml" id="DefaultLanguage"/>
+<config value="1" id="LanguageCount"/>
+<config value="English" id="LanguageItem0"/>
+</LanguageConfig>
+<DefaultUSSDConfig>
+<CodeName>Main Balance Check (Pre-Paid)</CodeName>
+<CodeHead/>
+<CodeBody>*566#</CodeBody>
+<CodeTail/>
+<CodeInfo/>
+<EditStatus>1</EditStatus>
+<DeleteStatus>1</DeleteStatus>
+</DefaultUSSDConfig>
+<DefaultUSSDConfig>
+<CodeName>Check Internet Remaining Volume and Pack</CodeName>
+<CodeHead/>
+<CodeBody>*500*60#</CodeBody>
+<CodeTail/>
+<CodeInfo/>
+<EditStatus>1</EditStatus>
+<DeleteStatus>1</DeleteStatus>
+</DefaultUSSDConfig>
+<DefaultUSSDConfig>
+<CodeName>Own Number Check</CodeName>
+<CodeHead/>
+<CodeBody>*2#</CodeBody>
+<CodeTail/>
+<CodeInfo/>
+<EditStatus>1</EditStatus>
+<DeleteStatus>1</DeleteStatus>
+</DefaultUSSDConfig>
+<DefaultUSSDConfig>
+<CodeName>Internet USSD Menu</CodeName>
+<CodeHead/>
+<CodeBody>*111*6#</CodeBody>
+<CodeTail/>
+<CodeInfo/>
+<EditStatus>1</EditStatus>
+<DeleteStatus>1</DeleteStatus>
+</DefaultUSSDConfig>
+<TrayIconFunction>
+<config value="disabled" id="TrayIcon_TrayMenu_About"/>
+</TrayIconFunction>
+<UpdateConfig>
+<config value="1" id="EnableUpdate"/>
+<config value="1" id="EnableAutoUpdate"/>
+<config value="http://upgrade.ztems.com/UpdateEntry.aspx" id="ServiceAddress"/>
+<config value="24" id="UpdateFrequence"/>
+<config value="1" id="isAutoUpdateDisplay"/>
+<config value="1" id="DisplayUpdateSettings"/>
+</UpdateConfig>
+<ToolbarConfig>
+<config value="messagedeletenormal.png" id="ChatGroupItem1Normal"/>
+<config value="messagedeletehover.png" id="ChatGroupItem1Hover"/>
+<config value="messagecontactsnormal.png" id="ChatGroupItem2Normal"/>
+<config value="messagecontactshover.png" id="ChatGroupItem2Hover"/>
+<config value="chatnormal.png" id="ChatGroupItem3Normal"/>
+<config value="chathover.png" id="ChatGroupItem3Hover"/>
+<config value="messagedeletenormal.png" id="ChatSmsItem1Normal"/>
+<config value="messagedeletehover.png" id="ChatSmsItem1Hover"/>
+<config value="smssendnormal.png" id="ChatSmsItem2Normal"/>
+<config value="smssendhover.png" id="ChatSmsItem2Hover"/>
+</ToolbarConfig>
+<Prelaunch>
+<!-- before servicemain.init(), call these program -->
+<!-- NeedWait and WaitTimeoutInMs are not support yet -->
+<config value="1" id="PrelaunchCount"/>
+<config value="CMUpdater" id="PrelaunchItem0_Name"/>
+<config value="0" id="PrelaunchItem0_NeedWait"/>
+<config value="100" id="PrelaunchItem0_WaitTimeoutInMs"/>
+<!-- config value="notepad" id="PrelaunchItem0_Name" -->
+<!-- config value="0" id="PrelaunchItem0_NeedWait" -->
+<!-- config value="100" id="PrelaunchItem0_WaitTimeoutInMs" -->
+</Prelaunch>
+<Postlaunch>
+<!-- after servicemain.init(), call these program -->
+<!-- NeedWait and WaitTimeoutInMs are not support yet -->
+<config value="0" id="PostlaunchCount"/>
+<!--config value="notepad" id="PostlaunchItem0_Name"-->
+<!--config value="0" id="PostlaunchItem0_NeedWait"-->
+<!--config value="100" id="PostlaunchItem0_WaitTimeoutInMs"-->
+</Postlaunch>
+<LogConfig>
+<!-- UU_LOG_LEVEL_DEBUG = 0, -->
+<!-- UU_LOG_LEVEL_NOTICE, -->
+<!-- UU_LOG_LEVEL_WARNING, -->
+<!-- UU_LOG_LEVEL_ERROR -->
+<config value="3" id="DefaultLogLevel"/>
+</LogConfig>
+<NetworkConfig>
+<Name>GP-Internet</Name>
+<UserName/>
+<UserPass/>
+<DialNum>*99#</DialNum>
+<APN>gpinternet</APN>
+<PDPType>IP</PDPType>
+<AuthType>PAP</AuthType>
+<IsDfault>1</IsDfault>
+</NetworkConfig>
+<BasicConfig>
+<config value="0" id="isAutoConnect"/>
+<config value="1" id="isAutoReonnect"/>
+<config value="1" id="isRoamHint"/>
+<config value="1" id="needStartUpForm"/>
+<config value="4500" id="startUpDurationInMS"/>
+<!-- startUp with filetype, Note:Modify UI File-->
+<!-- 0=startUp With Png -->
+<!-- 1=startUp With Gif -->
+<config value="1" id="startUpWithFiletype"/>
+</BasicConfig>
+</UUConfiguration>

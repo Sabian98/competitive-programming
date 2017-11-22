@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>widgetSelectContact</class>
+ <widget class="QWidget" name="widgetSelectContact">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>541</width>
+    <height>380</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>541</width>
+    <height>380</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>541</width>
+    <height>380</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#widgetSelectContact{
+border-image: url(Skin/sms_getPb.PNG);
+}</string>
+  </property>
+  <widget class="QComboBox" name="comboBoxLocation">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>101</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableViewAllContact">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>222</width>
+     <height>211</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableViewSelectedContact">
+   <property name="geometry">
+    <rect>
+     <x>297</x>
+     <y>90</y>
+     <width>222</width>
+     <height>211</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonOK">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>320</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{ 
+border-image:url(Skin/SmallChangeableButton_1.png);
+	color: rgb(255, 255, 255);
+}
+QPushButton:pressed{ 
+border-image:url(Skin/SmallChangeableButton_3.png);
+}
+QPushButton:hover{
+border-image:url(Skin/SmallChangeableButton_3.png);
+	color: rgb(0, 0, 0);
+}
+QPushButton:disabled{
+border-image:url(Skin/SmallChangeableButton_2.png);
+	color: rgb(0, 0, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonCancel">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>320</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{ 
+border-image:url(Skin/SmallChangeableButton_1.png);
+	color: rgb(255, 255, 255);
+}
+QPushButton:pressed{ 
+border-image:url(Skin/SmallChangeableButton_3.png);
+}
+QPushButton:hover{
+border-image:url(Skin/SmallChangeableButton_3.png);
+	color: rgb(0, 0, 0);
+}
+QPushButton:disabled{
+border-image:url(Skin/SmallChangeableButton_2.png);
+	color: rgb(0, 0, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonRightMove">
+   <property name="geometry">
+    <rect>
+     <x>254</x>
+     <y>142</y>
+     <width>31</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButtonRightMove{
+border-image: url(Skin/smallButton.png);
+}
+QPushButton#pushButtonRightMove:hover{
+border-image: url(Skin/smallButton_pressed.png);
+}
+QPushButton#pushButtonRightMove:pressed{
+border-image: url(Skin/smallButton_pressed.png);
+}</string>
+   </property>
+   <property name="text">
+    <string>&gt;&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonLeftMove">
+   <property name="geometry">
+    <rect>
+     <x>254</x>
+     <y>232</y>
+     <width>31</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButtonLeftMove{
+border-image: url(Skin/smallButton.png);
+}
+QPushButton#pushButtonLeftMove:hover{
+border-image: url(Skin/smallButton_pressed.png);
+}
+QPushButton#pushButtonLeftMove:pressed{
+border-image: url(Skin/smallButton_pressed.png);
+}</string>
+   </property>
+   <property name="text">
+    <string>&lt;&lt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelAllContact">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>70</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Contact(s)</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelSelectContact">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>70</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Selected Contact(s)</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

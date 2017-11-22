@@ -1,0 +1,20 @@
+ 2016-03-14 00:40:29:634 Thread ID=4604 CCancelAutoPlayApp::InitInstance   enter
+ 2016-03-14 00:40:29:634 Thread ID=4604 CCancelAutoPlayApp::InitInstance   command line=run
+ 2016-03-14 00:40:29:634 Thread ID=4604 CCancelAutoPlayApp::DoRun   enter
+ 2016-03-14 00:40:29:634 Thread ID=4604 CQueryCancelAutoplay::StartCancelAutoPlay   enter
+ 2016-03-14 00:40:29:634 Thread ID=4604 CQueryCancelAutoplay::ReadGUID   enter
+ 2016-03-14 00:40:29:650 Thread ID=4604 CQueryCancelAutoplay::ReadGUID   Guid={F9A28BF1-B667-4dad-9293-FE3851473B14}
+ 2016-03-14 00:40:29:650 Thread ID=4604 CQueryCancelAutoplay::_RegisterForIQueryCancelAutoplay   enter
+ 2016-03-14 00:40:29:650 Thread ID=4604 CQueryCancelAutoplay::_RegisterForIQueryCancelAutoplay   Register ok
+ 2016-03-14 00:40:29:666 Thread ID=4604 CQueryCancelAutoplay::_RegisterForIQueryCancelAutoplay   leave
+ 2016-03-14 00:40:29:666 Thread ID=4604 CQueryCancelAutoplay::StartCancelAutoPlay   leave
+ 2016-03-14 09:09:41:545 Thread ID=3780 CCancelAutoPlayApp::InitInstance   enter
+ 2016-03-14 09:09:41:561 Thread ID=3780 CCancelAutoPlayApp::InitInstance   command line=run
+ 2016-03-14 09:09:41:561 Thread ID=3780 CCancelAutoPlayApp::DoRun   enter
+ 2016-03-14 09:09:41:561 Thread ID=3780 CQueryCancelAutoplay::StartCancelAutoPlay   enter
+ 2016-03-14 09:09:41:561 Thread ID=3780 CQueryCancelAutoplay::ReadGUID   enter
+ 2016-03-14 09:09:41:561 Thread ID=3780 CQueryCancelAutoplay::ReadGUID   Guid={F9A28BF1-B667-4dad-9293-FE3851473B14}
+ 2016-03-14 09:09:41:576 Thread ID=3780 CQueryCancelAutoplay::_RegisterForIQueryCancelAutoplay   enter
+ 2016-03-14 09:09:41:576 Thread ID=3780 CQueryCancelAutoplay::_RegisterForIQueryCancelAutoplay   Register ok
+ 2016-03-14 09:09:41:576 Thread ID=3780 CQueryCancelAutoplay::_RegisterForIQueryCancelAutoplay   leave
+ 2016-03-14 09:09:41:592 Thread ID=3780 CQueryCancelAutoplay::StartCancelAutoPlay   leave

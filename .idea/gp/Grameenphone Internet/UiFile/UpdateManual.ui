@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormManual</class>
+ <widget class="QWidget" name="FormManual">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>300</width>
+    <height>326</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton{ 
+border-image:url(Skin/SmallChangeableButton_1.png);
+	color: rgb(255, 255, 255);
+}
+QPushButton:pressed{ 
+border-image:url(Skin/SmallChangeableButton_3.png);
+}
+QPushButton:hover{
+border-image:url(Skin/SmallChangeableButton_3.png);
+	color: rgb(0, 0, 0);
+}
+QPushButton:disabled{
+border-image:url(Skin/SmallChangeableButton_2.png);
+	color: rgb(0, 0, 0);
+}</string>
+  </property>
+  <widget class="QLabel" name="labelManualInfo">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>150</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Searching...</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonManualOK">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>296</y>
+     <width>70</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Ok</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelManualSearchPackage">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>30</y>
+     <width>111</width>
+     <height>88</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>       movie</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelSearchResult">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>130</y>
+     <width>261</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Search result</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

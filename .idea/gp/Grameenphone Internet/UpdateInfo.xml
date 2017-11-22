@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<UpdateInfo>
+<ClientInfo>
+<config value="1" id="whetherauto"/>
+<config value="Windows-6.2-" id="operatingsystem"/>
+<config value="MF193A" id="device"/>
+<config value="PCW_GPBGDV1.0.0B02" id="softwareversion"/>
+<config value="BD_MF193AV1.0.1B01" id="firmwareversion"/>
+<config value="865850018462533" id="unsignedid"/>
+<config value="47001" id="clientgroup"/>
+<config value="English" id="language"/>
+<config value="" id="extendParam"/>
+<config value="" id="auth"/>
+<config value="PCW_GPBGDV1.0.0B02" id="WinInISOVersion"/>
+<config value="PCM_GPBGDV1.0.0B02" id="MacInISOVersion"/>
+<config value="PCL_GPBGDV1.0.0B02" id="LinInISOVersion"/>
+<config value="English" id="OSLanguage"/>
+<config value="x86" id="Architecture"/>
+<config value="32bit" id="OSCalSize"/>
+<config value="PCW_GPBGDV1.0.0B02" id="Generation"/>
+</ClientInfo>
+<UpdatingInfo>
+<config value="3" id="ResendAutoUpdateTimes"/>
+<config value="0" id="connectStatus"/>
+<config value="" id="lastInfoReport"/>
+<config value="UnifiedUi.exe" id="MainUIExecPath"/>
+<config value="4888" id="MainUIPid"/>
+</UpdatingInfo>
+<Device>
+<config value="6280Mdownload" id="MF193M"/>
+<config value="6246download" id="MF193A"/>
+</Device>
+</UpdateInfo>

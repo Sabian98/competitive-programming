@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormPUK</class>
+ <widget class="QWidget" name="FormPUK">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>315</width>
+    <height>274</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#FormPUK {
+border-image:url(Skin/PukInput.png)
+}
+</string>
+  </property>
+  <widget class="QWidget" name="widgetPUK" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>250</y>
+     <width>297</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widgetPUK{
+border-image:url(Skin/messageBox/part5MessageBox.jpg)
+}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonCancel">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>240</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{ 
+border-image:url(Skin/SmallChangeableButton_1.png);
+	color: rgb(255, 255, 255);
+}
+QPushButton:pressed{ 
+border-image:url(Skin/SmallChangeableButton_3.png);
+}
+QPushButton:hover{
+border-image:url(Skin/SmallChangeableButton_3.png);
+	color: rgb(0, 0, 0);
+}
+QPushButton:disabled{
+border-image:url(Skin/SmallChangeableButton_2.png);
+	color: rgb(0, 0, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelPIN">
+   <property name="geometry">
+    <rect>
+     <x>58</x>
+     <y>92</y>
+     <width>150</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Please input new PIN code</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelNewPIN">
+   <property name="geometry">
+    <rect>
+     <x>58</x>
+     <y>135</y>
+     <width>186</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Please input new PIN code again</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelPUK">
+   <property name="geometry">
+    <rect>
+     <x>56</x>
+     <y>35</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="text">
+    <string>Please enter the PUK</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditPuk">
+   <property name="geometry">
+    <rect>
+     <x>58</x>
+     <y>70</y>
+     <width>171</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditRepeatPin">
+   <property name="geometry">
+    <rect>
+     <x>58</x>
+     <y>154</y>
+     <width>171</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditPin">
+   <property name="geometry">
+    <rect>
+     <x>58</x>
+     <y>111</y>
+     <width>171</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonOK">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>240</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{ 
+border-image:url(Skin/SmallChangeableButton_1.png);
+	color: rgb(255, 255, 255);
+}
+QPushButton:pressed{ 
+border-image:url(Skin/SmallChangeableButton_3.png);
+}
+QPushButton:hover{
+border-image:url(Skin/SmallChangeableButton_3.png);
+	color: rgb(0, 0, 0);
+}
+QPushButton:disabled{
+border-image:url(Skin/SmallChangeableButton_2.png);
+	color: rgb(0, 0, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelLeftTimes">
+   <property name="geometry">
+    <rect>
+     <x>48</x>
+     <y>176</y>
+     <width>241</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>You have only 10 times left</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

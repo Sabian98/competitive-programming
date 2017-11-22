@@ -1,0 +1,5 @@
+ 2015-11-08 20:24:43:814 Thread ID=4568 IsInstalled    Enter
+ 2015-11-08 20:24:43:824 Thread ID=4568 IsInstalled    ... ... Service is not Installed
+ 2015-11-08 20:24:43:834 Thread ID=4568 IsInstalled    leave
+ 2015-11-08 20:24:44:229 Thread ID=4568 CAutoRun_RunByAutoRun::InstallZdServ  enter
+ 2015-11-08 20:24:44:274 Thread ID=4568 CSetup_RunBySetup::Setup  before DFServ.exe  /install

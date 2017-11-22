@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageMap>
+<Language>
+<config value="Arabic" id="ar"/>
+<config value="Bulgarian" id="bg"/>
+<config value="Bulgarian" id="bg"/>
+<config value="Croatian" id="hr"/>
+<config value="Czech" id="cs"/>
+<config value="Denish" id="da"/>
+<config value="Dutch" id="nl"/>
+<config value="English" id="en"/>
+<config value="Estonish" id="et"/>
+<config value="Finnish" id="fi"/>
+<config value="French" id="fr"/>
+<config value="German" id="de"/>
+<config value="Hungarian" id="hu"/>
+<config value="Indonesian" id="id"/>
+<config value="Italian" id="it"/>
+<config value="Japanese" id="ja"/>
+<config value="Norwegian" id="nb"/>
+<config value="Polish" id="pl"/>
+<config value="Portuguese" id="pt"/>
+<config value="Portuguese" id="pt-PT"/>
+<config value="Romanian" id="ro"/>
+<config value="Russian" id="ru"/>
+<config value="Slovak" id="sk"/>
+<config value="Spanish" id="es"/>
+<config value="Swedish" id="sv"/>
+<config value="Turkish" id="tr"/>
+<config value="Chinese" id="zh-Hans"/>
+<config value="Chinese" id="zh-Hant"/>
+<config value="Vietnamese" id="vi"/>
+<config value="Albanian" id="sq"/>
+<config value="Armenian" id="hy"/>
+<config value="Lithuanian" id="lt"/>
+<config value="Serbian" id="sr"/>
+</Language>
+</LanguageMap>

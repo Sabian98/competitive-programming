@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UULanguage language = "english">
+<wordings>
+<wording id="SettingDiagnostics_HardWare_manufacture_val_Str" text="ZTE CORPORATION" />
+<wording id="MainForm_mainformTitle_Str" text="Grameenphone Internet" />
+<wording id="ConnectDataGraphForm_MenuReset_Str" text="Reset Statistics" />
+<wording id="ConnectDataGraphForm_MenuExpandAll_Str" text="Expand All" />
+<wording id="ConnectDataGraphForm_MenuCollapseAll_Str" text="Collapse All" />
+<wording id="CallRecordForm_pushButtonDial_Tip" text="Call" />
+<wording id="CallRecordForm_pushButtonSms_Tip" text="Sms" />
+<wording id="CallRecordForm_pushButtonDelete_Tip" text="Delete" />
+<wording id="CallRecordForm_pushButtonSave_Tip" text="Save" />
+<wording id="InputUssdRefill_labelVoucherCode_Str" text="Please enter the voucher code:" />
+<wording id="InputUssdRefill_pushButtonSend_Str" text="Ok" />
+<wording id="InputUssdRefill_pushButtonCancel_Str" text="Cancel" />
+<wording id="MainForm_pushButtonActiveSIM_Str" text="SIM Activations" />
+<wording id="SystemSettings_groupBoxStartUp_Str" text="Start up" />
+<wording id="ConnectionSettings_pushButtonCancel_Str" text="Cancel" />
+<wording id="Warning_Msg_Usage_Str" text="Data usage is approximate only, please contact your operator for actual usage." />
+<wording id="ConnectDataGraphForm_labelStatisticsData_Str" text="Statistics Data:" />
+<wording id="StatisticsDataTree_Day_Str" text="Day" />
+<wording id="StatisticsDataTree_Month_Str" text="Month" />
+<wording id="StatisticsDataTree_Year_Str" text="Year" />
+<wording id="StatisticsDataTree_UpData_Str" text="Upload Data: %1" />
+<wording id="StatisticsDataTree_DwonData_Str" text="Download Data: %1" />
+<wording id="StatisticsDataTree_Duration_Str" text="Duration: %1" />
+<wording id="ConnectDataTree_Transfer_Str" text="Transfer" />
+<wording id="ConnectDataTree_TransferTime_Str" text="Transfer time: %1" />
+<wording id="ConnectDataTree_UpSpeed_Str" text="Upload: %1" />
+<wording id="ConnectDataTree_DownSpeed_Str" text="Download: %1" />
+<wording id="ConnectDataTree_UpData_Str" text="Upload: %1" />
+<wording id="ConnectDataTree_DownData_Str" text="Download: %1" />
+<wording id="ConnectDataTree_Speed_Str" text="Speed" />
+<wording id="ConnectDataTree_Data_Str" text="Data" />
+<wording id="SettingConnectDataGrap_WarnBeforeLimit_Str" text="Current data will reach limit right now!" />
+<wording id="SettingConnectDataGrap_WarnReachOrExceedLimit_Str" text="Current data has reached or exceeded limit!" />
+<wording id="ConnectDataGraphForm_labelTimeLastReset_Str" text="Time last reset:" />
+<wording id="MainForm_pushButtonInternet_Str" text="Connection  " />
+<wording id="MainForm_pushButtonStatistics_Str" text="Statistics  " />
+<wording id="MainForm_pushButtonStatistics_Tip" text="Statistics" />
+<wording id="MainForm_pushButtonCall_Str" text="Call" />
+<wording id="MainForm_pushButtonCall_Tip" text="Call" />
+<wording id="MainForm_pushButtonShortMessage_Str" text="SMS  " />
+<wording id="MainForm_pushButtonPhonebook_Str" text="Phonebook  " />
+<wording id="MainForm_pushButtonUssd_Str" text="USSD &amp;&amp; Recharge  " />
+<wording id="MainForm_pushButtonSupport_Str" text="Internet Package  " />
+<wording id="MainForm_pushButtonSupport_Tip" text="Internet Package" />
+<wording id="MainForm_pushButtonActiveSIM_Str" text="SIM Activations  " />
+<wording id="MainForm_pushButtonActiveSIM_Tip" text="SIM Activations" />
+<wording id="MainForm_pushButtonCallhis_Str" text="Call Log" />
+<wording id="MainForm_pushButtonCallhis_Tip" text="Call Log" />
+<wording id="MainForm_labelConnectionTitle_Str" text="Profile Name:" />
+<wording id="MainForm_labelSearchError_Str" text="Search Error" />
+
+<wording id="ConnectStatusForm_DataSent_Str" text="Data Sent:" />
+<wording id="ConnectStatusForm_DataReceived_Str" text="Data Received:" />
+<wording id="ConnectStatusForm_ConnectedTime_Str" text="Connected time:" />
+<wording id="ConnectStatusForm_SentRate_Str" text="Transport rate:" />
+<wording id="ConnectStatusForm_ReceiveRate_Str" text="Received rate:" />
+<wording id="MainMenu_ExitFile_Str" text="Exit" />
+<wording id="MainMenu_Connect_Str" text="Connection" />
+<wording id="MainMenu_Static_Str" text="Statistics" />
+<wording id="MainMenu_Call_Str" text="Call" />
+<wording id="MainMenu_Sms_Str" text="SMS" />
+<wording id="MainMenu_PhoneBook_Str" text="Phonebook" />
+<wording id="MainMenu_Language_Str" text="Language" />
+<wording id="MainMenu_PinOperations_Str" text="PinOperations" />
+<wording id="MainMenu_Diagnostics_Str" text="Diagnostics..." />
+<wording id="MainMenu_Options_Str" text="Setting" />
+<wording id="MainMenu_Help_Str" text="Help" />
+<wording id="MainForm_pushButtonMenuFile_Str" text="File" />
+<wording id="MainForm_pushButtonOperation_Str" text="Operation" />
+<wording id="MainForm_pushButtonFavorites_Str" text="GP Favorites" />
+<wording id="MainForm_pushButtonTools_Str" text="Tools" />
+<wording id="MainForm_pushButtonMenuHelp_Str" text="Help" />
+<wording id="WelcomeForm_labelSoftwareCopyRight_Str" text="Copyright(C)1985-2013 Corp." />
+<wording id="FormAntivirusMain_labelInstallWarn_Str" text="Protect your PC from viruses and other web threats with Antivirus Security Suite.Get the trial version." />
+<wording id="FormAntivirusMain_labelInstall_Str" text="Install now Antivirus Security Suite!" />
+<wording id="FormAntivirusMain_labelAntivirusTitle_Str" text="Antivirus Security Suite" />
+<wording id="FormAntivirusMain_pushButtonInstall_Str" text="Install now" />
+<wording id="CheckBoxAntivirus_checkBoxAskMe_Str" text="Don't ask me again." />
+<wording id="CheckBoxAntivirus_pushButtonOk_Str" text="OK" />
+<wording id="MainForm_pushButtonInternet_Tip" text="Connection" />
+<wording id="MainForm_ConnectionTitle_str" text="D-com 3.5G" />
+<wording id="MainForm_pushButtonShortMessage_Tip" text="SMS" />
+<wording id="MainForm_pushButtonPhonebook_Tip" text="Phonebook" />
+<wording id="MainForm_pushButtonSettings_Tip" text="Settings" />
+<wording id="MainForm_pushButtonWebStore_Tip" text="Web&amp;Store&#10;Discover pay-as-you-go options!" />
+<wording id="MainForm_pushButtonTopUp_Tip" text="Top-up" />
+<wording id="MainForm_pushButtonSelfcare_Tip" text="Selfcare" />
+<wording id="MainForm_pushButtonHelp_Tip" text="Help" />
+<wording id="MainForm_pushButtonUssd_Tip" text="USSD &amp; Recharge  " />
+<wording id="MainForm_pushButtonDataRecord_Tip" text="Data" />
+<wording id="MainForm_pushButtonMenu_Tip" text="Menu" />
+<wording id="MainForm_labelNetworkType_str" text="No Service" />
+<wording id="MainForm_labelNetworkType_Tip" text="Network Type" />
+<wording id="MainForm_labelRoamStatus_str" text="" />
+<wording id="MainForm_labelRoamStatus_Tip" text="Roaming" />
+<wording id="MainForm_labelOperator_Tip" text="Operator" />
+<wording id="MainForm_labelSignal_Tip" text="Signal" />
+<wording id="MainForm_labelSimStatus_Tip" text="No SIM card" />
+<wording id="MainForm_labelConnectState_Str" text="Disconnected" />
+<wording id="MainForm_pushButtonMinimize_Tip" text="Minimize" />
+<wording id="MainForm_pushButtonMaximize_Tip" text="Maximize" />
+<wording id="MainForm_pushButtonClose_Tip" text="Close" />
+<wording id="MainForm_labelOperatorNotFound_Str" text="Not found" />
+<wording id="MainMenu_Log_Str" text="Log" />
+<wording id="MainMenu_Help_Str" text="Help" />
+<wording id="MainMenu_Lan_Str" text="Language" />
+<wording id="MainMenu_Diagnose_Str" text="Diagnostics" />
+<wording id="MainMenu_AirplaneMode_Str" text="Airplane mode" />
+<wording id="MainMenu_ManualUpdate_Str" text="Update Now" />
+<wording id="MainMenu_ResetDefaultSettingsAlert_Str" text="Restore Factory Settings?" />
+<wording id="MainMenu_FavoritesMenu1Name_Str" text="Grameenphone" />
+<wording id="MainMenu_FavoritesMenu2Name_Str" text="dJuice" />
+<wording id="MainMenu_FavoritesMenu3Name_Str" text="GP CIC" />
+<wording id="MainMenu_FavoritesMenu4Name_Str" text="Like us on Facebook" />
+<wording id="MainMenu_FavoritesMenu5Name_Str" text="Follow us on Twitter" />
+<wording id="MainMenu_FavoritesMenu6Name_Str" text="Stay updated on Linked-in" />
+<wording id="MainMenu_FavoritesMenu1_Str" text="http://www.grameenphone.com" />
+<wording id="MainMenu_FavoritesMenu2_Str" text="http://www.djuice.com.bd" />
+<wording id="MainMenu_FavoritesMenu3_Str" text="http://www.gpcic.org" />
+<wording id="MainMenu_FavoritesMenu4_Str" text="https://www.facebook.com/grameenphone" />
+<wording id="MainMenu_FavoritesMenu5_Str" text="http://twitter.com/grameenphone" />
+<wording id="MainMenu_FavoritesMenu6_Str" text="http://www.linkedin.com/company/grameenphone-ltd" />
+<wording id="Main_PIN_LeftWarning_str" text="Final attempt. And your SIM card will be locked if incorrect again." />
+<wording id="Main_PUK_LeftWarning_str" text="Final attempt. And your SIM card will be locked if incorrect again." />
+<wording id="Status_Data_Disconnect" text="Data not connected" />
+<wording id="Status_Data_Connected" text="Data connected" />
+<wording id="Status_Sim_Not_Insert" text="Connect" />
+<wording id="Status_Sim_Not_Insert_popUP" text="No USIM. Please insert the USIM." />
+<wording id="Status_Sim_Invalid" text="Invalid SIM" />
+<wording id="Status_Sim_Failure" text="SIM initializing failed" />
+<wording id="Status_Sim_Insert" text="SIM insert" />
+<wording id="Status_Device_Off" text="Device not be found" />
+<wording id="Status_Device_On_NotReady" text="Device is not ready" />
+<wording id="Status_Device_Starting" text="Starting device" />
+<wording id="Status_Not_Registered" text="Not registered" />
+<wording id="Status_Ready_To_Connect" text="Ready" />
+<wording id="Status_Device_On" text="Device is ready" />
+<wording id="Status_NetworkType_NoService" text="No service" />
+<wording id="Status_NetworkType_LimitService" text="Limited service" />
+<wording id="Status_Waiting_PIN" text="Close and reopen the dashboard to enter the PIN" />
+<wording id="Status_Waiting_PUK" text="Close and reopen the dashboard to enter the PUK" />
+<wording id="Warning_Disconnect_TurnOnAirplaneMode_str" text="Do you want to disconnect the network and turn on airplane mode?" />
+<wording id="Warning_SmsLocalMemoryFull_str" text="The local memory is full, continue copy will affect the software. Continue?" />
+
+<wording id="MainMenu_Pin_Str" text="PIN Operations" />
+<wording id="MainMenu_EnablePin_Str" text="Enable PIN Verification" />
+<wording id="MainMenu_DisablePin_Str" text="Disable PIN Verification" />
+<wording id="MainMenu_ModifyPin_Str" text="Modify PIN..." />
+<wording id="MainMenu_EnterPin_Str" text="Enter PIN..." />
+<wording id="MainMenu_UnlockPin_Str" text="Unlock PIN..." />
+
+<wording id="SupportForm_pushButtonClose" text="Close" />
+<wording id="SupportForm_labelOnlineAns" text="Call 156 for online customer" />
+<wording id="SupportForm_labelOnlineCus" text="Call +258 860 860 860 for online customer" />
+<wording id="SupportForm_labelFreeSup" text="Free support:" />
+<wording id="SupportForm_labelAutoAns" text="Call 155 for automatic answer" />
+
+
+<wording id="InternetPackage_PushButtonMonthlyHeavyPkg_Str" text="Monthly Heavy Internet Browsing&#10; Package" />
+<wording id="InternetPackage_PushButtonNightMonthlyPkg_Str" text="Night Time Monthly Heavy&#10; Internet Browsing Package" />
+<wording id="InternetPackage_PushButton3GBforMonthly_Str" text="3GB for 30days" />
+<wording id="InternetPackage_PushButton1GBforMonthly_Str" text="1GB for 30days" />
+<wording id="InternetPackage_PushButtonActivate_Str" text="Activate" />
+<wording id="InternetPackage_PushButtonCheckUsage_Str" text="Check Usage" />
+
+<wording id="Package_MonthlyHeavy_Title" text="Monthly Heavy Internet Browsing Package&#10;(FUP applicable after 5GB)" />
+<wording id="Package_MonthlyHeavy_Des" text="This is a large screen Internet package designed for heavy browsing by advanced internet users with 30 day validity.&#10;&#10;Available both for pre-paid and post-paid subscribers.&#10;&#10;To Know more about GP internet packages,dial *111*6# or visit&#10;www.grameenphone.com" />
+<wording id="Package_NightMonthly_Title" text="Monthly Night Time Heavy Internet Browsing Package&#10;(FUP applicable after 5GB)" />
+<wording id="Package_NightMonthly_Des" text="This is a large screen Internet package designed for heavy browsing by advanced internet users during night time with 30 day validity.&#10;&#10;With this package,subscribers can enjoy unlimited internet from 12:00AM to 10:00AM.&#10;&#10;Available both for pre-paid and post-paid subscribers.&#10;&#10;To Know more about GP internet packages,dial *111*6# or visit&#10;www.grameenphone.com" />
+<wording id="Package_3GBMonthly_Title" text="3GB Package" />
+<wording id="Package_3GBMonthly_Des" text="This is an internet offer of 3 GB for 30 days.&#10;&#10;Available both for pre-paid and post-paid subscribers.&#10;&#10;To Know more about GP internet packages,dial *111*6# or visit&#10;www.grameenphone.com" />
+<wording id="Package_1GBMonthly_Title" text="1GB Package" />
+<wording id="Package_1GBMonthly_Des" text="This is an internet offer of 1 GB for 30 days.&#10;&#10;Available both for pre-paid and post-paid subscribers.&#10;&#10;To Know more about GP internet packages,dial *111*6# or visit&#10;www.grameenphone.com" />
+
+<wording id="TrayIcon_Help_Str" text="Help" />
+<wording id="TrayIcon_Exit_Str" text="Exit" />
+<wording id="TrayIcon_Connect_Str" text="Connect" />
+<wording id="TrayIcon_Disconnect_Str" text="Disconnect" />
+<wording id="TrayIcon_Connecting_Str" text="Connecting" />
+<wording id="TrayIcon_Disconnecting_Str" text="Disconnecting"/>
+<wording id="TrayIcon_About_Str" text="About"/>
+<wording id="TrayIcon_ResetFactory_Str" text="Restore Factory Settings" />
+<wording id="TrayIcon_NoDevice_Tip" text="Device not detected"/>
+<wording id="TrayIcon_DeviceInit_Tip" text="Starting device"/>
+<wording id="TrayIcon_DeviceOnline_Tip" text="Starting device"/>
+<wording id="TrayIcon_DeviceReady_Tip" text="Device is ready"/>
+<wording id="TrayIcon_NoSim_Tip" text="No SIM card"/>
+<wording id="TrayIcon_SimInvalid_Tip" text="Invalid SIM"/>
+<wording id="TrayIcon_NoSignal_Tip" text="No service"/>
+<wording id="TrayIcon_LimitService_Tip" text="Limited service"/>
+<wording id="TrayIcon_DataDisconnect_Tip" text="Disconnect"/>
+<wording id="TrayIcon_DataConnecting_Tip" text="Connecting"/>
+<wording id="TrayIcon_DataConnected_Tip" text="Connected"/>
+<wording id="TrayIcon_DataDisconnecting_Tip" text="Disconnecting"/>
+<wording id="TrayIcon_DataFailed_Tip" text="Connect failed"/>
+<wording id="TrayIcon_NewSms_Tip" text="New SMS"/>
+<wording id="TrayIcon_SIMFailed_Tip" text="SIM initializing failed"/>
+
+<wording id="MainForm_LabelPinLeftTimes_str" text="You have %d attempt(s)" />
+<wording id="Warning_CloseUI_str" text="Do you want to exit?" />
+<wording id="Warning_Backup_Str" text="Backup successfully" />
+<wording id="Warning_Restore_Success" text="Resume successfully, please restart the software" />
+<wording id="Warning_Pin_Empty_Str" text="Please enter old PIN" />
+<wording id="Warning_PIN_Failed" text="The PIN you entered is incorrect" />
+<wording id="Warning_PINLessEnter_str" text="PIN is 4 to 8 numbers!" />
+<wording id="Warning_New_Pin_Empty_Str" text="Please enter new PIN" />
+<wording id="Warning_Repeat_Pin_Empty_Str" text="Please confirm new PIN" />
+<wording id="Warning_Repeat_Pin_Error_Str" text="The new PINs you entered don't match, please retry!" />
+<wording id="Warning_Select_Failed_Str" text="Failed to manual select network" />
+<wording id="Warning_Select_successful_Str" text="Manual select network success" />
+<wording id="Network_SearchFailed_Str" text="Search network failed" />
+<wording id="Warning_Select_Forbid_Str" text="Can't select forbidden operator" />
+<wording id="Warning_PIN_Failed_Str" text="The PIN you entered is incorrect" />
+<wording id="Warning_PUK_Failed_Str" text="The PUK you entered is incorrect" />
+<wording id="Warning_PIN_Locked_str" text="PIN is locked" />
+<wording id="Warning_PUK_Locked_str" text="PUK is locked" />
+<wording id="Warning_ChangePin_Failed_Str" text="Change PIN failed!" />
+<wording id="Warning_PIN_Cancel_Str" text="By cancelling PIN or PUK verification, it will disable most network-related functions. Do you want to close?" />
+<wording id="Warning_PUK_Cancel_Str" text="By cancelling PIN or PUK verification, it will disable most network-related functions. Do you want to close?" />
+<wording id="Warning_CloseUI_Connected_str" text="Do you want to disconnect the network and close the application?" />
+<wording id="Warning_CloseUI_SmsSending_str" text="Message is sending, please wait..." />
+<wording id="Warning_CloseUI_SearchingNetwork_str" text="Searching network, please wait..." />
+<wording id="Warning_CloseUI_Calling_str" text="There is a call not end !" />
+<wording id="Warning_CannotDial_NotEmergencyCall_str" text="Only can dial emergency number !" />
+<wording id="Warning_DeleteAPN_str" text="Are you sure to delete selected item(s)?" />
+<wording id="Warning_DeleteCR_str" text="Record(s) will be deleted, continue?" />
+<wording id="Warning_ClearCR_str" text="Record(s) will be cleared, continue?" />
+<wording id="Warning_SameAPN_str" text="The profile name already exists. Please rename!" />
+<wording id="Warning_EmptyAPN_str" text="Profile name can't be empty!" />
+<wording id="Warning_PhonebookCheckEmail_str" text="Invalid email format!" />
+<wording id="Warning_PhonebookCheckRequire_str" text="Please enter Name and Mobile Phone!" />
+<wording id="Warning_PhonebookCheckDeleteContacts_str" text="Do you want to delete selected item(s)?" />
+<wording id="Warning_PhonebookCheckDeleteGroup_str" text="Do you want to delete selected group(s)?" />
+<wording id="Warning_PhonebookMoveItemConfirm_str" text="The item(s) you selected will be copied, and some info will be lost!" />
+<wording id="Warning_PhonebookSameGroup_str" text="The groupname already exists." />
+<wording id="Warning_PhonebookEmptyGroup_str" text="Group name can't be empty." />
+<wording id="Warning_PhonebookSuccess_str" text="Success" />
+<wording id="Warning_PhonebookFailed_str" text="Failed" />
+<wording id="Warning_PhonebookNameIsTooLong_str" text="The name of contact(%1) is too long, and can not be copied" />
+<wording id="Warning_PhonebookNumIsTooLong_str" text="The phone number of contact(%1) is too long, and can not be copied" />
+<wording id="Warning_SmsSuccess_str" text="Success" />
+<wording id="Warning_SmsFailed_str" text="Failed" />
+<wording id="Warning_PCFull_str" text="PC is full!" />
+<wording id="Warning_SimFull_str" text="SIM is full!" />
+<wording id="Warning_SimSmsFull_str" text="SIM is full!" />
+<wording id="Warning_PhonebookCopyToPcSuccessCount_str" text="Successfully copied %1 contact(s) to Local!" />
+<wording id="Warning_PhonebookCopyToSimSuccessCount_str" text="Successfully copied %1 contact(s) to SIM!" />
+<wording id="Warning_Title_Alert_str" text="Alert" />
+<wording id="Warning_Disconnect_TurnOnAirplaneMode_str" text="Do you want to disconnect the network and turn on airplane mode?" />
+<wording id="PhoneBook_labelContactsSum_Str" text="Quantity of Contacts: %1" />
+<wording id="PhoneBook_labelPcCapacity_Str" text="%1 capacity:%2/%3" />
+
+<wording id="SMS_Sending_Str" text= "Sending..." />
+<wording id="SMS_SendTo_Str" text= "To:" />
+<wording id="SMS_SendTotal_Str" text= "Sent total" />
+<wording id="SMS_SendSuccess_Str" text= "Succeeded" />
+<wording id="SMS_SendFailed_Str" text= "Failed" />
+<wording id="SMS_SendFailedRepeat_Str" text= "Retry send" />
+<wording id="SMS_SendNumberExceed_Str" text="Sorry, we can only choose 20 numbers." />
+<wording id="SMS_CotentsInfo_Str" text="Info:" />
+<wording id="SMS_Send_Report_Failed" text= "Send failed to: %1 " />
+<wording id="SMS_Send_Failed_ForChatSession" text= "Sent failed" />
+<wording id="SMS_Send_Report_Succeed" text= "Send successfully to: %1 " />
+<wording id="SMS_NewSMS_Tip_STR" text= "You have a new SMS" />
+<wording id="SMS_Delete_Selected_ms" text= "Do you want to delete %1 SMS?" />
+<wording id="SMS_Copy_Selected_ms" text= "Do you want to copy %1 SMS?" />
+<wording id="SMS_Delete_Item_Str" text= "Do you want to delete selected SMS?" />
+<wording id="SMS_Copy_Item_Str" text= "Do you want to copy selected SMS to SIM?" />
+<wording id="SMS_Copy_To_PC_Item_Str" text= "Do you want to copy the selected SMS to PC?" />
+<wording id="SMS_Copy_Result" text= "%1 SMS copied, %2 failed" />
+<wording id="SMS_Delete_SelectedItem_Str" text= "Do you want to delete selected SMS?" />
+<wording id="SMS_Delete_Result" text= "%1 SMS deleted, %2 failed" />
+<wording id="SMS_Revert_Selected_ms" text= "Do you want to restore %1 SMS?" />
+<wording id="SMS_Revert_Result" text= "%1 SMS restored, %2 failed" />
+<wording id="SMS_Move_Result" text= "%1 SMS moved, %2 failed" />
+<wording id="SMS_Transfer_Selected_ms" text= "Do you want to transfer SMS selected?" />
+<wording id="SMS_ContentsExceed_Str" text="SMS length exceed!" />
+<wording id="SMS_ChatMode_Str" text="Conversation Mode" />
+<wording id="SMS_BoxMode_Str" text="Classic Mode" />
+<wording id="SMS_SaveNumber_Str" text="Save Number" />
+<wording id="SMS_ViewChat_Str" text="View Conversations" />
+<wording id="SMS_ReSend_Str" text="Retry send" />
+<wording id="SMS_Delete_Str" text="Delete" />
+<wording id="SMS_Copy_Str" text="Copy to SIM Card" />
+<wording id="SMS_Call_Str" text="Call" />
+<wording id="SMS_Draft_Str" text="Draft" />
+<wording id="SMS_Me_Str" text="Me" />
+<wording id="SMS_Forward_Str" text="Forward" />
+<wording id="SMS_Copy_Succeed" text= "Copy success" />
+<wording id="SMS_Copy_Failed" text= "Copy failed" />
+
+<wording id="SMS_NumberEmpty_Str" text="Please enter at least one recipient." />
+<wording id="SMS_WarningDropSms_Str" text="A draft with the number already exists, do you want to replace?" />
+<wording id="SMS_WarningSaveDraft_Str" text="The message(s) have been saved as draft." />
+<wording id="SMS_WarningSendEmptySms_Str" text="Do you want to send empty SMS?" />
+<wording id="PhoneBook_labelSimCapacity_Str" text="%1 capacity:%2/%3" />
+<wording id="PhoneBook_UpLoadPhoto_Str" text="Upload Photo" />
+<wording id="PhoneBook_SIM_Str" text="SIM" />
+<wording id="PhoneBook_PC_Str" text="PC" />
+<wording id="PB_Menu_Name" text="Name" />
+<wording id="PB_Menu_MobilePhone" text="Mobile Phone" />
+<wording id="PB_Menu_HomePhone" text="Home Phone" />
+<wording id="PB_Menu_OfficePhone" text="Office Phone" />
+<wording id="PB_Menu_Email" text="Email" />
+<wording id="PB_Menu_Notes" text="Notes" />
+<wording id="PbGroup_Menu_Sms" text="SMS" />
+<wording id="PbGroup_Menu_Move" text="Move" />
+<wording id="PbGroup_Menu_Export" text="Export to File" />
+<wording id="PbGroup_Menu_Edit" text="Edit" />
+<wording id="PbGroup_Menu_Delete" text="Delete" />
+<wording id="PbGroup_Menu_Capacity" text="Capacity" />
+<wording id="PbGroup_Sms_Str" text="SMS" />
+<wording id="PbGroup_Edit_Str" text="Edit" />
+<wording id="PbGroup_Delete_Str" text="Delete" />
+<wording id="PbGroup_MoveToOthers_Str" text="Move to others" />
+<wording id="Time_Today_Str" text="Today" />
+<wording id="Time_Yesterday_Str" text="Yesterday" />
+
+<wording id="Warning_Settings_Success_Str" text="Set success!" />
+<wording id="Warning_Settings_Failed_Str" text="Failed to set" />
+<wording id="NetworkStatus_Unknown_Str" text="Unknown" />
+<wording id="NetworkStatus_Available_Str" text="Available" />
+<wording id="NetworkStatus_Current_Str" text="Current" />
+<wording id="NetworkStatus_Forbidden_Str" text="Forbidden" />
+<wording id="NetworkType_2G_Str" text="2G" />
+<wording id="NetworkType_3G_Str" text="3G" />
+<wording id="NetworkType_H_Str" text="H" />
+<wording id="NetworkType_HP_Str" text="H+" />
+<wording id="NetworkType_4G_Str" text="4G" />
+<wording id="Network_Status_Str" text="Network Status" />
+<wording id="Network_Operator_Str" text="Operator" />
+<wording id="Network_Type_Str" text="Network Type" />
+<wording id="Network_Code_Str" text="MCC+MNC" />
+<wording id="ConnectRecord_Clear_All_Str" text="Do you want to clear all records?" />
+<wording id="Warning_SameUssdName_str" text="The USSD Name already exists. Please rename." />
+<wording id="Warning_ApnNull_str" text="Not found a suitable APN corresponding to the SIM/USIM inserted, so the current default APN is empty." />
+<wording id="Internet_Connect_Str" text="Connect" />
+<wording id="Internet_Cancel_Str" text="Cancel" />
+<wording id="Internet_Connecting_Str" text="Status: Connecting..." />
+<wording id="Internet_Disconnect_Str" text="Disconnect" />
+<wording id="Internet_Disconnecting_Str" text="Status: Disconnecting..." />
+<wording id="Internet_Connected_Str" text="Status: Connected" />
+<wording id="Internet_Disconnected_Str" text="Status: Disconnected" />
+<wording id="Internet_Record_Str" text="Internet connection records" />
+<wording id="Internet_ConnectFailed_Str" text="Connect failed" />
+<wording id="Internet_ChangAPN_Str" text="Change APN" />
+<wording id="Internet_Internet_Str" text="Network Connection" />
+<wording id="Internet_UnitKbyte_Str" text="KB" />
+<wording id="Internet_UnitMbyte_Str" text="MB" />
+<wording id="Internet_UnitGbyte_Str" text="GB" />
+<wording id="Internet_UnitKbit_Str" text="Kb" />
+<wording id="Internet_UnitMbit_Str" text="Mb" />
+<wording id="Internet_UnitGbit_Str" text="Gb" />
+<wording id="Internet_UnitKbps_Str" text="Kbps" />
+<wording id="Internet_UnitMbps_Str" text="Mbps" />
+<wording id="Internet_UnitGbps_Str" text="Gbps" />
+<wording id="Internet_Connect_Tip" text="Click to connect" />
+<wording id="Internet_Cancel_Tip" text="Click to cancel" />
+<wording id="Internet_Disconnect_Tip" text="Click to disconnect" />
+<wording id="USSD_SendTimeOut_Str" text="Time out for network connection!" />
+<wording id="USSD_SendPromptUser_Str" text="Processing, please wait..." />
+<wording id="Warning_UssdNameNotNull_str" text="Name and command can't be empty !" />
+<wording id="Warning_UssdCode_NotNull_Str" text="The code can't be empty!" />
+<wording id="Warning_SelectUssdCommand_str" text="Please select a command first !" />
+<wording id="Warning_ConnectionFail_str" text="Connect failed" />
+<wording id="Languageselect_Successful_str" text="Set success!" />
+<wording id="Warning_Roam_Connect_str" text="Cost will be increased at roaming status,continue?" />
+
+<!-- 12.05.09 Modify by shanguan SettingForm-->
+<wording id="SettingForm_pushButtonSecuritySettings_Str" text="Security Setting" />
+<wording id="SettingForm_pushButtonConnectionSettings_Str" text="       Profile Management" />
+<wording id="SettingForm_pushButtonNetworkSettings_Str" text="       Network Setting" />
+<wording id="SettingForm_pushButtonMessageSettings_Str" text="       Text Message" />
+<wording id="SettingForm_pushButtonAlertSettings_Str" text="       Sound" />
+<wording id="SettingForm_pushButtonDataLimitSettings_Str" text="Data Limit Settings" />
+<wording id="SettingForm_pushButtonDiagnose_Str" text="Diagnose" />
+<wording id="SettingForm_pushButtonConnectDataGraph_Str" text="Data Use Chart" />
+<wording id="SettingForm_pushButtonLanguageChange_Str" text="Language Settings" />
+<wording id="SettingForm_pushButtonSysSettings_Str" text="       General" />
+<wording id="SettingForm_pushButtonUpdateSettings_Str" text="      Update Settings" />
+<wording id="LanguageChangeButton" text="Select Language" />
+<wording id="UssdFormSend_pushButtonSend_Str" text="Send" />
+<wording id="UssdFormSend_pushButtonEdit_Str" text="Edit" />
+<wording id="UssdFormSend_pushButtonCancel_Str" text="Cancel" />
+<wording id="UssdFormSend_labelUssdInformation_Str" text="Information" />
+<wording id="UssdFormSend_labelUssdOptions_Str" text="Options" />
+<wording id="UssdFormSend_labelUssdCode_Str" text="Code" />
+<wording id="UssdFormEdit_pushButtonUssdAdd_Str" text="Add" />
+<wording id="UssdFormEdit_pushButtonUssdEdit_Str" text="Edit" />
+<wording id="UssdFormEdit_pushButtonUssdDelete_Str" text="Delete" />
+<wording id="UssdFormEdit_pushButtonUssdApply_Str" text="Apply" />
+<wording id="UssdFormEdit_pushButtonUssdEditClose_Str" text="Back" />
+<wording id="UssdFormEdit_labelCommandList_Str" text="Command List" />
+<wording id="UssdFormEdit_labelUssdName_Str" text="Name" />
+<wording id="UssdFormEdit_labelUssdCode_Str" text="Code" />
+<wording id="UssdFormEdit_labelUssdInfo_Str" text="Information" />
+
+<!-- 12.05.09 Modify by shanguan SecuritySettings-->
+<wording id="SecuritySettings_pushButtonChangePIN_Str" text="Change PIN" />
+<wording id="SecuritySettings_pushButtonBackup_Str" text="Backup" />
+<wording id="SecuritySettings_pushButtonResume_Str" text="Resume" />
+<wording id="SecuritySettings_pushButtonApply_Str" text="Apply" />
+<wording id="SecuritySettings_pushButtonCancel_Str" text="Cancel" />
+<wording id="SecuritySettings_checkBoxPINenable_Str" text="PIN enable" />
+<wording id="SecuritySettings_labelchange_Str" text="Backup Contacts and SMS of PC" />
+<wording id="SecuritySettings_checkBoxPinAutoValid_Str" text="PIN auto validation" />
+<!-- 12.06.13 add by weiwei -->
+<wording id="SecuritySettings_labelSecuritySettings_Str" text="Security Settings" />
+<wording id="SecuritySettings_labelPINSetting_Str" text="PIN Settings:" />
+<wording id="SecuritySettings_labelPINSwitch_Str" text="PIN Switch:" />
+<wording id="SecuritySettings_radioButtonPINDisable_Str" text="Disable" />
+<wording id="SecuritySettings_radioButtonPINEnable_Str" text="Enable" />
+<wording id="SecuritySettings_pushButtonBack_Str" text="Back" />
+<wording id="SecuritySettings_labelUpdateSetting_Str" text="Update Settings:" />
+<wording id="SecuritySettings_labelServer_Str" text="Server:" />
+<wording id="SecuritySettings_checkBoxAutoUpdate_Str" text="Auto Update" />
+<wording id="SecuritySettings_labelUpdateFrequence_Str" text="Update Frequency" />
+<wording id="SecuritySettings_pushButtonApplyUpdate_Str" text="Apply" />
+<wording id="SecuritySettings_pushButtonManualUpdate_Str" text="Update Now" />
+<wording id="SecuritySettings_ItemTextUpdateNever_Str" text="Never" />
+<wording id="SecuritySettings_ItemTextUpdateMonth_Str" text="Every Month" />
+<wording id="SecuritySettings_ItemTextUpdateHalfMonth_Str" text="Every Two Weeks" />
+<wording id="SecuritySettings_ItemTextUpdateDay_Str" text="Every Day" />
+
+<wording id="InputPinForm_labelPIncode_Str" text="Please enter PIN:" />
+<wording id="InputPinForm_labelPInCode_Wrong_Str" text="Incorrect PIN entered, please retry:" />
+<wording id="InputPinForm_labelLeftTime_Str" text="%1 attempt(s) left." />
+<wording id="InputPinForm_labelPINTimesLeftOnce_Str" text="Final attempt. And your SIM card will be locked if incorrect again" />
+<wording id="InputPinForm_pushButtonOk_Str" text="OK" />
+<wording id="InputPinForm_pushButtonCancel_Str" text="Cancel" />
+<wording id="InputPinForm_checkBoxPinAntoCheck_Str" text="PIN auto validation" />
+
+<wording id="ChangePin_labelOldPin_Str" text="Please enter old PIN:" />
+<wording id="ChangePin_labelNewPin_Str" text="Please enter new PIN:" />
+<wording id="ChangePin_labelNewPinAgain_Str" text="Please confirm new PIN:" />
+<wording id="ChangePin_labelLeftTime_Str" text="%1 attempt(s) left." />
+<wording id="ChangePin_pushButtonCancel_Str" text="Cancel" />
+
+<wording id="InputPukForm_labelPUK_Str" text="Your SIM card is locked, Please enter PUK code:" />
+<wording id="InputPukForm_labelLeftTimes_Str" text="You have %1 attempt(s). And you can contact your operator for PUK." />
+<wording id="InputPukForm_labelPIN_Str" text="Please enter new PIN:" />
+<wording id="InputPukForm_labelNewPIN_Str" text="Please confirm new PIN:" />
+<wording id="InputPukForm_pushButtonOK_Str" text="OK" />
+<wording id="InputPukForm_pushButtonCancel_Str" text="Cancel" />
+<wording id="InputPukForm_labelPukTimesLeftOnce_Str" text="Fianl attempt. And your SIM card will be locked permanently if incorrect again!" />
+
+<wording id="Warning_Simcard_Locked_Str" text="Your SIM card is locked!" />
+<wording id="Warning_SIM_Invalid_Str" text="Invalid SIM" />
+<wording id="SIM_Unlock_Times_Str" text="Remaining attempts %1." />
+<wording id="Warning_Unlock_Input_str" text="Unlock code must be 16 characters." />
+<wording id="Warning_Unlock_Failed_Str" text="Incorrect unlock code!" />
+<wording id="InputLockNetForm_pushButtonCancel_Str" text="Cancel" />
+<wording id="InputLockNetForm_pushButtonOK_Str" text="OK" />
+<wording id="InputLockNetForm_labelIMEI_Str" text="Your Device IMEI Code is" />
+<wording id="InputLockNetForm_labelUnlockCode_Str" text="Input Unlock code:" />
+<wording id="InputLockNetForm_labelWidgetInputLockNet_Str" text="UNLOCK USIM:" />
+
+
+<!-- 12.05.09 Modify by shanguan ConnectionSettings-->
+<wording id="ConnectionSettings_groupBox_Str" text="Profile" />
+<wording id="ConnectionSettings_pushButtonAdd_Str" text="Add" />
+<wording id="ConnectionSettings_labelDefaultProfile_Str" text="Default profile" />
+<wording id="SettingConnectionfrom_pushButtonEdit_Str" text="Edit" />
+<wording id="ConnectionSettings_pushButtonDelete_Str" text="Delete" />
+<wording id="ConnectionSettings_pushButtonSetdefault_Str" text="Default" />
+<wording id="SettingConnectionfrom_ViewPushButton_Str" text="View" />
+<wording id="ConnectionSettings_labelConfig_Str" text="Config" />
+<wording id="ConnectionSettings_labelConnectionType_Str" text="Connection Type:" />
+<wording id="Warning_EmptyAPNAddress_str" text="APN Parameter(s) Incorrect!" />
+
+<!-- 12.05.09 Modify by shanguan network setting-->
+<wording id="NetworkSettings_radioButtonAutomatic_Str" text="Automatic" />
+<wording id="NetworkSettings_radioButtonManual_Str" text="Manual" />
+<wording id="NetworkSettings_groupBoxSelectionMode_str" text="Network selection" />
+<wording id="NetworkSettings_groupBoxModePreference_str" text="Mode Preference" />
+<wording id="NetworkSettings_pushButtonApply_str" text="Apply" />
+<wording id="NetworkSettings_pushButtonCancel_str" text="Cancel" />
+<wording id="NetworkSettings_radioButtonUMTSOrLTEpre_str" text="Automatic" />
+<wording id="NetworkSettings_radioButtonGPRSpre_str" text="GPRS/EDGE Preferred" />
+<wording id="NetworkSettings_radioButtonUMTSonly_str" text="3G Only" />
+<wording id="NetworkSettings_radioButtonGPRSonle_str" text="GPRS/EDGE Only" />
+<wording id="NetworkSettings_labelSearching_Str" text="Searching network......" />
+<wording id="NetworkSettings_labelRegistering_Str" text="Registering network......" />
+<wording id="NetworkSettings_pushButtonSearch_Str" text="Search" />
+<wording id="NetworkSearchResult_Select_Str" text="Register" />
+<wording id="NetworkSettings_comboBoxAuto_Str" text="Automatic" />
+<wording id="NetworkSettings_comboBox3GOnly_Str" text="3G Only" />
+<wording id="NetworkSettings_comboBox2GOnly_Str" text="2G Only" />
+<wording id="NetworkSettings_comboBoxLTEOnly_Str" text="4G Only" />
+<wording id="NetworkSettings_NoUsageNetHint_Str" text="Please revert to ' LTE preferred ' of Mode preference As the device cannot find any acceptable cell." />
+<wording id="NetworkSearch_Search_Str" text="Searching, please wait..." />
+<wording id="NetWorkSearch_Register_Str" text="Registering, please wait..." />
+<wording id="NetworkSearchResult_Refresh_Str" text="Refresh" />
+<wording id="NetworkSearchResult_Title_Str" text="Manual Network Selection" />
+<wording id="NetworkSearchResult_Exit_Str" text="Exit" />
+<wording id="NetworkSearchResult_Cancel_Str" text="Cancel" />
+
+<!-- 12.05.08 Modify by shanguan Alert setting-->
+<wording id="AlertSettings_pushButtonConnectalert_Str" text="Browse" />
+<wording id="AlertSettings_pushButtonListenConnect_Str" text="Play" />
+<wording id="AlertSettings_pushButtonDisconnectalert_Str" text="Browse" />
+<wording id="AlertSettings_pushButtonListenDisconnect_Str" text="Play" />
+<wording id="AlertSettings_pushButtonCallalert_Str" text="Browse" />
+<wording id="AlertSettings_pushButtonListenCall_Str" text="Play" />
+<wording id="AlertSettings_pushButtonSMSalert_Str" text="Browse" />
+<wording id="AlertSettings_pushButtonListenSms_Str" text="Play" />
+<wording id="AlertSettings_pushButtonApply_Str" text="Apply" />
+<wording id="AlertSettings_pushButtonCancel_Str" text="Cancel" />
+<wording id="AlertSettings_checkBoxConnectalert_2_Str" text="Mute" />
+<wording id="AlertSettings_checkBoxDisconnectalert_2_Str" text="Mute" />
+<wording id="AlertSettings_checkBoxCall_Str" text="Mute" />
+<wording id="AlertSettings_checkBoxComingalert_2_Str" text="Mute" />
+<wording id="AlertSettings_checkBoxPersonalCallAlert_Str" text="Custom" />
+<wording id="AlertSettings_checkBoxPersonalSmsAlert_Str" text="Custom" />
+<wording id="AlertSettings_labelConnectalert_2_Str" text="Connection Alert" />
+<wording id="AlertSettings_labelDisconnectalert_2_Str" text="Disconnection Alert" />
+<wording id="AlertSettings_labelCallalert_Str" text="Incoming Call Alert" />
+<wording id="AlertSettings_labelSMSalert_Str" text="New SMS Alert" />
+<!-- 12.05.09 Modify by shanguan SMS setting-->
+<wording id="MessageSettings_labelSmsSetting_Str" text="SMS Settings"/>
+<wording id="MessageSettings_pushButtonApply_Str" text="Apply"/>
+<wording id="MessageSettings_pushButtonCancel_Str" text="Cancel" />
+<wording id="MessageSettings_labelMessageCenter_Str" text="Message Center" />
+<wording id="MessageSettings_labelSavein_Str" text="Save Location for New SMS" />
+<wording id="MessageSettings_labelDeliveryReport_Str" text="Delivery Report" />
+<wording id="MessageSettings_groupBoxDeliveryReriod_Str" text="Delivery report" />
+<wording id="MessageSettings_radioButtonTurnOn_Str" text="On" />
+<wording id="MessageSettings_radioButtonTurnOff_Str" text="Off" />
+<wording id="MessageSettings_labelValidityPeriod_Str" text="Validity Period" />
+<wording id="MessageSettings_checkBoxSignEnable_Str" text="Enable Signature" />
+<wording id="SettingSMSForm_ComboBoxSaveLocation0_Str" text="Save to SIM" />
+<wording id="SettingSMSForm_ComboBoxSaveLocation1_Str" text="Save to Local" />
+<wording id="SettingSMSForm_ComboBoxSaveLocation2_Str" text="Default" />
+<wording id="SettingSMSForm_ComboBoxStoreTimeSpan0_Str" text="12 Hours" />
+<wording id="SettingSMSForm_ComboBoxStoreTimeSpan1_Str" text="1 Day" />
+<wording id="SettingSMSForm_ComboBoxStoreTimeSpan2_Str" text="1 Week" />
+<wording id="SettingSMSForm_ComboBoxStoreTimeSpan3_Str" text="The longest period" />
+<wording id="LanguageChangeForm_labelSelectLanguage_Str" text="Select Language" />
+
+<!-- notice need not translate these language -->
+<wording id="LanguageName_English" text="English" />
+
+<wording id="LanguageName_Portuguese" text="Português" />
+
+<!-- 12.07.11 Modify by zhangshuai Diagnostics Network Information-->
+<wording id="SettingDiagnostics_Network_PS_Str" text="PS Registration" />
+<wording id="SettingDiagnostics_Network_CS_Str" text="CS Registration" />
+<wording id="SettingDiagnostics_Network_signal_Str" text="Signal Strength" />
+<wording id="SettingDiagnostics_Network_networkmode_Str" text="Network Mode" />
+<wording id="SettingDiagnostics_Network_networkname_Str" text="Network Name" />
+<wording id="SettingDiagnostics_Network_networktype_Str" text="Network Type" />
+<wording id="SettingDiagnostics_Network_cellid_Str" text="Cell ID" />
+<wording id="SettingDiagnostics_Network_lac_Str" text="LAC" />
+<wording id="SettingDiagnostics_Network_rssi_Str" text="RSSI" />
+<wording id="SettingDiagnostics_Network_rscp_Str" text="RSCP" />
+<wording id="SettingDiagnostics_Network_ecio_Str" text="EC/IO" />
+<wording id="SettingDiagnostics_Network_apn_Str" text="APN" />
+<wording id="SettingDiagnostics_Network_dialnum_Str" text="Dial Number" />
+<wording id="SettingDiagnostics_Network_connection_Str" text="Network Connection" />
+<wording id="SettingDiagnostics_Network_upload_Str" text="Uploaded" />
+<wording id="SettingDiagnostics_Network_down_Str" text="Downloaded" />
+<wording id="SettingDiagnostics_Network_connecttime_Str" text="Connect Time" />
+<wording id="SettingDiagnostics_Network_ip_Str" text="IP Address" />
+<wording id="SettingDiagnostics_Network_maindns_Str" text="Primary DNS" />
+<wording id="SettingDiagnostics_Network_secdns_Str" text="Secondary DNS" />
+<wording id="SettingDiagnostics_Network_title_Str" text="Network Info" />
+<wording id="SettingDiagnostics_Registerd" text="Registered" />
+<wording id="SettingDiagnostics_NoRegisterd" text="Not Registered" />
+<wording id="SettingDiagnostics_No_Service" text="No Service" />
+<wording id="SettingDiagnostics_pushButtonOpen_Str" text="Open" />
+
+<!-- 12.07.11 Modify by zhangshuai Diagnostics Hardware Information-->
+<wording id="SettingDiagnostics_HardWare_modemstatus_Str" text="Modem Status" />
+<wording id="SettingDiagnostics_HardWare_appport_Str" text="Application Port" />
+<wording id="SettingDiagnostics_HardWare_imei_Str" text="IMEI Number:" />
+<wording id="SettingDiagnostics_HardWare_driver_Str" text="Driver Version" />
+<wording id="SettingDiagnostics_HardWare_firmware_Str" text="Firmware Version:" />
+<wording id="SettingDiagnostics_HardWare_hardware_Str" text="Hardware Version:" />
+<wording id="SettingDiagnostics_HardWare_devicenum_Str" text="Device Serial Number" />
+<wording id="SettingDiagnostics_HardWare_modemmodel_Str" text="Model:" />
+<wording id="SettingDiagnostics_HardWare_manufacture_Str" text="Manufacturer" />
+<wording id="SettingDiagnostics_HardWare_software_Str" text="PC Software Version:" />
+<wording id="SettingDiagnostics_HardWare_system_Str" text="Current System" />
+<wording id="SettingDiagnostics_HardWare_language_Str" text="Language" />
+<wording id="SettingDiagnostics_HardWare_title_Str" text="Hardware Info" />
+
+<!-- 12.07.11 Modify by zhangshuai Diagnostics Sim Information-->
+<wording id="SettingDiagnostics_Sim_simstatus_Str" text="SIM Status" />
+<wording id="SettingDiagnostics_Sim_sms_Str" text="Messages in USIM:" />
+<wording id="SettingDiagnostics_Sim_phonebook_Str" text="Contacts in USIM:" />
+<wording id="SettingDiagnostics_Sim_pin_Str" text="PIN Status" />
+<wording id="SettingDiagnostics_Sim_roam_Str" text="Roaming Status" />
+<wording id="SettingDiagnostics_Sim_phonenum_Str" text="Service number:" />
+<wording id="SettingDiagnostics_Sim_smscenternum_Str" text="SMS Center Number" />
+<wording id="SettingDiagnostics_Sim_hplmn_Str" text="SPN" />
+<wording id="SettingDiagnostics_Sim_imsi_Str" text="IMSI" />
+<wording id="SettingDiagnostics_PIN_Enabled_Str" text="Enabled" />
+<wording id="SettingDiagnostics_PIN_Disabled_Str" text="Disabled" />
+<wording id="SettingDiagnostics_Sim_NotRoaming_Str" text="Not Roaming" />
+<wording id="SettingDiagnostics_Sim_title_Str" text="SIM Info" />
+<wording id="FormDiagnostics_pushButtonRefresh_Str" text="Refresh" />
+<wording id="SettingDiagnostics_Sim_title_Str" text="SIM Info" />
+
+<!-- 12.05.09 Modify by shanguan DataLimit -->
+<wording id="DataLimitSettings_checkBoxApplyVolumeLimit_Str" text="Please input data use limit" />
+<wording id="DataLimitSettings_radioButtonCommonAccumulation_Str" text="Regularly" />
+<wording id="DataLimitSettings_radioButtonCycleStatistics_Str" text="Periodically" />
+<wording id="DataLimitSettings_radioButtonCycleDay_Str" text="Daily" />
+<wording id="DataLimitSettings_radioButtonCycleWeek_Str" text="Weekly" />
+<wording id="DataLimitSettings_radioButtonCycleMonth_Str" text="Monthly" />
+<wording id="DataLimitSettings_labelLimitType_Str" text="Limit Type" />
+<wording id="DataLimitSettings_radioButtonTypeData_Str" text="Data" />
+<wording id="DataLimitSettings_labelLimitData_Str" text="MB" />
+<wording id="DataLimitSettings_radioButtonTypeTime_Str" text="Time" />
+<wording id="DataLimitSettings_labelLimitTime_Str" text="Hour(s)" />
+<wording id="DataLimitSettings_checkBoxWarnBeforeLimit_Str" text="Before Data Use Limit Is Reached" />
+<wording id="DataLimitSettings_checkBoxWarnReOrExLimit_Str" text="When Data Use Limit Is Reached or Exceeded" />
+<wording id="DataLimitSettings_pushButtonApply_Str" text="Apply" />
+<wording id="DataLimitSettings_pushButtonCancel_Str" text="Back" />
+<wording id="SettingDataLimit_InvalidData_Str" text="The data use limit is invalid!" />
+<wording id="SettingDataLimit_Comboxweekday_Str0" text="Mon" />
+<wording id="SettingDataLimit_Comboxweekday_Str1" text="Tue" />
+<wording id="SettingDataLimit_Comboxweekday_Str2" text="Wed" />
+<wording id="SettingDataLimit_Comboxweekday_Str3" text="Thu" />
+<wording id="SettingDataLimit_Comboxweekday_Str4" text="Fri" />
+<wording id="SettingDataLimit_Comboxweekday_Str5" text="Sat" />
+<wording id="SettingDataLimit_Comboxweekday_Str6" text="Sun" />
+<wording id="DataLimitSettings_comboBoxNoWarn_Str" text="Don't remind" />
+<wording id="DataLimitSettings_labelMonthDay_Str" text="Monthly Start at:" />
+<wording id="DataLimitSettings_labelFirstWarn_Str" text="First Reminder(%):" />
+<wording id="DataLimitSettings_labelSecondWarn_Str" text="Second Reminder(%):" />
+
+<!-- 12.05.09 Modify by shanguan ConnectionDataGrap-->
+
+
+<wording id="ConnectDataGraphForm_labelDay_Str" text="Day" />
+<wording id="ConnectDataGraphForm_labelMonth_Str" text="Month" />
+<wording id="ConnectDataGraphForm_labelUploadSpeed_Str" text="Upload Speed" />
+<wording id="ConnectDataGraphForm_labelDownloadSpeed_Str" text="Download Speed" />
+<wording id="ConnectDataGraphForm_labelUpLoad_Str" text="Upload" />
+<wording id="ConnectDataGraphForm_labelDownLoad_Str" text="Download" />
+<wording id="SettingConnectDataGrap_WarnBeforeLimit_Str" text="Data use limit will be reached!" />
+<wording id="SettingConnectDataGrap_WarnReachOrExceedLimit_Str" text="Data use limit is reached or exceeded, do you want to disconnect?" />
+<wording id="ConnectDataGraphForm_pushButtonRecords_Str" text="Records" />
+<wording id="ConnectDataGraphForm_pushButtonSetting_Str" text="Manage" />
+<wording id="ConnectDataGraphForm_labelNote_Str" text="Data usage is approximate. It is just for reference only." />
+<wording id="ConnectDataGraphForm_labelCurrentRate_Str" text="Current Rate" />
+<wording id="ConnectDataGraphForm_PercentWarn_Str" text="%1% of data use limit is reached or exceeded!" />
+
+
+<wording id="SmsChatForm_pushButtonNewSms_Tip" text="New Message" />
+<wording id="SmsChatForm_pushButtonDelete_Tip" text="Delete" />
+<wording id="SmsChatForm_pushButtonToolMenu_Tip" text="More" />
+<wording id="SmsChatForm_checkBoxSelect_Tip" text="Select All" />
+<wording id="SmsChatSessionForm_pushButtonSend_Str" text= "Send" />
+<wording id="SmsChatSessionForm_pushButtonBack_Str" text= "Back" />
+<wording id="SmsChatSessionForm_pushButtonDelete_Tip" text="Delete" />
+<wording id="SmsChatSessionForm_checkBoxSelect_Tip" text="Select All" />
+<wording id="SmsChatForm_lineEditSearch_Str" text= "Search" />
+<wording id="SmsChatForm_actionShowSimSms_Str" text= "SIM card" />
+
+<wording id="FormSmsChat_TableMenuSelectAll_Str" text="Select All" />
+<wording id="FormSmsChat_TableMenuUnselectAll_Str" text="Deselect All" />
+<wording id="FormSmsChat_TableMenuDelete_Str" text="Delete" />
+<wording id="FormSmsChat_TableMenuCall_Str" text="Call" />
+<wording id="FormSmsChat_TableMenuSaveNumber_Str" text="Save Number" />
+<wording id="FormSmsChat_TableMenuImport_Str" text= "Import SMS from txt File" />
+<wording id="FormSmsChat_TableMenuExport_Str" text= "Export Selected SMS to txt File" />
+<wording id="FormSmsChat_TableMenuSmsSetting_Str" text= "SMS Settings" />
+<wording id="FormSmsChat_TableMenuSmsCapacity_Str" text= "Capacity" />
+
+<wording id="SmsCapacityForm_labelSmsCapacity_Str" text= "SMS Capacity Info" />
+<wording id="SmsCapacityForm_pushButtonCancel_Str" text= "Back" />
+
+<!-- 12.05.10  SMSFormSmsMasterPlate -->
+<wording id="SmsMasterplateForm_pushButtonOK_Str" text="OK" />
+<wording id="SmsMasterplateForm_pushButtonCancel_Str" text="Cancel" />
+<wording id="SmsMasterplateForm_pushButtonDelete_Str" text="Delete" />
+<wording id="SmsMasterplateForm_pushButtonEdit_Str" text="Edit" />
+<wording id="SmsMasterplateForm_pushButtonAdd_Str" text="Add" />
+<wording id="SmsMasterplateForm_pushButtonOKPage2_Str" text="OK" />
+<wording id="SmsMasterplateForm_pushButtonCancelPage2_Str" text="Cancel" />
+<wording id="SmsMasterplateForm_FirstColumn_Str" text="No." />
+<wording id="SmsMasterplateForm_SecondColumn_Str" text="Content" />
+
+<!-- 12.05.07  SMSFormSms -->
+<wording id="SMSFormSms_PCTree_Str0" text="Local" />
+<wording id="SMSFormSms_PCTree_Str1" text="Inbox" />
+<wording id="SMSFormSms_PCTree_Str2" text="Outbox" />
+<wording id="SMSFormSms_PCTree_Str3" text="Draftbox" />
+<wording id="SMSFormSms_PCTree_Str4" text="Reportbox" />
+<wording id="SMSFormSms_PCTree_Str5" text="Trashbox" />
+<wording id="SMSFormSms_PCTree_Str6" text="Importantbox" />
+<wording id="SMSFormSms_SIMTreeNode_Str" text="SIM" />
+<wording id="SMSFormSms_SIMTreeInbox_Str" text="Inbox" />
+<wording id="SMSFormSms_SIMTreeOutbox_Str" text="Outbox" />
+<wording id="SMSFormSms_SIMTreeDraftbox_Str" text="Draftbox" />
+<!-- 12.07.11  SMSSimList -->
+<wording id="SmsSimListForm_ActionDel_Str" text="Delete" />
+<wording id="SmsSimListForm_ActionView_Str" text="View" />
+<wording id="SmsSimListForm_ActionCopy_Str" text="Copy to PC" />
+<wording id="SmsSimListForm_From_Str" text="From:" />
+<wording id="SmsSimListForm_To_Str" text="To:" />
+<wording id="SmsSimListForm_Draft_Str" text="Draft:" />
+<wording id="SmsSimListForm_labelTitle_Str" text="SIM SMS" />
+<wording id="SmsSimListForm_pushButtonBack_Str" text="Back" />
+
+<wording id="SMSFormSms_pushButtonInBox_Str" text="Inbox" />
+<wording id="SMSFormSms_pushButtonOutBox_Str" text="Sent" />
+<wording id="SMSFormSms_pushButtonDraftBox_Str" text="Drafts" />
+<wording id="SMSFormSms_pushButtonDeliveryReportBox_Str" text="Delivery report" />
+<wording id="SMSFormSms_pushButtonNewMessage_Str" text="New Message" />
+<wording id="SMSFormSms_MainTitleSMSMain_Str" text="SMS" />
+<wording id="SMSFormSms_MainTitleInBox_Str" text="SMS-Inbox" />
+<wording id="SMSFormSms_MainTitleOutBox_Str" text="SMS-Sent" />
+<wording id="SMSFormSms_MainTitleDraftBox_Str" text="SMS-Drafts" />
+<wording id="SMSFormSms_MainTitleDeliveryReportBox_Str" text="SMS-Delivery report" />
+<wording id="SMSFormSms_MainTitleNewMessage_Str" text="SMS-New Message" />
+<wording id="SMSFormSms_MainTitleReadMessage_Str" text="Read Message" />
+
+<wording id="SMSFormSms_TextBrowserSMScount_Str" text="SMS count:" />
+
+<!-- 12.05.07  FormPhonebook -->
+
+<wording id="Warning_PhonebookExceedMaxLengthGroup_str" text="Too long, some info will be lost!" />
+<wording id="PhonebookForm_pushButtonSearchPhone_Tip" text="Search" />
+<wording id="FormPhonebook_DefaultNewGroupName_Str" text="New Group" />
+<wording id="PhonebookForm_pushButtonNew_Tip" text="New" />
+<wording id="PhonebookForm_pushButtonView_Str" text="View" />
+<wording id="PhonebookForm_pushButtonDelete_Tip" text="Delete" />
+<wording id="PhonebookForm_pushButtonDial_Tip" text="Call" />
+<wording id="PhonebookForm_pushButtonSMS_Tip" text="SMS" />
+<wording id="PhonebookForm_pushButtonSaveas_Str" text="Save as" />
+<wording id="PhonebookForm_pushButtonEdit_Tip" text="Edit" />
+<wording id="PhonebookForm_pushButtonChangeMode_Str" text="List Mode" />
+<wording id="FormPhonebook_PictureColumn_Str" text="   " />
+<wording id="FormPhonebook_NameColumn_Str" text="Name" />
+<wording id="FormPhonebook_MobilePhoneColumn_Str" text="Mobile Phone" />
+<wording id="FormPhonebook_HomePhoneColumn_Str" text="Home Phone " />
+<wording id="FormPhonebook_OfficePhoneColumn_Str" text="Office Phone " />
+<wording id="FormPhonebook_EmailColumn_Str" text="Email " />
+<wording id="FormPhonebook_GroupsColumn_Str" text="Group" />
+<wording id="FormPhonebook_SoundColumn_Str" text="Alert Tone" />
+<wording id="FormPhonebook_IdColumn_Str" text="ID" />
+<wording id="PhonebookListModeForm_pushButtonNew_Tip" text="New Contact" />
+<wording id="PhonebookListModeForm_pushButtonToolMenu_Tip" text="More" />
+<wording id="PhonebookListModeForm_pushButtonSms_Tip" text="Send Message" />
+<wording id="PhonebookListModeForm_checkBoxSelect_Tip" text="Select All" />
+
+<wording id="FormPhonebook_SwitchShowPCOrSimMenu_Str" text="Show" />
+<wording id="FormPhonebook_PCSideAct_Str" text="Local" />
+<wording id="FormPhonebook_SimSideAct_Str" text="SIM" />
+<wording id="FormPhonebook_PCAndSimAct_Str" text="All" />
+<wording id="FormPhonebook_GroupsAct_Str" text="Groups" />
+<wording id="FormPhonebook_DeleteAct_Str" text="Delete" />
+<wording id="FormPhonebook_CopyToSimAct_Str" text="Copy to SIM Card" />
+<wording id="FormPhonebook_CopyToPCAct_Str" text="Copy to Local" />
+<wording id="FormPhonebook_SaveasAct_Str" text="Export to File" />
+<wording id="FormPhonebook_ImportRecordAct_Str" text="Import from File" />
+<wording id="FormPhonebook_ExportToOutlookAct_Str" text="Export to Outlook" />
+<wording id="FormPhonebook_ImportFromOutlookAct_Str" text="Import from Outlook" />
+<wording id="FormPhonebook_ShowCapacityAct_Str" text="Capacity" />
+<wording id="FormPhonebook_pushButtonOK_Str" text="OK" />
+<wording id="FormPhonebook_pushButtonCancel_Str" text="Cancel" />
+<wording id="FormPhonebook_SearchLineEdit_Str" text="Search" />
+<wording id="FormPhonebook_DefaultPhoto_Str" text="Use Default" />
+<wording id="FormPhonebook_UserDefinedPhoto_Str" text="Upload from Local" />
+<wording id="FormPhonebook_PhotoMan_Str" text="Boy" />
+<wording id="FormPhonebook_PhotoWoman_Str" text="Girl" />
+<wording id="FormPhonebook_PhotoPreview_Str" text="Preview Avatar" />
+<wording id="FormPhonebook_PhotoSetting_Str" text="Avatar Settings" />
+<wording id="FormPhonebook_PhotoBrowse_Str" text="Browse" />
+
+<!-- 12.05.07  FormPhonebook Createcontact -->
+<wording id="CreateContactForm_label_Str" text="Save position" />
+<wording id="CreateContactForm_labelName_Str" text="Name" />
+<wording id="CreateContactForm_labelMobilePhone_Str" text="Mobile Phone" />
+<wording id="CreateContactForm_labelHomePhone_Str" text="Home Phone" />
+<wording id="CreateContactForm_labelOfficePhone_Str" text="Office Phone" />
+<wording id="CreateContactForm_labelEmail_Str" text="Email" />
+<wording id="CreateContactForm_labelGroup_Str" text="Group" />
+<wording id="CreateContactForm_labelNote_Str" text="Notes" />
+<wording id="CreateContactForm_label_8_Str" text="Alert Tone" />
+<wording id="CreateContactForm_pushButtonSoundScan_Str" text="Browse" />
+<wording id="CreateContactForm_pushButtonPlay_Str" text="Play" />
+<wording id="CreateContactForm_pushButtonOK_Str" text="OK" />
+<wording id="CreateContactForm_pushButtonCancel_Str" text="Cancel" />
+<wording id="CreateContactForm_radioButtonPC_Str" text="PC" />
+<wording id="CreateContactForm_radioButtonSIMCard_Str" text="USIM" />
+<wording id="CreateContactForm_pushButtonAddItem_Tip" text="Add" />
+<wording id="CreateContactForm_pushButtonMobilePhoneSms_Tip" text="Send Message" />
+<wording id="CreateContactForm_pushButtonMobilePhoneCall_Tip" text="Call" />
+<wording id="CreateContactForm_pushButtonDelHomePhone_Tip" text="Delete" />
+<wording id="CreateContactForm_pushButtonHomePhoneSms_Tip" text="Send Message" />
+<wording id="CreateContactForm_pushButtonHomePhoneCall_Tip" text="Call" />
+<wording id="CreateContactForm_pushButtonOfficePhone_Tip" text="Delete" />
+<wording id="CreateContactForm_pushButtonOfficePhoneSms_Tip" text="Send Message" />
+<wording id="CreateContactForm_pushButtonOfficePhoneCall_Tip" text="Call" />
+<wording id="CreateContactForm_pushButtonDelEmail_Tip" text="Delete" />
+<wording id="CreateContactForm_pushButtonDelNote_Tip" text="Delete" />
+<!--wording id="CreateContactForm_pushButtonPhoto_Tip" text="Avatar" /-->
+
+<!-- 12.05.10  FormPhonebook RightKeymenu -->
+<wording id="FormPhonebook_TableMenuEditContact_Str" text="Edit" />
+<wording id="FormPhonebook_TableMenuNewContact_Str" text="New" />
+<wording id="FormPhonebook_TableMenuSMS_Str" text="Send Message" />
+<wording id="FormPhonebook_TableMenuCut_Str" text="Cut" />
+<wording id="FormPhonebook_TableMenuCopy_Str" text="Copy" />
+<wording id="FormPhonebook_TableMenuPaste_Str" text="Paste" />
+<wording id="FormPhonebook_TableMenuSelectAll_Str" text="Select All" />
+<wording id="FormPhonebook_TableMenuUndoSelectAll_Str" text="Deselect All" />
+<wording id="FormPhonebook_TableMenuDelete_Str" text="Delete" />
+<wording id="FormPhonebook_TableMenuSaveas_Str" text="Save as" />
+<wording id="FormPhonebook_TableMenuImportRecord_Str" text="Import from File" />
+<wording id="FormPhonebook_TableMenuExportToOutlook_Str" text="Export to Outlook" />
+<wording id="FormPhonebook_TableMenuImportFromOutlook_Str" text="Import from Outlook" />
+<wording id="FormPhonebook_TableMenuCopyToPC_Str" text="Copy to Local" />
+<wording id="FormPhonebook_TableMenuCopyToSIM_Str" text="Copy to SIM Card" />
+<wording id="FormPhonebook_newContact_Str" text="New Contact" />
+<wording id="FormPhonebook_newGroup_Str" text="New Group" />
+<wording id="FormPhonebook_TreeMenuSendSms_Str" text="Send Message" />
+<wording id="FormPhonebook_TreeMenuEditGroup_Str" text="Edit Group" />
+<wording id="FormPhonebook_TreeMenuDeleteGroup_Str" text="Delete Group" />
+<wording id="FormPhonebook_pushButtonChangeModeList_Str" text="List Mode" />
+<wording id="FormPhonebook_pushButtonChangeModeClassic_Str" text="Classic Mode" />
+<wording id="PhonebookForm_SimGroupToTree_str" text="SIM" />
+<wording id="PhonebookForm_PcGroupToTree_str" text="PC" />
+<!-- 12.06.11  FormPbCapacity -->
+<wording id="FormPbCapacity_labelCapacityTitle_Str" text="Phonebook Capacity Info" />
+<wording id="FormPbCapacity_labelSIMCapacity_Str" text="SIM Card: (%1/%2)" />
+<wording id="FormPbCapacity_labelPCCapacity_Str" text="Local: (%1/%2)" />
+<wording id="FormPbCapacity_pushButtonBack_Str" text="Back" />
+
+<wording id="PhonebookGroup_checkBoxSelectAll_Tip" text="Select All" />
+<wording id="PhonebookGroup_pushButtonCancel_Str" text="Back" />
+<wording id="PhonebookGroup_pushButtonNewGroup_Tip" text="New Group" />
+<wording id="PhonebookGroup_pushButtonToolMenu_Tip" text="More" />
+<wording id="PhonebookGroup_pushButtonSms_Tip" text="Send Message" />
+
+<wording id="GroupName_Colleague" text="Colleague" />
+<wording id="GroupName_Family" text="Family" />
+<wording id="GroupName_Friend" text="Friend" />
+<wording id="GroupName_Others" text="Others" />
+
+<!-- 12.05.11  ConnectLogForm -->
+<wording id="ConnectLogForm_pushButtonReturn_Str" text="Back" />
+<wording id="ConnectLogForm_pushButtonClear_Str" text="Clear" />
+<wording id="ConnectLogForm_pushButtonDelete_Str" text="Delete" />
+<wording id="ConnectLogForm_labelTotalData_Str" text="Total Data Used:" />
+<wording id="ConnectLogForm_labelTotalTime_Str" text="Online Time:" />
+<wording id="ConnectLogForm_labelFrom_Str" text="From:" />
+<wording id="ConnectLogForm_labelTo_Str" text="To:" />
+<wording id="ConnectLogForm_labelLogDate_Str" text="Log date:" />
+<wording id="ConnectLogForm_FirstColumn_Str" text="APN" />
+<wording id="ConnectLogForm_SecondColumn_Str" text="Start time" />
+<wording id="ConnectLogForm_ThirdColumn_Str" text="End time" />
+<wording id="ConnectLogForm_ForthColumn_Str" text="Duration" />
+<wording id="ConnectLogForm_FifthColumn_Str" text="Download" />
+<wording id="ConnectLogForm_SixthColumn_Str" text="Upload" />
+<wording id="ConnectLogForm_SeventhColumn_Str" text="ID" />
+
+<!-- 13.02.05  ConnectedFailedForm -->
+<wording id="ConnectedFailedForm_pushButtonMoreInfo_Str" text="More information" />
+<wording id="ConnectedFailedForm_errorCode600_Str" text="An operation is pending." />
+<wording id="ConnectedFailedForm_errorCode601_Str" text="An invalid port handle was detected." />
+<wording id="ConnectedFailedForm_errorCode602_Str" text="The specified port is already open." />
+<wording id="ConnectedFailedForm_errorCode603_Str" text="The caller's buffer is too small." />
+<wording id="ConnectedFailedForm_errorCode604_Str" text="Incorrect information was specified." />
+<wording id="ConnectedFailedForm_errorCode605_Str" text="The port information cannot be set." />
+<wording id="ConnectedFailedForm_errorCode606_Str" text="The specified port is not connected." />
+<wording id="ConnectedFailedForm_errorCode607_Str" text="An invalid event is detected." />
+<wording id="ConnectedFailedForm_errorCode608_Str" text="A device was specified that does not exist." />
+<wording id="ConnectedFailedForm_errorCode609_Str" text="The device type was specified that does not exist." />
+<wording id="ConnectedFailedForm_errorCode610_Str" text="An invalid buffer was specified." />
+<wording id="ConnectedFailedForm_errorCode611_Str" text="A route was specified that is not available." />
+<wording id="ConnectedFailedForm_errorCode612_Str" text="A route was specified that is not allocated." />
+<wording id="ConnectedFailedForm_errorCode613_Str" text="An invalid compression was specified." />
+<wording id="ConnectedFailedForm_errorCode614_Str" text="There were insufficient buffers available." />
+<wording id="ConnectedFailedForm_errorCode615_Str" text="The specified port was not found." />
+<wording id="ConnectedFailedForm_errorCode616_Str" text="An asynchronous request is pending." />
+<wording id="ConnectedFailedForm_errorCode617_Str" text="The modem is already disconnecting." />
+<wording id="ConnectedFailedForm_errorCode618_Str" text="The specified port is not open." />
+<wording id="ConnectedFailedForm_errorCode619_Str" text="The specified port is not connected." />
+<wording id="ConnectedFailedForm_errorCode620_Str" text="No endpoints could be determined." />
+<wording id="ConnectedFailedForm_errorCode621_Str" text="The system could not open the phonebook." />
+<wording id="ConnectedFailedForm_errorCode622_Str" text="The system could not load the phonebook." />
+<wording id="ConnectedFailedForm_errorCode623_Str" text="The system could not find the phonebook entry for this connection." />
+<wording id="ConnectedFailedForm_errorCode624_Str" text="The system could not update the phonebook file." />
+<wording id="ConnectedFailedForm_errorCode625_Str" text="The system found invalid information in the phonebook." />
+<wording id="ConnectedFailedForm_errorCode626_Str" text="A string could not be loaded." />
+<wording id="ConnectedFailedForm_errorCode627_Str" text="A key could not be found." />
+<wording id="ConnectedFailedForm_errorCode628_Str" text="The connection was closed." />
+<wording id="ConnectedFailedForm_errorCode629_Str" text="The connection was closed by the remote computer." />
+<wording id="ConnectedFailedForm_errorCode630_Str" text="The modem was disconnected due to hardware failure." />
+<wording id="ConnectedFailedForm_errorCode631_Str" text="The user disconnected the modem." />
+<wording id="ConnectedFailedForm_errorCode632_Str" text="An incorrect structure size was detected." />
+<wording id="ConnectedFailedForm_errorCode633_Str" text="The modem is already in use or is not configured for dialing out." />
+<wording id="ConnectedFailedForm_errorCode634_Str" text="Your computer could not be registered on the remote network." />
+<wording id="ConnectedFailedForm_errorCode635_Str" text="There was an unknown error." />
+<wording id="ConnectedFailedForm_errorCode636_Str" text="The device attached to the port is not the one expected." />
+<wording id="ConnectedFailedForm_errorCode637_Str" text="A string was detected that could not be converted." />
+<wording id="ConnectedFailedForm_errorCode638_Str" text="The request has timed out." />
+<wording id="ConnectedFailedForm_errorCode639_Str" text="No asynchronous net is available." />
+<wording id="ConnectedFailedForm_errorCode640_Str" text="A error has occurred involving NetBIOS." />
+<wording id="ConnectedFailedForm_errorCode641_Str" text="The server cannot allocate NetBIOS resources needed to support the client." />
+<wording id="ConnectedFailedForm_errorCode642_Str" text="One of your computer's NetBIOS names is already registered on the remote network." />
+<wording id="ConnectedFailedForm_errorCode643_Str" text="A network adapter at the server failed." />
+<wording id="ConnectedFailedForm_errorCode644_Str" text="You will not receive network message popups." />
+<wording id="ConnectedFailedForm_errorCode645_Str" text="There was an internal authentication error." />
+<wording id="ConnectedFailedForm_errorCode646_Str" text="The account is not permitted to log on at this time of day." />
+<wording id="ConnectedFailedForm_errorCode647_Str" text="The account is disabled." />
+<wording id="ConnectedFailedForm_errorCode648_Str" text="The password for this account has expired." />
+<wording id="ConnectedFailedForm_errorCode649_Str" text="The account does not have permission to dial in." />
+<wording id="ConnectedFailedForm_errorCode650_Str" text="The remote access server is not responding." />
+<wording id="ConnectedFailedForm_errorCode651_Str" text="The modem has reported an error." />
+<wording id="ConnectedFailedForm_errorCode652_Str" text="There was an unrecognized response from the modem." />
+<wording id="ConnectedFailedForm_errorCode653_Str" text="A macro required by the modem was not found in the device .INF file section." />
+<wording id="ConnectedFailedForm_errorCode654_Str" text="A command or response in the device .INF file section refers to an undefined macro." />
+<wording id="ConnectedFailedForm_errorCode655_Str" text="The&lt;MESSAGE&gt;macro was not found in the device .INF file section." />
+<wording id="ConnectedFailedForm_errorCode656_Str" text="The&lt;DEFAULTOFF&gt;macro in the device .INF file section contains an undefined macro." />
+<wording id="ConnectedFailedForm_errorCode657_Str" text="The device .INF file could not be opened." />
+<wording id="ConnectedFailedForm_errorCode658_Str" text="The device name in the device .INF or media .INI file is too long." />
+<wording id="ConnectedFailedForm_errorCode659_Str" text="The media .INI file refers to an unknown device name." />
+<wording id="ConnectedFailedForm_errorCode660_Str" text="The device .INF file contains no responses for the command." />
+<wording id="ConnectedFailedForm_errorCode661_Str" text="The device .INF file is missing a command." />
+<wording id="ConnectedFailedForm_errorCode662_Str" text="There was an attempt to set a macro not listed in the device .INF file section." />
+<wording id="ConnectedFailedForm_errorCode663_Str" text="The media .INI file refers to an unknown device type." />
+<wording id="ConnectedFailedForm_errorCode664_Str" text="The system has run out of memory." />
+<wording id="ConnectedFailedForm_errorCode665_Str" text="The modem is not properly configured." />
+<wording id="ConnectedFailedForm_errorCode666_Str" text="The modem is not functioning." />
+<wording id="ConnectedFailedForm_errorCode667_Str" text="The system was unable to read the media .INI file." />
+<wording id="ConnectedFailedForm_errorCode668_Str" text="The connection was terminated." />
+<wording id="ConnectedFailedForm_errorCode669_Str" text="The usage parameter in the media .INI file is invalid." />
+<wording id="ConnectedFailedForm_errorCode670_Str" text="The system was unable to read the section name from the media .INI file." />
+<wording id="ConnectedFailedForm_errorCode671_Str" text="The system was unable to read the device type from the media .INI file." />
+<wording id="ConnectedFailedForm_errorCode672_Str" text="The system was unable to read the device name from the media .INI file." />
+<wording id="ConnectedFailedForm_errorCode673_Str" text="The system was unable to read the usage from the media .INI file." />
+<wording id="ConnectedFailedForm_errorCode674_Str" text="The system was unable to read the maximum connection BPS rate from the media .INI file." />
+<wording id="ConnectedFailedForm_errorCode675_Str" text="The system was unable to read the maximum carrier connection speed from the media .INI file." />
+<wording id="ConnectedFailedForm_errorCode676_Str" text="The phone line is busy." />
+<wording id="ConnectedFailedForm_errorCode677_Str" text="A person answered instead of a modem." />
+<wording id="ConnectedFailedForm_errorCode678_Str" text="There was no answer." />
+<wording id="ConnectedFailedForm_errorCode679_Str" text="The system could not detect the carrier." />
+<wording id="ConnectedFailedForm_errorCode680_Str" text="There was no dial tone." />
+<wording id="ConnectedFailedForm_errorCode681_Str" text="The modem reported a general error." />
+<wording id="ConnectedFailedForm_errorCode691_Str" text="Access was denied because the user name and/or password was invalid on the domain." />
+<wording id="ConnectedFailedForm_errorCode692_Str" text="There was a hardware failure in the modem." />
+<wording id="ConnectedFailedForm_errorCode695_Str" text="The state machines are not started." />
+<wording id="ConnectedFailedForm_errorCode696_Str" text="The state machines are already started." />
+<wording id="ConnectedFailedForm_errorCode697_Str" text="The response looping did not complete." />
+<wording id="ConnectedFailedForm_errorCode699_Str" text="The modem response caused a buffer overflow." />
+<wording id="ConnectedFailedForm_errorCode700_Str" text="The expanded command in the device .INF file is too long." />
+<wording id="ConnectedFailedForm_errorCode701_Str" text="The modem moved to a connection speed not supported by the COM driver." />
+<wording id="ConnectedFailedForm_errorCode703_Str" text="The connection needs information from you, but the application does not allow user interaction." />
+<wording id="ConnectedFailedForm_errorCode704_Str" text="The callback number is invalid." />
+<wording id="ConnectedFailedForm_errorCode705_Str" text="The authorization state is invalid." />
+<wording id="ConnectedFailedForm_errorCode707_Str" text="There was an error related to the X.25 protocol." />
+<wording id="ConnectedFailedForm_errorCode708_Str" text="The account has expired." />
+<wording id="ConnectedFailedForm_errorCode709_Str" text="here was an error changing the password on the domain. The password might have been too short or might." />
+<wording id="ConnectedFailedForm_errorCode710_Str" text="Serial overrun errors were detected while communicating with the modem." />
+<wording id="ConnectedFailedForm_errorCode711_Str" text="The Remote Access Service Manager could not start. Additional information is provided in the event log." />
+<wording id="ConnectedFailedForm_errorCode712_Str" text="The two-way port is initializing. Wait a few seconds and redial." />
+<wording id="ConnectedFailedForm_errorCode713_Str" text="No active ISDN lines are available." /> 
+<wording id="ConnectedFailedForm_errorCode714_Str" text="No ISDN channels are available to make the call." />
+<wording id="ConnectedFailedForm_errorCode715_Str" text="Too many errors occurred because of poor phone line quality." />
+<wording id="ConnectedFailedForm_errorCode716_Str" text="The remote access service IP configuration is unusable." />
+<wording id="ConnectedFailedForm_errorCode717_Str" text="No IP addresses are available in the static pool of remote access service IP addresses." />
+<wording id="ConnectedFailedForm_errorCode718_Str" text="The connection timed out waiting for a valid response from the remote computer." />
+<wording id="ConnectedFailedForm_errorCode719_Str" text="The connection was terminated by the remote computer." />
+<wording id="ConnectedFailedForm_errorCode721_Str" text="The remote computer is not responding." />
+<wording id="ConnectedFailedForm_errorCode722_Str" text="Invalid data was received from the remote computer. This data was ignored." />
+<wording id="ConnectedFailedForm_errorCode723_Str" text="The phone number, including prefix and suffix, is too long." />
+<wording id="ConnectedFailedForm_errorCode728_Str" text="The system cannot find an IP adapter." />
+<wording id="ConnectedFailedForm_errorCode729_Str" text="SLIP cannot be used unless the IP protocol is installed." />
+<wording id="ConnectedFailedForm_errorCode731_Str" text="The protocol is not configured." />
+<wording id="ConnectedFailedForm_errorCode732_Str" text="Your computer and the remote computer could not agree on PPP control protocols." />
+<wording id="ConnectedFailedForm_errorCode733_Str" text="Your computer and the remote computer could not agree on PPP control protocols." />
+<wording id="ConnectedFailedForm_errorCode734_Str" text="The PPP link control protocol was terminated." />
+<wording id="ConnectedFailedForm_errorCode735_Str" text="The requested address was rejected by the server." />
+<wording id="ConnectedFailedForm_errorCode736_Str" text="The remote computer terminated the control protocol." />
+<wording id="ConnectedFailedForm_errorCode737_Str" text="Loopback detected." />
+<wording id="ConnectedFailedForm_errorCode738_Str" text="The server did not assign an address." />
+<wording id="ConnectedFailedForm_errorCode739_Str" text="The authentication protocol required by the remote server cannot use the stored password. Redial, entering the password explicitly." />
+<wording id="ConnectedFailedForm_errorCode740_Str" text="An invalid dialing rule was detected." />
+<wording id="ConnectedFailedForm_errorCode741_Str" text="The local computer does not support the required data encryption type." />
+<wording id="ConnectedFailedForm_errorCode742_Str" text="The remote computer does not support the required data encryption type." />
+<wording id="ConnectedFailedForm_errorCode743_Str" text="The remote server requires data encryption." />
+<wording id="ConnectedFailedForm_errorCode751_Str" text="The callback number contains an invalid character. Only the following characters are allowed: 0 to 9, T, P, W,(,), -, @, and space." />
+<wording id="ConnectedFailedForm_errorCode752_Str" text="A syntax error was encountered while processing a script." />
+<wording id="ConnectedFailedForm_errorCode753_Str" text="The connection could not be disconnected because it was created by the multi-protocol router." />
+<wording id="ConnectedFailedForm_errorCode754_Str" text="The system could not find the multi-link bundle." />
+<wording id="ConnectedFailedForm_errorCode755_Str" text="The system cannot perform automated dial because this entry has a custom dialer specified." />
+<wording id="ConnectedFailedForm_errorCode756_Str" text="This connection is already being dialed." />
+<wording id="ConnectedFailedForm_errorCode757_Str" text="Remote access services could not be started automatically. Additional information is provided in the event log." />
+<wording id="ConnectedFailedForm_errorCode758_Str" text="Internet Connection Sharing is already enabled on the connection." />
+<wording id="ConnectedFailedForm_errorCode760_Str" text="An error occurred while routing capabilities were being enabled." />
+<wording id="ConnectedFailedForm_errorCode761_Str" text="An error occurred while Internet Connection Sharing was being enabled for the connection." />
+<wording id="ConnectedFailedForm_errorCode763_Str" text="Internet Connection Sharing cannot be enabled. There are two or more LAN connections in addition to the connection to be shared." />
+<wording id="ConnectedFailedForm_errorCode764_Str" text="No smart card reader is installed." />
+<wording id="ConnectedFailedForm_errorCode765_Str" text="Internet Connection Sharing cannot be enabled. A LAN connection is already configured with the IP address required for automatic IP addressing." />
+<wording id="ConnectedFailedForm_errorCode767_Str" text="Internet Connection Sharing cannot be enabled. The LAN connection selected on the private network has more than one IP address configured. Reconfigure the LAN connection with a single IP address before enabling Internet Connection Sharing." />
+<wording id="ConnectedFailedForm_errorCode768_Str" text="The connection attempt failed because of failure to encrypt data." />
+<wording id="ConnectedFailedForm_errorCode769_Str" text="The specified destination is not reachable." />
+<wording id="ConnectedFailedForm_errorCode770_Str" text="The remote machine rejected the connection attempt." />
+<wording id="ConnectedFailedForm_errorCode771_Str" text="The connection attempt failed because the network is busy." />
+<wording id="ConnectedFailedForm_errorCode772_Str" text="The remote computer's network hardware is incompatible with the type of call requested." />
+<wording id="ConnectedFailedForm_errorCode773_Str" text="The connection attempt failed because the destination number has changed." />
+<wording id="ConnectedFailedForm_errorCode774_Str" text="The connection attempt failed because of a temporary failure. Try connecting again." />
+<wording id="ConnectedFailedForm_errorCode775_Str" text="The call was blocked by the remote computer." />
+<wording id="ConnectedFailedForm_errorCode776_Str" text="The call could not be connected because the destination has invoked the Do Not Disturb feature." />
+<wording id="ConnectedFailedForm_errorCode777_Str" text="The connection attempt failed because the modem on the remote computer is out of order." />
+<wording id="ConnectedFailedForm_errorCode778_Str" text="It was not possible to verify the identity of the server." />
+<wording id="ConnectedFailedForm_errorCode780_Str" text="An attempted function is not valid for this connection." />
+<wording id="ConnectedFailedForm_errorCode783_Str" text="Internet Connection Sharing cannot be enabled. The LAN connection selected as the private network is either not present, or is disconnected from the network. Please ensure that the LAN adapter is connected before enabling Internet Connection Sharing." />
+<wording id="ConnectedFailedForm_errorCode784_Str" text="You cannot dial using this connection at logon time, because it is configured to use a user name different than the one on the smart card. If you want to use it at logon time, you must configure it to use the user name on the smart card." />
+<wording id="ConnectedFailedForm_errorCode785_Str" text="You cannot dial using this connection at logon time, because it is not configured to use a smart card. If you want to use it at logon time, you must edit the properties of this connection so that it uses a smart card." />
+<wording id="ConnectedFailedForm_errorCode788_Str" text="The L2TP connection attempt failed because the security layer could not negotiate compatible parameters with the remote computer." />
+<wording id="ConnectedFailedForm_errorCode789_Str" text="The L2TP connection attempt failed because the security layer encountered a processing error during initial negotiations with the remote computer." />
+<wording id="ConnectedFailedForm_errorCode791_Str" text="The L2TP connection attempt failed because security policy for the connection was not found." />
+<wording id="ConnectedFailedForm_errorCode792_Str" text="The L2TP connection attempt failed because security negotiation timed out." />
+<wording id="ConnectedFailedForm_errorCode793_Str" text="The L2TP connection attempt failed because an error occurred while negotiating security." />
+<wording id="ConnectedFailedForm_errorCode794_Str" text="The Framed Protocol RADIUS attribute for this user is not PPP." />
+<wording id="ConnectedFailedForm_errorCode795_Str" text="The Tunnel Type RADIUS attribute for this user is not correct." />
+<wording id="ConnectedFailedForm_errorCode796_Str" text="The Service Type RADIUS attribute for this user is neither Framed nor Callback Framed." />
+<wording id="ConnectedFailedForm_errorCode797_Str" text="A connection to the remote computer could not be established because the modem was not found or was busy." />
+<wording id="ConnectedFailedForm_errorCode799_Str" text="Internet Connection Sharing (ICS) cannot be enabled due to an IP address conflict on the network. ICS requires the host be configured to use 192.168.0.1. Please ensure that no other client on the network is configured to use 192.168.0.1." />
+<wording id="ConnectedFailedForm_errorCode800_Str" text="Unable to establish the VPN connection. The VPN server may be unreachable, or security parameters may not be configured properly for this connection." />
+<wording id="MessageboxForm_pushButtonOK_Str" text="OK" />
+<wording id="MessageboxForm_pushButtonCancel_Str" text="Cancel" />
+<wording id="MessageboxForm_pushButtonYes_Str" text="Yes" />
+<wording id="MessageboxForm_pushButtonNo_Str" text="No" />
+
+<wording id="SystemSettings_labelBasicSettings_Str" text="Basic Settings" />
+<wording id="SystemSettings_labelStartSettings_Str" text="Startup Setting" />
+<wording id="SystemSettings_checkBoxStartWithOS_Str" text="Launch on Windows startup" />
+<wording id="SystemSettings_checkBoxStartWithMinizime_Str" text="Minimize window on startup" />
+<wording id="SystemSettings_OpenUrlWhenConnected_Str" text="Launch Internet.grameenphone.com when connect to Internet" />
+<wording id="SystemSettings_checkBoxStartWhenDeviceReady_Str" text="Launch When Data Card Is Inserted" />
+<wording id="SystemSettings_checkBoxExitWhenDeviceOut_Str" text="Exit When Data Card Is Removed" />
+<wording id="SystemSettings_labelConnectSettings_Str" text="Connection Settings" />
+<wording id="SystemSettings_checkBoxAutoConnect_Str" text="Connect to Network Automatically" />
+<wording id="SystemSettings_checkBoxAutoReConnect_Str" text="Retry Connect to Network Automatically When Access Failure " />
+<wording id="SystemSettings_checkBoxRoamPrompt_Str" text="Prompts When Roaming" />
+<wording id="SystemSettings_pushButtonAdvancedSetting_Str" text="Advanced" />
+<wording id="SystemSettings_pushButtonApplay_Str" text="Apply" />
+<wording id="SystemSettings_pushButtonCancel_Str" text="Cancel"/>
+
+<wording id="APNSettings_labelNewConfig_Str" text="New Access Point" />
+<wording id="APNSettings_labelEditConfig_Str" text="Edit Access Point" />
+<wording id="APNSettings_labelViewConfig_Str" text="View Access Point" />
+<wording id="APNSettings_labelConfigName_Str" text="Profile Name:" />
+<wording id="APNSettings_radioButtonDynamic_Str" text="Dynamic" />
+<wording id="APNSettings_radioButtonStatic_Str" text="Static" />
+<wording id="APNSettings_labelAuthentication_Str" text="Authentication mode:" />
+<wording id="APNSettings_labelPdpType_Str" text="PDP Type:" />
+<wording id="APNSettings_labelDialNumber_Str" text="Dial Number:" />
+<wording id="APNSettings_labelUserName_Str" text="User Name:" />
+<wording id="APNSettings_labelPassword_Str" text="Password:" />
+<wording id="APNSettings_pushButtonApply_Str" text="OK" />
+<wording id="APNSettings_pushButtonCancel_Str" text="Cancel" />
+<wording id="FormApnSetting_lableConfigFile_Str" text="Config File" />
+<wording id="FormApnSetting_lableConfigName_Str" text="Config name" />
+<wording id="FormApnSetting_lableDialNumber_Str" text="Dial number" />
+<wording id="FormApnSetting_lableUSerName_Str" text="User name" />
+<wording id="FormApnSetting_lablePassword_Str" text="Password" />
+<wording id="FormApnSetting_checkBoxSaveUsernameAndPassword_Str" text="Save User Name and Password" />
+<wording id="FormApnSetting_checkBoxAskUsernameAndPassword_Str" text="Ask for User Name and Password" />
+<wording id="FormApnSetting_radioButtonAutoApn_Str" text="Obtain APN address automatically" />
+<wording id="FormApnSetting_radioButtonManulApn_Str" text="Use the following APN address" />
+<wording id="FormApnSetting_labelApnAddress_Str" text="APN Name" />
+<wording id="FormApnSetting_radioButtonAutoDns_Str" text="Obtain DNS server address automatically" />
+<wording id="FormApnSetting_radioButtonManualDns_Str" text="Use the following DNS server address" />
+<wording id="FormApnSetting_labelPreferedDns_Str" text="Preferred DNS" />
+<wording id="FormApnSetting_labelAlternateDns_Str" text="Alternate DNS" />
+<wording id="FormApnSetting_labelPdpType_Str" text="PDP Type" />
+<wording id="FormApnSetting_labelAuthentication_Str" text="Authentication mode" />
+<wording id="FormApnSetting_radioButtonManualPdp_Str" text="Use the following PDP server address" />
+<wording id="FormApnSetting_radioButtonAutoPdp_Str" text="Obtain PDP server address automatically" />
+<wording id="FormApnSetting_labelPdpAddress_Str" text="Address" />
+<wording id="FormApnSetting_pushButtonOk_Str" text="Ok" />
+<wording id="FormApnSetting_pushButtonCancel_Str" text="Cancel" />
+
+<wording id="SelectContactForm_pushButtonOK_Str" text="OK" />
+<wording id="SelectContactForm_pushButtonCancel_Str" text="Cancel" />
+
+<!-- 12.10.18  need translate update wording for muti language begin-->
+<wording id="UpdateCommon_IMEIEmpty_str" text="IMEI is empty!" />
+<wording id="UpdateConfirm_ConfirmUpdate_str" text="Found new version" />
+<wording id="UpdateConfirm_OldVersion_str" text="Current version:" />
+<wording id="UpdateConfirm_NewVersion_str" text="New version:" />
+<wording id="UpdateConfirm_IsNeedUpdateISOVersion_str" text="Is update the ISO version?" />
+<wording id="UpdateConfirm_IsNeedUpdateFirmware_str" text="Is update the Firmware?" />
+<wording id="UpdateConfirm_IsNeedUpdateSoftware_str" text="Is update the software?" />
+<wording id="UpdateConfirm_pushButtonConfirmNext_str" text="Yes" />
+<wording id="UpdateConfirm_pushButtonCancel_str" text="No" />
+<wording id="UpdateChoice_TableHeadings_str" text="Kind,Version,Size(Byte),Priority" />
+<wording id="UpdateConfirm_SameVersion_str" text="Found the same version" />
+<wording id="UpdateManual_PrepareCheckVersion_str" text="Prepare to check new version..." />
+<wording id="UpdateManual_CheckStateIsLatestVersion_str" text="Now is already the latest Version" />
+<wording id="UpdateManual_LoadXmlFileFailed_str" text="Load xml file failed!" />
+<wording id="UpdateManual_CheckVersionFailed_str" text="Check version failed" />
+<wording id="UpdateManual_CheckStateIllegalId_str" text="There is no available version to update." />
+<wording id="UpdateManual_CheckStateNotFoundPackage_str" text="Not found update package" />
+<wording id="UpdateManual_CheckStateNotFoundVersion_str" text="Not found new version" />
+<wording id="UpdateProgress_UpdateTitle_str" text="Downloading..." />
+<wording id="UpdateProgress_UpdateAttention_str" text="Attention:" />
+<wording id="UpdateProgress_UpdateAttentionInfo_str" text="1.Please do not turn off the computer;2.Please do not unplug the device from the computer;" />
+<wording id="UpdateProgress_UpdateUpdating_str" text="Updating..." />
+<wording id="UpdateProgress_UpdateFWNotice_str" text="Update firmware..." />
+<wording id="UpdateProgress_UpdateISONotice_str" text="Update ISO version..." />
+<wording id="UpdateProgress_UpdateSWNotice_str" text="Update software..." />
+<wording id="UpdateProgress_UpdateRestarting_str" text="Restarting..." />
+<wording id="UpdateProgress_UpdateInfo_str" text="Restart the device, please wait..." />
+<wording id="UpdateResult_Success_str" text="Update Success" />
+<wording id="UpdateResult_SuccessInfo_str" text="Update to the lastest version!" />
+<wording id="UpdateResult_Fail_str" text="Update Failed" />
+<wording id="UpdateResult_FailInfo_str" text="Sorry, update failed" />
+<wording id="UpdateResult_FailSuggestion_str" text="Suggestion: Try again!" />
+<wording id="UpdateResult_SuccessSuggestion_str" text="You need to uninstall the old software, and install new software in Modem" />
+<wording id="UpdateCommon_Ok_str" text="OK" />
+<wording id="UpdateCommon_Cancel_str" text="Cancel" />
+<wording id="UpdateProgress_UpdateDeviceAttentionInfo_str" text="1.Please do not turn off the computer;2.Please do not unplug the device from the computer" />
+<!-- 12.10.18  need translate update wording for muti language end -->
+
+<!-- 12.08.30  UpdateForm -->
+<wording id="UpdateConfirm_UpdateVersion_str" text="Version: " />
+<wording id="UpdateConfirm_UpdateDescription_str" text="Description: " />
+<wording id="UpdateChoice_SoftwareUpdateVersion_str" text="Software update package" />
+<wording id="UpdateChoice_FirmwareUpdateVersion_str" text="Firmware update package" />
+<wording id="UpdateChoice_VersionPriorityLowest_str" text="Lowest" />
+<wording id="UpdateChoice_VersionPriorityBelow_str" text="Below" />
+<wording id="UpdateChoice_VersionPriorityNormal_str" text="Normal" />
+<wording id="UpdateChoice_VersionPriorityAbove_str" text="Above" />
+<wording id="UpdateChoice_VersionPriorityHigest_str" text="Higest" />
+<wording id="UpdateProgress_CMPackageName_str" text="CMUpdatePackage_win.zip" />
+<wording id="UpdateProgress_FirmwarePackageName_str" text="FirmwareUpdatePackage_win.zip" />
+<wording id="UpdateProgress_ElapsedTime_str" text="Elapsed time: " />
+<wording id="UpdateProgress_DownloadSucceed_str" text="Download succeed" />
+<wording id="UpdateProgress_DownloadFailed_str" text="Download failed" />
+<wording id="UpdateProgress_DownloadRefused_str" text="Download refused" />
+<wording id="UpdateProgress_StartDownloadCM_str" text="Downloading software update package..." />
+<wording id="UpdateProgress_StartDownloadFirmware_str" text="Downloading firmware update package..." />
+<wording id="UpdateProgress_PackageDownloadSucceed_str" text="Update packages download succeed" />
+<wording id="UpdateProgress_PackageDownloadFailed_str" text="Update packages download failed" />
+<wording id="UpdateProgress_UpdateFailed_str" text="Update failed" />
+<wording id="UpdateProgress_UpdateSucceed_str" text="Update succeed" />
+<wording id="UpdateProgress_UpdateFirmwareNotFound_str" text="Firmware update package not found" />
+<wording id="UpdateProgress_UpdateFirmwareSucceed_str" text="Update firmware succeed" />
+<wording id="UpdateProgress_UpdateFirmwareFailed_str" text="Update firmware failed" />
+<wording id="UpdateProgress_UpdateFirmwareUnzipPackage_str" text="Unzip update package..." />
+<wording id="UpdateProgress_UpdateUnzipPackageFailed_str" text="Unzip update package failed" />
+<wording id="UpdateProgress_StartUpdateFirmware_str" text="Start update firmware..." />
+<wording id="UpdateProgress_EnterFirmwareDownload_str" text="Enter firmware download mode" />
+<wording id="UpdateProgress_UpdateFirmwareCloseAutorun_str" text="Close autorun" />
+<wording id="UpdateProgress_UpdateFirmwareResetDMP_str" text="Reset DMP" />
+<wording id="UpdateProgress_UpdateFirmwareBackupNV_str" text="Backup NV" />
+<wording id="UpdateProgress_DownloadingISO_str" text="Downloading" />
+<wording id="UpdateProgress_UpdateFirmwareEnterQual_str" text="Switch to firmware download Mode" />
+<wording id="UpdateProgress_UpdateFirmwareDownloadArmprg_str" text="Download armprg" />
+<wording id="UpdateProgress_UpdateFirmwareSkipToArmprg_str" text="Skip to armprg" />
+<wording id="UpdateProgress_UpdateFirmwareDownloadTable_str" text="Download Partition table" />
+<wording id="UpdateProgress_UpdateFirmwareDownloadDbl_str" text="Download DBL" />
+<wording id="UpdateProgress_UpdateFirmwareDownloadFsbl_str" text="Download FSBL" />
+<wording id="UpdateProgress_UpdateFirmwareDownloadOsbl_str" text="Download OSBL" />
+<wording id="UpdateProgress_UpdateFirmwareDownloadSP1_str" text="Download SP1" />
+<wording id="UpdateProgress_UpdateFirmwareDownloadSP2_str" text="Download SP2" />
+<wording id="UpdateProgress_UpdateFirmwareDownloadQcsbl_str" text="Download qcsbl.mbn" />
+<wording id="UpdateProgress_UpdateFirmwareDownloadVersion_str" text="Download version file" />
+<wording id="UpdateProgress_UpdateFirmwareDownloadEFS_str" text="Download efs file" />
+<wording id="UpdateProgress_UpdateFirmwareDownloadNANDPRG_str" text="Download Nandprg File" />
+<wording id="UpdateProgress_UpdateFirmwareResetSDP_str" text="Reset SDP" />
+<wording id="UpdateProgress_UpdateFirmwareRestoreNV_str" text="Restore NV" />
+<wording id="UpdateProgress_UpdateFirmwareCloseDownloadMode_str" text="Close download mode" />
+<wording id="UpdateProgress_UpdateFirmwareOpenAutorun_str" text="Open autorun" />
+<wording id="UpdateProgress_UpdateFirmwareDownloadFirmwareSucceed_str" text="Download firmware succeed!" />
+<wording id="UpdateProgress_UpdateCMNotFound_str" text="Software update package not found" />
+<wording id="UpdateProgress_StartBackupFile_str" text="Backup current version..." />
+<wording id="UpdateProgress_BackupCurrentFileFailed_str" text="Backup current version failed" />
+<wording id="UpdateProgress_StartUpdateCM_str" text="Start update software..." />
+<wording id="UpdateProgress_UpdateCMFailed_str" text="Update software failed" />
+<wording id="UpdateProgress_StartRollBackCM_str" text="Start rollback to preview version..." />
+<wording id="UpdateProgress_RollBackCMFailed_str" text="Rollback failed" />
+<wording id="UpdateProgress_RollBackCMSucceed_str" text="Rollback succeed" />
+<wording id="UpdateProgress_StartUpdateDriver_str" text="Start update driver..." />
+<wording id="UpdateProgress_UpdateDriverSucceed_str" text="Update driver succeed" />
+<wording id="UpdateProgress_UpdateCMSucceed_str" text="Update software succeed" />
+
+<!-- 12.08.30  CallForm -->
+<wording id="Call_NameUnknown_str" text="Unknown" />
+<wording id="Emergency_Call_str" text="Emergency Call" />
+<wording id="CallForm_Idle_str" text="Idle" />
+<wording id="CallForm_Dialing_str" text="Dialing..." />
+<wording id="CallForm_Coming_str" text="Coming..." />
+<wording id="CallForm_Connecting_str" text="Calling..." />
+<wording id="CallForm_RecordCall_str" text="Call Record" />
+<wording id="CallForm_ReceivedCall_str" text="Received Call" />
+<wording id="CallForm_DialedCall_str" text="Dialed Call" />
+<wording id="CallForm_MissedCall_str" text="Missed Call" />
+<wording id="CallForm_CallName_str" text="Name" />
+<wording id="CallForm_CallNumber_str" text="Number" />
+<wording id="CallForm_CallStartTime_str" text="Start time" />
+<wording id="CallForm_CallDuraTime_str" text="Duration" />
+<wording id="CallForm_CallLog_Str" text="Call Log" />
+<wording id="CallForm_AnsweredCall_Str" text="Answered Calls" />
+<wording id="CallForm_MissedCall_Str" text="Missed Calls" />
+<wording id="CallForm_DailedCall_Str" text="Dailed Calls" />
+<wording id="CallForm_MissedCallNum_Str" text="/50 Missed call(s) saved"/>
+<wording id="CallForm_DeleteTip_Str" text="Do you want to delete selected Record?"/>
+<wording id="CallForm_DelRecord_Str" text="Delete"/>
+<wording id="CallForm_DialedCall_Str" text="Call"/>
+<wording id="CallForm_SendMessage_Str" text="SMS"/>
+<wording id="CallForm_SaveNumber_Str" text="Save"/>
+<wording id="CallForm_Mute_Str" text="Mute"/>
+
+<!--
+<wording id="ConnectLogHeader_ProfileName" text="ProfileName" />
+<wording id="ConnectLogHeader_ConnectTime" text="ConnectTime" />
+<wording id="ConnectLogHeader_DisconnectTime" text="DisconnectTime" />
+<wording id="ConnectLogHeader_Duration" text="Duration" />
+<wording id="ConnectLogHeader_DateReceived" text="DateReceived" />
+<wording id="ConnectLogHeader_DateTransported" text="DateTransported" />
+-->
+
+<!-- roam white wording-->
+<wording id="RoamForm_LabelPopup1_str" text="Still under the coverage of 3! You can navigate with the same national rate just like at home provided by your plan. For detailed information please visit the web site tre.it." />
+<wording id="RoamForm_CheckboxPopup1_str" text="Remind this message at the &#10;next connection" />
+<wording id="RoamForm_PushButtonOkPopup1_str" text="OK" />
+<wording id="RoamForm_LabelPopup2_str" text="Please note that under 3 abroad coverage, you can navigate with the same national rate provided by your plan, as if working on your home number when abroad." />
+<wording id="RoamForm_LabelPopup4_str" text="For the information on the costs, please go to Area Clienti InfoCosti Section 133/139 of the site www.tre.it" />
+
+<!-- add by ww 2012.11.19-->
+<wording id="SMS_SelectOneSms_Str" text="Please select SMS first." />
+<wording id="SMS_ConfirmSendNewSms_Str" text="Do you want to send %1 SMS?" />
+
+<wording id="SmsCountForm_labelInboxPC_Str" text="Messages in Inbox PC" />   
+<wording id="SmsCountForm_labelOutBoxPC_Str" text="Messages in Outbox PC" />  
+<wording id="SmsCountForm_labelDraftBoxPC_Str" text="Messages in Drafts PC" /> 
+<wording id="SmsCountForm_labelCapacityPC_Str" text="Database capacity" /> 
+<wording id="SmsCountForm_labelInboxSIM_Str" text="Inbox USIM" /> 
+<wording id="SmsCountForm_labelOutBoxSIM_Str" text="Outbox USIM" /> 
+<wording id="SmsCountForm_lableDraftBoxSIM_Str" text="Draftbox USIM" /> 
+<wording id="SmsCountForm_labelCapacitySIM_Str" text="USIM capacity" /> 
+<wording id="SMS_CountUnit_Str" text="Item(s)" />
+
+<wording id="FormSmsBox_NumberColumn_Str" text="PhoneNumber" />
+<wording id="FormSmsBox_NameColumn_Str" text="Name" />
+<wording id="FormSmsBox_TimeColumn_Str" text="Date/Time" />
+<wording id="FormSmsBox_StatusColumn_Str" text="Status" />
+<wording id="FormSmsBox_ComboBoxItemPC_Str" text="PC" />
+<wording id="FormSmsBox_ComboBoxItemSIM_Str" text="USIM" />
+
+<wording id="SmsForm_pushButtonSmsMode_Str" text="Chat Mode" />
+<wording id="FormSmsBox_FirstColumn_Str" text="   " />
+<wording id="FormSmsBox_ContentColumn_Str" text="Content" />
+<wording id="FormSmsBox_LocationColumn_Str" text="Location" />
+<wording id="FormSmsBox_IDColumn_Str" text="ID" />
+
+<wording id="SmsBoxForm_pushButtonSearch_Tip" text="Search" />
+<wording id="SmsBoxForm_pushButtonCall_Tip" text="Call" />
+<wording id="SmsBoxForm_pushButtonNew_Tip" text="New Message" />
+<wording id="SmsBoxForm_pushButtonReply_Tip" text="Reply" />
+<wording id="SmsBoxForm_pushButtonForward_Tip" text="Forward" />
+<wording id="SmsBoxForm_pushButtonMove_Tip" text="Move" />
+<wording id="SmsBoxForm_pushButtonCopy_Tip" text="Copy" />
+<wording id="SmsBoxForm_pushButtonDelete_Tip" text="Delete" />
+<wording id="SmsBoxForm_pushButtonSave_Str" text="Save" />
+<wording id="SmsBoxForm_pushButtonCancel_Str" text="Cancel" />
+<wording id="SmsBoxForm_NewSMSState_UnRead" text="New" />
+
+<wording id="SMSFormBox_TableMenuNew_Str" text="New" />
+<wording id="SMSFormBox_TableMenuReply_Str" text="Reply" />
+<wording id="SMSFormBox_TableMenuForward_Str" text="Forward" />
+<wording id="SMSFormBox_TableMenuMove_Str" text="Move" />
+<wording id="SMSFormBox_TableMenuCopy_Str" text="Copy" />
+<wording id="SMSFormBox_TableMenuDelete_Str" text="Delete" />
+<wording id="SMSFormBox_TableMenuDeleteRevert_Str" text="Restore from Trashbox" />
+<wording id="SMSFormBox_TableMenuSave_Str" text="Save" />
+<wording id="SMSFormBox_TableMenuMovetoImportant_Str" text="Save to Importantbox" />
+<wording id="SMSFormBox_TableMenuImportantRevert_Str" text="Restore from Importantbox" />
+<wording id="SMSFormBox_TableMenuExportImport_Str" text="Export/Import" />
+<wording id="SMSFormBox_TableMenuExportSelSms_Str" text="Export Selected SMS to txt File" />
+<wording id="SMSFormBox_TableMenuExportBoxSms_Str" text="Export Box SMS to txt" />
+<wording id="SMSFormBox_TableMenuExportAllSms_Str" text="Export All SMS to txt File" />
+<wording id="SMSFormBox_TableMenuImportAllSms_Str" text="Import SMS from txt File" />
+
+<wording id="NewSmsBoxForm_pushButtonNewSend_Str" text="Send" />
+<wording id="NewSmsBoxForm_pushButtonNewSave_Str" text="Save" />
+<wording id="NewSmsBoxForm_pushButtonNewCancel_Str" text="Cancel" />
+<wording id="NewSmsBoxForm_labelTo_Str" text="New" />
+<wording id="NewSmsBoxForm_pushButtonSearch_Str" text="Send To" />
+
+<wording id="SmsPopupHintForm_labelReceivedSms_Str" text="Received SMS" />
+<wording id="SmsPopupHintForm_labelSendor_Str" text="coming from" />
+<wording id="SmsPopupHintForm_labelDate_Str" text="Time" />
+<wording id="SmsPopupHintForm_pushButtonNewSms_Str" text="      Open" />
+
+<wording id="SMS_IllegalNumber_Str" text=" is not a valid phone number" />
+<wording id="SMSFormSms_labelNewSmsCharCount_Str" text="Info:" />
+
+<wording id="SmsReadForm_reportFailed_Str" text="Sent failed to:" /> 
+<wording id="SmsReadForm_reportSuccessfully_Str" text="Sent successfully to:" /> 
+<wording id="SelectContactForm_labelTitle_Str" text="Contacts select" />
+<wording id="SelectContactForm_labelContact_Str" text="Contact(s)" />
+<wording id="SelectContactForm_labelContactSelected_Str" text="Selected Contact(s)" />
+<wording id="SelectContactForm_NameColumn_Str" text="Name" />
+<wording id="SelectContactForm_MobilePhoneColumn_Str" text="MobilePhone" />
+
+<wording id="SmsSimListForm_Read_pushButtonBack_Str" text="Cancel" /> 
+<wording id="Warning_ResettingDefaults_Finish_Str" text="Default settings restored." /> 
+
+<wording id="AskUsernameAndPwdForm_pushButton_Cancel_Str" text="Cancel" /> 
+<wording id="AskUsernameAndPwdForm_labelUserName_Str" text="UserName" /> 
+<wording id="AskUsernameAndPwdForm_labelPassword_Str" text="Password" /> 
+<wording id="AskUsernameAndPwdForm_checkBox_Str" text="Save User Name and Password." /> 
+
+<wording id="Warning_SmsCenterEmpty_str" text="The SMS center number can't be empty." />
+
+<wording id="SupportForm_Title_Str" text="Support" /> 
+<wording id="SettingForm_Title_Str" text="Setting" /> 
+<wording id="SMS_Report_Success_Str" text="Success" />
+<wording id="SMS_Report_Failed_Str" text="Failed" />
+
+</wordings>
+</UULanguage>

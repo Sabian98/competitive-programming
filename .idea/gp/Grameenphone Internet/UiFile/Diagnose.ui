@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormDiagnose</class>
+ <widget class="QWidget" name="FormDiagnose">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>483</width>
+    <height>330</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Diagnostics</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_2">
+   <item>
+    <widget class="QTabWidget" name="tabWidgetDiagnose">
+     <property name="font">
+      <font>
+       <family>FreeSans</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTabelWidget#tabWidgetDiagnose{ 
+	background-color: rgb(255, 255, 255);
+}</string>
+     </property>
+     <property name="tabPosition">
+      <enum>QTabWidget::North</enum>
+     </property>
+     <property name="tabShape">
+      <enum>QTabWidget::Rounded</enum>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <property name="documentMode">
+      <bool>true</bool>
+     </property>
+     <property name="tabsClosable">
+      <bool>false</bool>
+     </property>
+     <widget class="QWidget" name="NetworkInfo">
+      <attribute name="title">
+       <string>Network Infomation</string>
+      </attribute>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QTableWidget" name="tableWidgetNetwork">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="lineWidth">
+          <number>1</number>
+         </property>
+         <property name="editTriggers">
+          <set>QAbstractItemView::NoEditTriggers</set>
+         </property>
+         <property name="selectionBehavior">
+          <enum>QAbstractItemView::SelectRows</enum>
+         </property>
+         <property name="sortingEnabled">
+          <bool>true</bool>
+         </property>
+         <attribute name="horizontalHeaderVisible">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="horizontalHeaderDefaultSectionSize">
+          <number>215</number>
+         </attribute>
+         <attribute name="verticalHeaderVisible">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="verticalHeaderDefaultSectionSize">
+          <number>21</number>
+         </attribute>
+         <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+          <bool>false</bool>
+         </attribute>
+         <row>
+          <property name="text">
+           <string>PS Registration</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>CS Registration</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Signal Level</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Network Mode</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Network Name</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Network Type</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Cell ID</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>LAC</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>RSSI</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>RSCP</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>EC/IO</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>APN</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Dial Number</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Internet Connection</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Upload Total</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Download Total</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Connect Time</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>IP Address</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Main DNS</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Second DNS</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string/>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string/>
+          </property>
+         </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string>PS Registration</string>
+          </property>
+         </item>
+         <item row="0" column="1">
+          <property name="text">
+           <string/>
+          </property>
+         </item>
+         <item row="1" column="0">
+          <property name="text">
+           <string>CS Registration</string>
+          </property>
+         </item>
+         <item row="2" column="0">
+          <property name="text">
+           <string>Signal Level</string>
+          </property>
+         </item>
+         <item row="3" column="0">
+          <property name="text">
+           <string>Network Mode</string>
+          </property>
+         </item>
+         <item row="3" column="1">
+          <property name="text">
+           <string/>
+          </property>
+         </item>
+         <item row="4" column="0">
+          <property name="text">
+           <string>Network Name</string>
+          </property>
+         </item>
+         <item row="5" column="0">
+          <property name="text">
+           <string>Network Type</string>
+          </property>
+         </item>
+         <item row="6" column="0">
+          <property name="text">
+           <string>Cell ID</string>
+          </property>
+         </item>
+         <item row="7" column="0">
+          <property name="text">
+           <string>LAC</string>
+          </property>
+         </item>
+         <item row="8" column="0">
+          <property name="text">
+           <string>RSSI</string>
+          </property>
+         </item>
+         <item row="9" column="0">
+          <property name="text">
+           <string>RSCP</string>
+          </property>
+         </item>
+         <item row="10" column="0">
+          <property name="text">
+           <string>EC/IO</string>
+          </property>
+         </item>
+         <item row="11" column="0">
+          <property name="text">
+           <string>APN</string>
+          </property>
+         </item>
+         <item row="12" column="0">
+          <property name="text">
+           <string>Dial Number</string>
+          </property>
+         </item>
+         <item row="13" column="0">
+          <property name="text">
+           <string>Internet Connection</string>
+          </property>
+         </item>
+         <item row="14" column="0">
+          <property name="text">
+           <string>Upload Total</string>
+          </property>
+         </item>
+         <item row="15" column="0">
+          <property name="text">
+           <string>Download Total</string>
+          </property>
+         </item>
+         <item row="16" column="0">
+          <property name="text">
+           <string>Connect Time</string>
+          </property>
+         </item>
+         <item row="17" column="0">
+          <property name="text">
+           <string>IP Address</string>
+          </property>
+         </item>
+         <item row="18" column="0">
+          <property name="text">
+           <string>Main DNS</string>
+          </property>
+         </item>
+         <item row="19" column="0">
+          <property name="text">
+           <string>Second DNS</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="HardwareInfo">
+      <attribute name="title">
+       <string>Hardware Infomation</string>
+      </attribute>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QTableWidget" name="tableWidgetHardware">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="lineWidth">
+          <number>1</number>
+         </property>
+         <property name="editTriggers">
+          <set>QAbstractItemView::NoEditTriggers</set>
+         </property>
+         <property name="selectionBehavior">
+          <enum>QAbstractItemView::SelectRows</enum>
+         </property>
+         <property name="sortingEnabled">
+          <bool>true</bool>
+         </property>
+         <attribute name="horizontalHeaderVisible">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="horizontalHeaderDefaultSectionSize">
+          <number>215</number>
+         </attribute>
+         <attribute name="verticalHeaderVisible">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="verticalHeaderDefaultSectionSize">
+          <number>21</number>
+         </attribute>
+         <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+          <bool>false</bool>
+         </attribute>
+         <row>
+          <property name="text">
+           <string>Modem Status</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Application Port</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>IMEI</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Driver Version</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Firmware Version</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Hardware Version</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Device Serial Number</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Modem Model</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Manufacturer Name</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>PC Software Version</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>System</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Language</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string/>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string/>
+          </property>
+         </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string>Modem Status</string>
+          </property>
+         </item>
+         <item row="0" column="1">
+          <property name="text">
+           <string/>
+          </property>
+         </item>
+         <item row="1" column="0">
+          <property name="text">
+           <string>Application Port</string>
+          </property>
+         </item>
+         <item row="2" column="0">
+          <property name="text">
+           <string>IMEI</string>
+          </property>
+         </item>
+         <item row="3" column="0">
+          <property name="text">
+           <string>Driver Version</string>
+          </property>
+         </item>
+         <item row="3" column="1">
+          <property name="text">
+           <string/>
+          </property>
+         </item>
+         <item row="4" column="0">
+          <property name="text">
+           <string>Firmware Version</string>
+          </property>
+         </item>
+         <item row="5" column="0">
+          <property name="text">
+           <string>Hardware Version</string>
+          </property>
+         </item>
+         <item row="6" column="0">
+          <property name="text">
+           <string>Device Serial Number</string>
+          </property>
+         </item>
+         <item row="7" column="0">
+          <property name="text">
+           <string>Modem Model</string>
+          </property>
+         </item>
+         <item row="8" column="0">
+          <property name="text">
+           <string>Manufacturer Name</string>
+          </property>
+         </item>
+         <item row="9" column="0">
+          <property name="text">
+           <string>PC Software Version</string>
+          </property>
+         </item>
+         <item row="10" column="0">
+          <property name="text">
+           <string>System</string>
+          </property>
+         </item>
+         <item row="11" column="0">
+          <property name="text">
+           <string>Language</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="SimInfo">
+      <attribute name="title">
+       <string>SIM Infomation</string>
+      </attribute>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <widget class="QTableWidget" name="tableWidgetSim">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="lineWidth">
+          <number>1</number>
+         </property>
+         <property name="editTriggers">
+          <set>QAbstractItemView::NoEditTriggers</set>
+         </property>
+         <property name="selectionBehavior">
+          <enum>QAbstractItemView::SelectRows</enum>
+         </property>
+         <property name="sortingEnabled">
+          <bool>true</bool>
+         </property>
+         <attribute name="horizontalHeaderVisible">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="horizontalHeaderDefaultSectionSize">
+          <number>215</number>
+         </attribute>
+         <attribute name="verticalHeaderVisible">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="verticalHeaderDefaultSectionSize">
+          <number>21</number>
+         </attribute>
+         <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+          <bool>false</bool>
+         </attribute>
+         <row>
+          <property name="text">
+           <string>SIM Status</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Message in SIM</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Contacts in SIM</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>PIN Status</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Roaming Status</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Phone Number</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>SMS Center Number</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>HPLMN</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>IMSI</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string/>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string/>
+          </property>
+         </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string>SIM Status</string>
+          </property>
+         </item>
+         <item row="0" column="1">
+          <property name="text">
+           <string/>
+          </property>
+         </item>
+         <item row="1" column="0">
+          <property name="text">
+           <string>Message in SIM</string>
+          </property>
+         </item>
+         <item row="2" column="0">
+          <property name="text">
+           <string>Contacts in SIM</string>
+          </property>
+         </item>
+         <item row="3" column="0">
+          <property name="text">
+           <string>PIN Status</string>
+          </property>
+         </item>
+         <item row="3" column="1">
+          <property name="text">
+           <string/>
+          </property>
+         </item>
+         <item row="4" column="0">
+          <property name="text">
+           <string>Roaming Status</string>
+          </property>
+         </item>
+         <item row="5" column="0">
+          <property name="text">
+           <string>Phone Number</string>
+          </property>
+         </item>
+         <item row="6" column="0">
+          <property name="text">
+           <string>SMS Center Number</string>
+          </property>
+         </item>
+         <item row="7" column="0">
+          <property name="text">
+           <string>HPLMN</string>
+          </property>
+         </item>
+         <item row="8" column="0">
+          <property name="text">
+           <string>IMSI</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

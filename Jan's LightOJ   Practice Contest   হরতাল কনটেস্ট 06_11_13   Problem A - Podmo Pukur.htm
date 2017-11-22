@@ -1,0 +1,245 @@
+<html><head>
+		<title>Jan's LightOJ :: Practice Contest :: হরতাল কনটেস্ট 06/11/13 :: Problem A - Podmo Pukur</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="Jan%27s%20LightOJ%20%20%20Practice%20Contest%20%20%20%E0%A6%B9%E0%A6%B0%E0%A6%A4%E0%A6%BE%E0%A6%B2%20%E0%A6%95%E0%A6%A8%E0%A6%9F%E0%A7%87%E0%A6%B8%E0%A7%8D%E0%A6%9F%2006_11_13%20%20%20Problem%20A%20-%20Podmo%20Pukur_files/style.css">
+		<script>
+			function handleMenu( ) {
+				if( document.getElementById("showNavigation").style.display == "none" ) {
+					document.getElementById("showNavigation").style.display = "inline";
+					document.getElementById("menuImage").src = "images/close_menu.png";
+					document.getElementById("problem").style.margin = "0 3px 0 200px";
+				}
+				else {
+					document.getElementById("showNavigation").style.display = "none";
+					document.getElementById("menuImage").src = "images/open_menu.png";
+					document.getElementById("problem").style.margin = "3px 3px 3px 3px";
+				}
+			}
+		</script>
+	</head>
+
+	<body>
+<style>
+div.tempMessage {
+  float: left;
+  font-size: 30;
+  margin-top: 10px;
+  margin-left: 300px;
+  position: absolute;
+  border: 2px solid white;
+  background: yellow;
+  border-radius: 5px;
+  padding: 2px;
+}
+div.tempMessage a {
+  text-decoration: underline;
+  color: red;
+}
+</style>
+<div class="topDiv">
+			<img src="Jan%27s%20LightOJ%20%20%20Practice%20Contest%20%20%20%E0%A6%B9%E0%A6%B0%E0%A6%A4%E0%A6%BE%E0%A6%B2%20%E0%A6%95%E0%A6%A8%E0%A6%9F%E0%A7%87%E0%A6%B8%E0%A7%8D%E0%A6%9F%2006_11_13%20%20%20Problem%20A%20-%20Podmo%20Pukur_files/main.png" class="topImage" style="float: left;">
+                <!--<div class="tempMessage"><a href="http://lightoj.com/lightojv2/contest/215/problems" target=_blank>ACM ICPC Dhaka Regionals Online Preliminary Contest is scheduled here.</a></div>!-->
+			<div class="topMenuMessage" style="display: block; float: right; padding: 50 5 0 0;">
+				Server Time:
+				<a class="top_link" target="_blank" href="http://www.timeanddate.com/worldclock/fixedtime.html?iso=20140526T051044">
+					Mon May 26, 2014 11:10 am				</a>
+			</div>
+		</div>
+		<div class="topMenu" align="center">
+			<table width="100%">
+				<tbody><tr>
+					<td width="10%">
+						<div class="topMenuMessage">
+							&nbsp;<a class="top_link" href="http://www.lightoj.com/index.php">
+								Home
+							</a>
+						</div>
+					</td>
+					<td width="10%">
+						<div class="topMenuMessage">
+							<a class="top_link" href="http://www.lightoj.com/volume_problemset.php">
+								Volume
+							</a>
+						</div>
+					</td>
+					<td width="10%">
+						<div class="topMenuMessage">
+							<a class="top_link" href="http://www.lightoj.com/contest_index.php">
+								Contest
+							</a>
+						</div>
+					</td>
+					<td width="10%">
+						<div class="topMenuMessage">
+							<a class="top_link" href="http://www.lightoj.com/article_showcategory.php">Training</a>
+						</div>
+					</td>
+					<td width="10%">
+						<div class="topMenuMessage">
+							<a class="top_link" href="http://www.lightoj.com/forum_index.php">Community</a>
+						</div>
+					</td>
+					<td width="10%">
+						<div class="topMenuMessage">
+							<a class="top_link" href="http://www.lightoj.com/credits_index.php">Credits</a>
+						</div>
+					</td>
+					<td align="right" width="60%">
+						<div class="topMenuMessage">
+							Welcome
+								<a class="top_link" href="http://www.lightoj.com/index_edituser.php">
+									taseef rahman								</a>
+							(<a class="top_link" href="http://www.lightoj.com/login_logout.php">
+								logout
+							</a>)&nbsp;
+						</div>
+					</td>
+				</tr>
+			</tbody></table>
+		</div>
+		<div id="wrapper">
+			<div id="problem">
+				<a href="javascript:%20handleMenu()" style="float: left;" class="user_link">
+					<img id="menuImage" src="Jan%27s%20LightOJ%20%20%20Practice%20Contest%20%20%20%E0%A6%B9%E0%A6%B0%E0%A6%A4%E0%A6%BE%E0%A6%B2%20%E0%A6%95%E0%A6%A8%E0%A6%9F%E0%A7%87%E0%A6%B8%E0%A7%8D%E0%A6%9F%2006_11_13%20%20%20Problem%20A%20-%20Podmo%20Pukur_files/open_menu.png" \="">
+				</a>
+				<div id="problem_name">
+					A - Podmo Pukur				</div>
+				<div style="border-top: 1px solid #eeeeee;" align="center">
+					<table id="mytable" style="width:320;padding: 5 0 0 0;" cellspacing="0">
+						<tbody><tr><td class="one" style="border-top: 1px solid #C1DAD7; border-left: 1px solid #C1DAD7;padding:2 6 0 12;" title="normal judge" width="100">
+							<a class="user_link" href="http://www.lightoj.com/practice_contest_submit.php?contest_id=398&amp;problem=A">
+								<img src="Jan%27s%20LightOJ%20%20%20Practice%20Contest%20%20%20%E0%A6%B9%E0%A6%B0%E0%A6%A4%E0%A6%BE%E0%A6%B2%20%E0%A6%95%E0%A6%A8%E0%A6%9F%E0%A7%87%E0%A6%B8%E0%A7%8D%E0%A6%9F%2006_11_13%20%20%20Problem%20A%20-%20Podmo%20Pukur_files/submit1.png">
+							</a>
+						</td>
+						<td class="one" style="border-top: 1px solid #C1DAD7;" width="100">
+							<a class="user_link" href="http://www.lightoj.com/practice_contest_ranklist.php?contest_id=398">
+								Ranklist							</a>
+						</td>
+					</tr></tbody></table>
+				</div>
+				<div style="border-bottom: 1px solid #eeeeee;" align="center">
+					<table id="mytable" style="width:320;padding: 0 0 5 0;" cellspacing="0">
+						<tbody><tr><td class="two" style="border-left: 1px solid #C1DAD7;" width="100">
+							Time Limit: <span style="color: #B45F04;">2 second(s)</span>
+						</td>
+						<td class="two" width="100">
+							Memory Limit: <span style="color: #B45F04;">32 MB</span>
+						</td>
+					</tr></tbody></table>
+				</div>
+<p style="font-size:16px">A water lily doubles itself in size each day 
+in Podmopukur. From the time its first leaf appeared to the time when 
+the surface of the pond was completely covered took <b> n </b> days. Now it is your task to calculate how long did it take for the pond to be <b> 1/m </b> covered?</p>
+
+<h1>Input</h1>
+<p style="font-size:16px">Input starts with an integer <b>T (T&lt;=50)</b>, denoting the number of test cases.
+Each case contains a single line with one integer <b> n (1&lt;=n&lt;=10^9 ) </b> and a fraction in <b> 1/m </b>form. <b>You can safely assume that m is a power of 2 and less than 2^30 </b>.For clarity see the sample input.</p>
+
+
+<h1>Output</h1>
+<p style="font-size:16px">For each case, print the case number and a 
+integer which is the number of days it will take for the pond to be 1/m 
+covered .If it is not possible to calculate print “Impossible” without 
+the quotes.</p>
+
+
+<table border="1" width="40%">
+<tbody><tr>
+<th width="40%">Sample Input</th>
+<th width="40%">Sample Output</th>
+</tr>
+<tr>
+<td>
+2<br>
+1  1/2<br>
+80 1/16<br>
+</td>
+<td>
+Case #1 : Impossible<br>
+Case #2 : 76<br>
+<br>
+</td>
+</tr>
+</tbody></table>
+				<hr style="color: #717171; height: .5px;">
+
+			</div>
+		</div>
+		<span id="showNavigation" style="display: none;">
+<div id="navigation">
+	<div class="navcontainer">
+		<ul class="navlist">
+			<li class="menutitle">Practice Contest</li>
+
+			<li>
+				<a href="http://www.lightoj.com/practice_contest_index.php?contest_id=398">
+					Contest Home
+				</a>
+			</li>
+			<li id="active">
+				<a id="current" href="http://www.lightoj.com/practice_contest_problemset.php?contest_id=398">
+					Problem Set
+				</a>
+			</li>
+			<li>
+				<a href="http://www.lightoj.com/practice_contest_submit.php?contest_id=398">
+					Submit Problem
+				</a>
+			</li>
+			<li>
+				<a href="http://www.lightoj.com/practice_contest_submissions.php?contest_id=398">
+					My Submissions
+				</a>
+			</li>
+			<li>
+				<a href="http://www.lightoj.com/practice_contest_ranklist.php?contest_id=398">
+					Contest Ranklist
+				</a>
+			</li>
+			<li>
+				<a href="http://www.lightoj.com/practice_contest_judgestatus.php?contest_id=398">
+					Judge Status
+				</a>
+			</li>
+			<li>
+				<a href="http://www.lightoj.com/practice_contest_ranklist_alltime.php?contest_id=398">
+					All Time Ranklist
+				</a>
+			</li>
+			<li>
+				<a href="http://www.lightoj.com/practice_contest_problemstat.php?contest_id=398">
+					Problem Statistics
+				</a>
+			</li>
+			<li>
+				<a href="http://www.lightoj.com/practice_contest_clarifications.php?contest_id=398">
+					Clarifications
+				</a>
+			</li>
+			<li class="menubottom">&nbsp;</li>
+		</ul>
+	</div>
+</div>		</span>
+<div class="bottomDiv" align="center">
+	<table width="100%">
+		<tbody><tr>
+			<td width="50%">
+				<div class="midMessage">
+					Developed and Maintained by
+					<br><b>JANE ALAM JAN</b>
+				</div>
+
+			</td>
+			<td width="50%">
+				<div class="midMessage">
+					Copyright © 2012
+					<br><b>LightOJ, Jane Alam Jan</b>
+				</div>
+
+			</td>
+		</tr>
+	</tbody></table>
+</div>
+	
+
+</body></html>

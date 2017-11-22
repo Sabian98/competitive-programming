@@ -1,0 +1,74 @@
+QWidget, QToolTip
+{
+	font-family: "Arial";
+	font-size: 12px;
+}
+*[TypeOfControl=Secondtitlecolor]
+{
+    color:rgb(20,130,170);
+	font-family: "Arial";
+	font-size: 14px;
+}
+QLabel#labelDeviceStatus
+{
+	font-family: "Arial";
+	font-size: 21px;
+}
+
+QLabel#labelConnectStatus
+{
+	font-family: "Arial";
+	font-size: 21px;
+}
+
+QLabel#labelConnectStatus 
+{
+	font-family: "Arial";
+	font-size: 21px;
+}
+
+QLabel#labelDuration
+{
+	font-family: "Arial";
+	font-size: 12px;
+}
+
+QLabel#labelConnectButtonText
+{
+	font-family: "Arial";
+	font-size: 15px;
+}
+
+QLabel#labelCallName
+{
+	font-family: "Arial";
+	font-size: 24px;
+}
+
+QLabel#labelCallNumber
+{
+	font-family: "Arial";
+	font-size: 18px;
+}
+
+QLabel#labelCallTime
+{
+	font-family: "Arial";
+	font-size: 17px;
+}
+
+QLabel#labelCallState
+{
+	font-family: "Arial";
+	font-size: 17px;
+}
+
+QLineEdit#lineEditInput
+{
+	font-family: "Arial";
+	font-size: 14px;
+}
+QTabBar::tab
+{
+	font: 9pt;
+}

@@ -1,0 +1,10 @@
+ 2016-03-13 10:14:54:171 Thread ID=3096 CCancelAutoPlayApp::InitInstance   enter
+ 2016-03-13 10:14:54:171 Thread ID=3096 CCancelAutoPlayApp::InitInstance   command line=run
+ 2016-03-13 10:14:54:171 Thread ID=3096 CCancelAutoPlayApp::DoRun   enter
+ 2016-03-13 10:14:54:187 Thread ID=3096 CQueryCancelAutoplay::StartCancelAutoPlay   enter
+ 2016-03-13 10:14:54:187 Thread ID=3096 CQueryCancelAutoplay::ReadGUID   enter
+ 2016-03-13 10:14:54:187 Thread ID=3096 CQueryCancelAutoplay::ReadGUID   Guid={F9A28BF1-B667-4dad-9293-FE3851473B14}
+ 2016-03-13 10:14:54:265 Thread ID=3096 CQueryCancelAutoplay::_RegisterForIQueryCancelAutoplay   enter
+ 2016-03-13 10:14:54:280 Thread ID=3096 CQueryCancelAutoplay::_RegisterForIQueryCancelAutoplay   Register ok
+ 2016-03-13 10:14:54:280 Thread ID=3096 CQueryCancelAutoplay::_RegisterForIQueryCancelAutoplay   leave
+ 2016-03-13 10:14:54:280 Thread ID=3096 CQueryCancelAutoplay::StartCancelAutoPlay   leave

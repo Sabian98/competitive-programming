@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>770</width>
+    <height>604</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>770</width>
+    <height>604</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>770</width>
+    <height>604</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowOpacity">
+   <double>0.000000000000000</double>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow#MainWindow
+{
+	border-image: url(Skin/end.png);
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="minimumSize">
+    <size>
+     <width>770</width>
+     <height>604</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>770</width>
+     <height>604</height>
+    </size>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="margin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QWidget" name="widgetTitleBar" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>770</width>
+        <height>29</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>770</width>
+        <height>29</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget#widgetTitleBar
+{
+	border-image: url(Skin/top.png);
+
+}
+</string>
+      </property>
+      <widget class="QPushButton" name="pushButtonMinimize">
+       <property name="geometry">
+        <rect>
+         <x>702</x>
+         <y>3</y>
+         <width>19</width>
+         <height>19</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="toolTip">
+        <string>Minimize</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+QPushButton#pushButtonMinimize
+{
+	border-image: url(Skin/MainTitleMinimize_1.png);
+}
+QPushButton:hover#pushButtonMinimize{
+	border-image: url(Skin/MainTitleMinimize_2.png);
+}
+
+QPushButton:pressed#pushButtonMinimize{
+	border-image: url(Skin/MainTitleMinimize_3.png);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonClose">
+       <property name="geometry">
+        <rect>
+         <x>730</x>
+         <y>3</y>
+         <width>19</width>
+         <height>19</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="toolTip">
+        <string>Close</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+QPushButton#pushButtonClose
+{
+	border-image: url(Skin/MainTitleClose_1.png);
+}
+QPushButton:hover#pushButtonClose{
+	border-image: url(Skin/MainTitleClose_2.png);
+}
+
+QPushButton:pressed#pushButtonClose{
+	border-image: url(Skin/MainTitleClose_3.png);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelMainModuleTitle">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>1</y>
+         <width>241</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>80</width>
+         <height>16</height>
+        </size>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+	color: rgb(255, 255, 255);
+}</string>
+       </property>
+       <property name="text">
+        <string>Grameenphone Internet</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelMainModuleIcon">
+       <property name="geometry">
+        <rect>
+         <x>5</x>
+         <y>1</y>
+         <width>22</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel
+{ 
+    border-image:url(Skin/logo.png);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widgetTitleBar_2" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>770</width>
+        <height>23</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>770</width>
+        <height>23</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget#widgetTitleBar_2
+{
+	border-image: url(Skin/mainback2.png);
+
+}
+</string>
+      </property>
+      <widget class="QPushButton" name="pushButtonMenuFile">
+       <property name="geometry">
+        <rect>
+         <x>5</x>
+         <y>2</y>
+         <width>68</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton
+{
+	border-image: url(Skin/Menu_1.png);
+	color: rgb(255, 255, 255);
+}
+QPushButton:pressed{
+	border-image: url(Skin/Menu_4.png);
+}</string>
+       </property>
+       <property name="text">
+        <string>File</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonOperation">
+       <property name="geometry">
+        <rect>
+         <x>75</x>
+         <y>2</y>
+         <width>88</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton
+{
+	border-image: url(Skin/Menu_1.png);
+	color: rgb(255, 255, 255);
+}
+QPushButton:pressed{
+	border-image: url(Skin/Menu_4.png);
+}</string>
+       </property>
+       <property name="text">
+        <string>Operation</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonTools">
+       <property name="geometry">
+        <rect>
+         <x>165</x>
+         <y>2</y>
+         <width>77</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton
+{
+	border-image: url(Skin/Menu_1.png);
+
+	color: rgb(255, 255, 255);
+}
+QPushButton:pressed{
+	border-image: url(Skin/Menu_4.png);
+}</string>
+       </property>
+       <property name="text">
+        <string>Tools</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonMenuHelp">
+       <property name="geometry">
+        <rect>
+         <x>328</x>
+         <y>2</y>
+         <width>60</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton
+{
+	border-image: url(Skin/Menu_1.png);
+	color: rgb(255, 255, 255);
+}
+QPushButton:pressed{
+	border-image: url(Skin/Menu_4.png);
+}</string>
+       </property>
+       <property name="text">
+        <string>Help</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonFavorites">
+       <property name="geometry">
+        <rect>
+         <x>245</x>
+         <y>2</y>
+         <width>80</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton
+{
+	border-image: url(Skin/Menu_1.png);
+
+	color: rgb(255, 255, 255);
+}
+QPushButton:pressed{
+	border-image: url(Skin/Menu_4.png);
+}</string>
+       </property>
+       <property name="text">
+        <string>GP Favorites</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widgetMainFunc" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>770</width>
+        <height>48</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>770</width>
+        <height>48</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget#widgetMainFunc
+{
+	border-image: url(Skin/main_side.png);
+
+}
+</string>
+      </property>
+      <widget class="QPushButton" name="pushButtonInternet">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>1</y>
+         <width>118</width>
+         <height>46</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>118</width>
+         <height>46</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>118</width>
+         <height>46</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="contextMenuPolicy">
+        <enum>Qt::PreventContextMenu</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton
+{
+	border-image: url(Skin/MainInternetButton_1.png);
+    text-align:right;	
+	color: rgb(255, 255, 255);
+}
+QPushButton:hover{
+	border-image: url(Skin/MainInternetButton_4.png);
+}
+
+QPushButton:pressed{
+	border-image: url(Skin/MainInternetButton_3.png);
+}</string>
+       </property>
+       <property name="text">
+        <string>Connection  </string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonUssd">
+       <property name="geometry">
+        <rect>
+         <x>439</x>
+         <y>1</y>
+         <width>157</width>
+         <height>46</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>157</width>
+         <height>46</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>157</width>
+         <height>46</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton
+{
+	border-image: url(Skin/MainCheckBalanceButton_1.png);
+    text-align:right;
+	color: rgb(255, 255, 255);
+}
+QPushButton:hover{
+	border-image: url(Skin/MainCheckBalanceButton_4.png);
+}
+
+QPushButton:pressed{
+	border-image: url(Skin/MainCheckBalanceButton_3.png);
+}</string>
+       </property>
+       <property name="text">
+        <string>USSD &amp;amp; Recharge</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonShortMessage">
+       <property name="geometry">
+        <rect>
+         <x>237</x>
+         <y>1</y>
+         <width>80</width>
+         <height>46</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>80</width>
+         <height>46</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>46</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#pushButtonShortMessage
+{
+	border-image: url(Skin/MainMsgButton_1.png);
+	    text-align:right;
+	color: rgb(255, 255, 255);
+}
+QPushButton:hover#pushButtonShortMessage{
+	border-image: url(Skin/MainMsgButton_4.png);
+}
+
+QPushButton:pressed#pushButtonShortMessage{
+	border-image: url(Skin/MainMsgButton_3.png);
+}</string>
+       </property>
+       <property name="text">
+        <string>Text</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonPhonebook">
+       <property name="geometry">
+        <rect>
+         <x>319</x>
+         <y>1</y>
+         <width>118</width>
+         <height>46</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>118</width>
+         <height>46</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>118</width>
+         <height>46</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton
+{
+	border-image: url(Skin/MainPhoneBookButton_1.png);
+	text-align:right;	
+	color: rgb(255, 255, 255);
+}
+QPushButton:hover{
+	border-image: url(Skin/MainPhoneBookButton_4.png);
+}
+
+QPushButton:pressed{
+	border-image: url(Skin/MainPhoneBookButton_3.png);
+}</string>
+       </property>
+       <property name="text">
+        <string>Phonebook</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonSupport">
+       <property name="geometry">
+        <rect>
+         <x>598</x>
+         <y>1</y>
+         <width>157</width>
+         <height>46</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>157</width>
+         <height>46</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>157</width>
+         <height>46</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton
+{
+	border-image: url(Skin/MainInternet PackageBtn_1.png);
+	    text-align:right;
+	color: rgb(255, 255, 255);
+}
+QPushButton:hover{
+	border-image: url(Skin/MainInternet PackageBtn_4.png);
+}
+
+QPushButton:pressed{
+	border-image: url(Skin/MainInternet PackageBtn_3.png);
+}</string>
+       </property>
+       <property name="text">
+        <string>Internet Packages</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonStatistics">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>1</y>
+         <width>105</width>
+         <height>46</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>105</width>
+         <height>46</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>105</width>
+         <height>46</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton
+{
+	border-image: url(Skin/MainDataLogButton_1.png);
+    text-align:right;
+	color: rgb(255, 255, 255);
+}
+QPushButton:hover{
+	border-image: url(Skin/MainDataLogButton_4.png);
+}
+
+QPushButton:pressed{
+	border-image: url(Skin/MainDataLogButton_3.png);
+}
+QPushButton:disabel{
+	border-image: url(Skin/MainDataLogButton_2.png);
+}</string>
+       </property>
+       <property name="text">
+        <string>Static</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widgetMainBack" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>770</width>
+        <height>409</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>770</width>
+        <height>409</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget#widgetMainBack
+{
+	border-image: url(Skin/submainback.png);
+    background-color:white;
+
+}</string>
+      </property>
+      <widget class="QStackedWidget" name="stackedMainFunc">
+       <property name="geometry">
+        <rect>
+         <x>3</x>
+         <y>2</y>
+         <width>764</width>
+         <height>405</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>764</width>
+         <height>405</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>764</width>
+         <height>405</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="currentIndex">
+        <number>-1</number>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widgetTopStatus" native="true">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>770</width>
+        <height>41</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>770</width>
+        <height>41</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget#widgetTopStatus
+{
+	border-image: url(Skin/main_end.png);
+   /*background-color:grey;*/
+}
+</string>
+      </property>
+      <widget class="QLabel" name="labelSignal">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>32</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>32</width>
+         <height>16</height>
+        </size>
+       </property>
+       <property name="sizeIncrement">
+        <size>
+         <width>32</width>
+         <height>16</height>
+        </size>
+       </property>
+       <property name="toolTip">
+        <string>Signal</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelDataStatus">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>16</width>
+         <height>16</height>
+        </size>
+       </property>
+       <property name="toolTip">
+        <string>Data not connected</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel
+{
+    color:grey;
+    font:9pt;
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelNetworkType">
+       <property name="geometry">
+        <rect>
+         <x>65</x>
+         <y>10</y>
+         <width>90</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>Network Type</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel#labelNetworkType
+{
+	color: rgb(255, 255, 255);
+    font:9pt;
+}</string>
+       </property>
+       <property name="text">
+        <string>No Service</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelOperator">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>10</y>
+         <width>100</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>Operator</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel#labelOperator
+{
+	color: rgb(255, 255, 255);
+    font:9pt;
+}</string>
+       </property>
+       <property name="text">
+        <string>CMCC</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelNewSms">
+       <property name="geometry">
+        <rect>
+         <x>700</x>
+         <y>15</y>
+         <width>21</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelSimStatus">
+       <property name="geometry">
+        <rect>
+         <x>355</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>16</width>
+         <height>16</height>
+        </size>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel
+{
+	image: url(Skin/simoff.png);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelDatacardStatus">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>10</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>16</width>
+         <height>16</height>
+        </size>
+       </property>
+       <property name="toolTip">
+        <string>Device not detected</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel
+{
+	image: url(Skin/datacardoff.png);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QStackedWidget" name="stackedWidgetRate">
+       <property name="geometry">
+        <rect>
+         <x>389</x>
+         <y>0</y>
+         <width>291</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <widget class="QWidget" name="page"/>
+       <widget class="QWidget" name="page_2"/>
+      </widget>
+      <widget class="QLabel" name="labelRoamStatus">
+       <property name="geometry">
+        <rect>
+         <x>45</x>
+         <y>10</y>
+         <width>20</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel
+{
+	color: rgb(255, 255, 255);
+    font:9pt;
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonNewSmsSign">
+       <property name="geometry">
+        <rect>
+         <x>690</x>
+         <y>10</y>
+         <width>24</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton
+{
+	border-image: url(Skin/NewSmsBtn_1.png);
+}
+QPushButton:hover{
+	border-image: url(Skin/NewSmsBtn_4.png);
+}
+
+QPushButton:pressed{
+	border-image: url(Skin/NewSmsBtn_3.png);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+   <zorder>widgetTopStatus</zorder>
+   <zorder>widgetMainBack</zorder>
+   <zorder>widgetTitleBar</zorder>
+   <zorder>widgetMainFunc</zorder>
+   <zorder>widgetTitleBar_2</zorder>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
